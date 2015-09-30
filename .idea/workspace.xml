@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c11bf8b1-ef02-471e-90b0-8e8d6c0ddc3e" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/scss/.sass-cache/21b319e734541f675da4eda7d5f51e1a78a6dd04/layout.scssc" afterPath="$PROJECT_DIR$/web/scss/.sass-cache/21b319e734541f675da4eda7d5f51e1a78a6dd04/layout.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/css/layout.css" afterPath="$PROJECT_DIR$/web/css/layout.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/scss/layout.scss" afterPath="$PROJECT_DIR$/web/scss/layout.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="iahm_conf_malley2016.iws" />
@@ -30,8 +27,8 @@
       <file leaf-file-name="layout.html.twig" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/Resources/views/layout.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.2979351">
-              <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
+            <state vertical-scroll-proportion="0.78466076">
+              <caret line="38" column="8" selection-start-line="38" selection-start-column="8" selection-end-line="38" selection-end-column="8" />
               <folding />
             </state>
           </provider>
@@ -421,7 +418,13 @@
       <option name="project" value="LOCAL" />
       <updated>1443633361575</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="update mobile">
+      <created>1443634342468</created>
+      <option name="number" value="00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1443634342468</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -754,8 +757,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Resources/views/layout.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2979351">
-          <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
+        <state vertical-scroll-proportion="0.78466076">
+          <caret line="38" column="8" selection-start-line="38" selection-start-column="8" selection-end-line="38" selection-end-column="8" />
           <folding />
         </state>
       </provider>
