@@ -135,6 +135,31 @@ html, body {
   transform-style: preserve-3d;
   background-color: #131313; }
 
+header {
+  position: relative;
+  width: 100%;
+  max-width: 2000px;
+  margin: 0 auto; }
+  header ul {
+    position: absolute;
+    top: 0;
+    right: 20px;
+    z-index: 1000; }
+    header ul li {
+      display: inline-block;
+      line-height: 26px;
+      margin: 20px 0 0 0;
+      padding: 2px 13px 0 7px;
+      border-right: 2px solid rgba(255, 255, 255, 0.9); }
+      header ul li:last-of-type {
+        border-right: none; }
+      header ul li a {
+        color: rgba(255, 255, 255, 0.9);
+        text-decoration: none;
+        font-size: 0.9em; }
+        header ul li a:hover {
+          color: #FFFFFF; }
+
 section.page {
   max-width: 2000px;
   margin: 0 auto; }
@@ -522,10 +547,10 @@ section.page {
 
 footer {
   background-image: url("../images/footer.jpg");
-  background-position: center 10%;
+  background-position: center top;
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 120px 0 100px;
+  padding: 80px 0 100px;
   display: block;
   width: 100%;
   max-width: 2000px;
@@ -575,6 +600,15 @@ footer {
           width: 80px; }
           footer article ul.social li.youtube a {
             background-image: url("../images/youtube.svg"); }
+    footer article #logo_iahm {
+      display: block;
+      width: 270px;
+      height: 70px;
+      margin: 0 auto 70px;
+      background-image: url("../images/logo_iahm.svg");
+      background-position: center;
+      background-size: contain;
+      background-repeat: no-repeat; }
 
 @media only screen and (max-width: 900px) {
   body section.page section.speakers .speaker.solo .content h1 {
@@ -587,6 +621,74 @@ footer {
     left: 320px; }
   body section.page section.speakers .speaker.solo#MichaelKoulianos .content {
     right: 260px; } }
+@media only screen and (max-width: 500px) {
+  body {
+    font-size: 12px; }
+    body section.page section.details {
+      padding: 50px 0; }
+      body section.page section.details article {
+        width: 80%;
+        padding: 0 10%; }
+        body section.page section.details article h1 {
+          font-size: 0.8em; }
+    body section.page section.registration {
+      padding: 50px 0; }
+      body section.page section.registration article {
+        width: 80%;
+        padding: 0 10%; }
+        body section.page section.registration article h1 {
+          font-size: 1.8em; }
+    body section.page section.header {
+      height: 300px; }
+      body section.page section.header .logo_conf1 {
+        width: 100px;
+        height: 100px;
+        margin-left: -50px; }
+      body section.page section.header .logo_conf2 {
+        width: 80%;
+        left: inherit;
+        top: 21%;
+        margin-left: 10%; }
+    body section.page section.speakers .speaker.solo {
+      height: 200px; }
+      body section.page section.speakers .speaker.solo .content {
+        font-size: 0.8em; }
+        body section.page section.speakers .speaker.solo .content a.button {
+          margin: 0 auto;
+          padding: 0;
+          background-color: transparent;
+          width: 100%; }
+          body section.page section.speakers .speaker.solo .content a.button span {
+            background-color: #FFFFFF;
+            padding: 5px 5px 2px;
+            text-align: center; }
+      body section.page section.speakers .speaker.solo#HeidiBaker .photo {
+        width: 200px;
+        height: 200px; }
+      body section.page section.speakers .speaker.solo#HeidiBaker .content {
+        left: 180px;
+        right: 20px; }
+      body section.page section.speakers .speaker.solo#PaulManwaring .photo {
+        width: 200px;
+        height: 200px; }
+      body section.page section.speakers .speaker.solo#PaulManwaring .content {
+        right: 170px;
+        left: 20px; }
+      body section.page section.speakers .speaker.solo#ToddWhite .photo {
+        width: 300px;
+        height: 200px; }
+      body section.page section.speakers .speaker.solo#ToddWhite .content {
+        left: 180px;
+        right: 20px; }
+      body section.page section.speakers .speaker.solo#MichaelKoulianos .photo {
+        width: 200px;
+        height: 200px; }
+      body section.page section.speakers .speaker.solo#MichaelKoulianos .content {
+        right: 160px;
+        left: 20px; }
+    body section.page section.speakers .speaker.multi article {
+      width: 100%;
+      height: 200px; } }
 @media only screen and (min-width: 1200px) {
   body section.page section.header {
     height: 600px; }
@@ -647,16 +749,25 @@ footer {
       line-height: 30px;
       padding: 7px 12px 4px; }
     body footer {
-      padding-top: 200px; } }
+      padding-top: 100px; } }
 @media only screen and (max-width: 940px) {
-  body section.page section.speaker {
+  body section.page section.speaker.page {
     padding-left: 3%;
     padding-right: 3%;
     width: 94%; }
   body section.page section.content {
     padding-left: 3%;
     padding-right: 3%;
-    width: 94%; } }
+    width: 94%;
+    padding-top: 40px; }
+    body section.page section.content .left {
+      width: 100%;
+      margin-right: 0; }
+      body section.page section.content .left img {
+        max-width: 300px;
+        float: inherit; }
+    body section.page section.content .right {
+      width: 100%; } }
 @media only screen and (min-width: 1400px) {
   body section.page section.speakers .speaker.solo#HeidiBaker .content {
     left: 37%; }
@@ -686,6 +797,60 @@ footer {
   section.page section.speakers .speaker.multi article {
     height: 150px; } }
 @media only screen and (max-width: 690px) {
+  section.page section.header {
+    height: 300px; }
+    section.page section.header .logo_conf1 {
+      width: 100px;
+      height: 100px;
+      margin-left: -50px; }
+    section.page section.header .logo_conf2 {
+      width: 80%;
+      left: inherit;
+      top: 21%;
+      margin-left: 10%; }
+  section.page section.speakers .speaker.solo {
+    height: 200px; }
+    section.page section.speakers .speaker.solo#HeidiBaker .photo {
+      width: 200px;
+      height: 200px; }
+    section.page section.speakers .speaker.solo#PaulManwaring .photo {
+      width: 200px;
+      height: 200px; }
+    section.page section.speakers .speaker.solo#ToddWhite .photo {
+      width: 300px;
+      height: 200px; }
+    section.page section.speakers .speaker.solo#MichaelKoulianos .photo {
+      width: 200px;
+      height: 200px; }
+  section.page section.speakers .speaker.multi article {
+    width: 50%;
+    height: 200px; } }
+@media only screen and (max-width: 690px) {
+  section.page section.header {
+    height: 300px; }
+    section.page section.header .logo_conf1 {
+      width: 100px;
+      height: 100px;
+      margin-left: -50px; }
+    section.page section.header .logo_conf2 {
+      width: 80%;
+      left: inherit;
+      top: 21%;
+      margin-left: 10%; }
+  section.page section.speakers .speaker.solo {
+    height: 200px; }
+    section.page section.speakers .speaker.solo#HeidiBaker .photo {
+      width: 200px;
+      height: 200px; }
+    section.page section.speakers .speaker.solo#PaulManwaring .photo {
+      width: 200px;
+      height: 200px; }
+    section.page section.speakers .speaker.solo#ToddWhite .photo {
+      width: 300px;
+      height: 200px; }
+    section.page section.speakers .speaker.solo#MichaelKoulianos .photo {
+      width: 200px;
+      height: 200px; }
   section.page section.speakers .speaker.multi article {
     width: 50%;
     height: 200px; } }

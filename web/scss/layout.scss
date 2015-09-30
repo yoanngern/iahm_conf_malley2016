@@ -12,6 +12,44 @@ html, body {
     background-color: $black;
 }
 
+header {
+    position: relative;
+    width: 100%;
+    max-width: 2000px;
+    margin: 0 auto;
+
+
+    ul {
+        position: absolute;
+        top: 0;
+        right: 20px;
+        z-index: 1000;
+
+        li {
+            display: inline-block;
+            line-height: 26px;
+            margin: 20px 0 0 0;
+            padding: 2px 13px 0 7px;
+            border-right: 2px solid rgba($white, 0.9);
+
+            &:last-of-type {
+                border-right: none;
+            }
+
+            a {
+                color: rgba($white, 0.9);
+                text-decoration: none;
+                font-size: 0.9em;
+
+                &:hover {
+                    color: $white;
+                }
+            }
+        }
+    }
+}
+
+
 section.page {
     max-width: 2000px;
     margin: 0 auto;
@@ -617,10 +655,10 @@ section.page {
 
 footer {
     background-image: url("../images/footer.jpg");
-    background-position: center 10%;
+    background-position: center top;
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 120px 0 100px;
+    padding: 80px 0 100px;
     display: block;
     width: 100%;
     max-width: 2000px;
@@ -694,6 +732,17 @@ footer {
             }
         }
 
+        #logo_iahm {
+            display: block;
+            width: 270px;
+            height: 70px;
+            margin: 0 auto 70px;
+            background-image: url('../images/logo_iahm.svg');
+            background-position: center;
+            background-size: contain;
+            background-repeat: no-repeat;
+        }
+
     }
 }
 
@@ -743,6 +792,142 @@ footer {
         }
     }
 }
+
+@media only screen and (max-width: 500px) {
+
+    body {
+        font-size: 12px;
+
+        section.page {
+
+            section.details {
+                padding: 50px 0;
+
+                article {
+                    width: 80%;
+                    padding: 0 10%;
+
+                    h1 {
+                        font-size: 0.8em;
+                    }
+                }
+            }
+
+            section.registration {
+                padding: 50px 0;
+
+                article {
+                    width: 80%;
+                    padding: 0 10%;
+
+                    h1 {
+                        font-size: 1.8em;
+                    }
+                }
+            }
+
+            section.header {
+                height: 300px;
+
+                .logo_conf1 {
+                    width: 100px;
+                    height: 100px;
+                    margin-left: -50px;
+
+                }
+
+                .logo_conf2 {
+                    width: 80%;
+                    left: inherit;
+                    top: 21%;
+                    margin-left: 10%;
+                }
+            }
+
+            section.speakers {
+
+                .speaker.solo {
+                    height: 200px;
+
+                    .content {
+                        
+                        font-size: 0.8em;
+
+                        a.button {
+                            margin: 0 auto;
+                            padding: 0;
+                            background-color: transparent;
+                            width: 100%;
+
+                            span {
+                                background-color: $white;
+                                padding: 5px 5px 2px;
+                                text-align: center;
+                            }
+                        }
+                    }
+
+                    &#HeidiBaker {
+
+                        .photo {
+                            width: 200px;
+                            height: 200px;
+                        }
+
+                        .content {
+                            left: 180px;
+                            right: 20px;
+                        }
+                    }
+
+                    &#PaulManwaring {
+                        .photo {
+                            width: 200px;
+                            height: 200px;
+                        }
+
+                        .content {
+                            right: 170px;
+                            left: 20px;
+                        }
+                    }
+
+                    &#ToddWhite {
+                        .photo {
+                            width: 300px;
+                            height: 200px;
+                        }
+
+                        .content {
+                            left: 180px;
+                            right: 20px;
+                        }
+                    }
+
+                    &#MichaelKoulianos {
+                        .photo {
+                            width: 200px;
+                            height: 200px;
+                        }
+
+                        .content {
+                            right: 160px;
+                            left: 20px;
+                        }
+                    }
+                }
+
+                .speaker.multi {
+                    article {
+                        width: 100%;
+                        height: 200px;
+                    }
+                }
+            }
+        }
+    }
+}
+
 
 @media only screen and (min-width: 1200px) {
 
@@ -885,7 +1070,7 @@ footer {
         }
 
         footer {
-            padding-top: 200px;
+            padding-top: 100px;
         }
     }
 }
@@ -895,7 +1080,7 @@ footer {
     body {
         section.page {
 
-            section.speaker {
+            section.speaker.page {
                 padding-left: 3%;
                 padding-right: 3%;
                 width: 94%;
@@ -905,6 +1090,21 @@ footer {
                 padding-left: 3%;
                 padding-right: 3%;
                 width: 94%;
+                padding-top: 40px;
+
+                .left {
+                    width: 100%;
+                    margin-right: 0;
+
+                    img {
+                        max-width: 300px;
+                        float: inherit;
+                    }
+                }
+
+                .right {
+                    width: 100%;
+                }
             }
         }
     }
@@ -1015,6 +1215,10 @@ footer {
     }
 }
 
+
+
+
+
 @media only screen and (max-width: 900px) {
     section.page {
         section.speakers {
@@ -1029,7 +1233,130 @@ footer {
 
 @media only screen and (max-width: 690px) {
     section.page {
+
+        section.header {
+            height: 300px;
+
+            .logo_conf1 {
+                width: 100px;
+                height: 100px;
+                margin-left: -50px;
+
+            }
+
+            .logo_conf2 {
+                width: 80%;
+                left: inherit;
+                top: 21%;
+                margin-left: 10%;
+            }
+        }
+
         section.speakers {
+
+            .speaker.solo {
+                height: 200px;
+
+                &#HeidiBaker {
+
+
+                    .photo {
+                        width: 200px;
+                        height: 200px;
+                    }
+                }
+
+                &#PaulManwaring {
+                    .photo {
+                        width: 200px;
+                        height: 200px;
+                    }
+                }
+
+                &#ToddWhite {
+                    .photo {
+                        width: 300px;
+                        height: 200px;
+                    }
+                }
+
+                &#MichaelKoulianos {
+                    .photo {
+                        width: 200px;
+                        height: 200px;
+                    }
+                }
+            }
+
+            .speaker.multi {
+                article {
+                    width: 50%;
+                    height: 200px;
+                }
+            }
+        }
+    }
+}
+
+
+
+@media only screen and (max-width: 690px) {
+    section.page {
+
+        section.header {
+            height: 300px;
+
+            .logo_conf1 {
+                width: 100px;
+                height: 100px;
+                margin-left: -50px;
+
+            }
+
+            .logo_conf2 {
+                width: 80%;
+                left: inherit;
+                top: 21%;
+                margin-left: 10%;
+            }
+        }
+
+        section.speakers {
+
+            .speaker.solo {
+                height: 200px;
+
+                &#HeidiBaker {
+
+
+                    .photo {
+                        width: 200px;
+                        height: 200px;
+                    }
+                }
+
+                &#PaulManwaring {
+                    .photo {
+                        width: 200px;
+                        height: 200px;
+                    }
+                }
+
+                &#ToddWhite {
+                    .photo {
+                        width: 300px;
+                        height: 200px;
+                    }
+                }
+
+                &#MichaelKoulianos {
+                    .photo {
+                        width: 200px;
+                        height: 200px;
+                    }
+                }
+            }
+
             .speaker.multi {
                 article {
                     width: 50%;
