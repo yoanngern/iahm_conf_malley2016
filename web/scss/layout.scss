@@ -924,6 +924,63 @@ footer {
                     }
                 }
             }
+
+            section.speaker.page {
+                height: 180px;
+                padding-top: 40px;
+
+                .content {
+                    font-size: 0.8em;
+                }
+
+                .photo {
+                    height: 180px;
+                }
+
+                &#HeidiBaker {
+                    .photo {
+                        width: 180px;
+                    }
+
+                    .content {
+                        left: 160px;
+                        right: 20px;
+                    }
+                }
+
+                &#PaulManwaring {
+                    .photo {
+                        width: 180px;
+                    }
+
+                    .content {
+                        left: 20px;
+                        right: 160px;
+                    }
+                }
+
+                &#ToddWhite {
+                    .photo {
+                        width: 280px;
+                    }
+
+                    .content {
+                        left: 160px;
+                        right: 20px;
+                    }
+                }
+
+                &#MichaelKoulianos {
+                    .photo {
+                        width: 180px;
+                    }
+
+                    .content {
+                        left: 20px;
+                        right: 160px;
+                    }
+                }
+            }
         }
     }
 }
@@ -1302,6 +1359,58 @@ footer {
 
 @media only screen and (max-width: 690px) {
     section.page {
+
+        section.speaker.page {
+            height: 250px;
+
+            .photo {
+                height: 250px;
+            }
+
+            &#HeidiBaker {
+                .photo {
+                    width: 200px;
+                }
+
+                .content {
+                    left: 200px;
+                    right: 20px;
+                }
+            }
+
+            &#PaulManwaring {
+                .photo {
+                    width: 200px;
+                }
+
+                .content {
+                    left: 20px;
+                    right: 200px;
+                }
+            }
+
+            &#ToddWhite {
+                .photo {
+                    width: 400px;
+                }
+
+                .content {
+                    left: 300px;
+                    right: 20px;
+                }
+            }
+
+            &#MichaelKoulianos {
+                .photo {
+                    width: 200px;
+                }
+
+                .content {
+                    left: 20px;
+                    right: 200px;
+                }
+            }
+        }
 
         section.header {
             height: 300px;

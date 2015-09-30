@@ -688,7 +688,34 @@ footer {
         left: 20px; }
     body section.page section.speakers .speaker.multi article {
       width: 100%;
-      height: 200px; } }
+      height: 200px; }
+    body section.page section.speaker.page {
+      height: 180px;
+      padding-top: 40px; }
+      body section.page section.speaker.page .content {
+        font-size: 0.8em; }
+      body section.page section.speaker.page .photo {
+        height: 180px; }
+      body section.page section.speaker.page#HeidiBaker .photo {
+        width: 180px; }
+      body section.page section.speaker.page#HeidiBaker .content {
+        left: 160px;
+        right: 20px; }
+      body section.page section.speaker.page#PaulManwaring .photo {
+        width: 180px; }
+      body section.page section.speaker.page#PaulManwaring .content {
+        left: 20px;
+        right: 160px; }
+      body section.page section.speaker.page#ToddWhite .photo {
+        width: 280px; }
+      body section.page section.speaker.page#ToddWhite .content {
+        left: 160px;
+        right: 20px; }
+      body section.page section.speaker.page#MichaelKoulianos .photo {
+        width: 180px; }
+      body section.page section.speaker.page#MichaelKoulianos .content {
+        left: 20px;
+        right: 160px; } }
 @media only screen and (min-width: 1200px) {
   body section.page section.header {
     height: 600px; }
@@ -826,6 +853,30 @@ footer {
     width: 50%;
     height: 200px; } }
 @media only screen and (max-width: 690px) {
+  section.page section.speaker.page {
+    height: 250px; }
+    section.page section.speaker.page .photo {
+      height: 250px; }
+    section.page section.speaker.page#HeidiBaker .photo {
+      width: 200px; }
+    section.page section.speaker.page#HeidiBaker .content {
+      left: 200px;
+      right: 20px; }
+    section.page section.speaker.page#PaulManwaring .photo {
+      width: 200px; }
+    section.page section.speaker.page#PaulManwaring .content {
+      left: 20px;
+      right: 200px; }
+    section.page section.speaker.page#ToddWhite .photo {
+      width: 400px; }
+    section.page section.speaker.page#ToddWhite .content {
+      left: 300px;
+      right: 20px; }
+    section.page section.speaker.page#MichaelKoulianos .photo {
+      width: 200px; }
+    section.page section.speaker.page#MichaelKoulianos .content {
+      left: 20px;
+      right: 200px; }
   section.page section.header {
     height: 300px; }
     section.page section.header .logo_conf1 {
