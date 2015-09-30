@@ -1,0 +1,41 @@
+{% extends "::layout.html.twig" %}
+
+{% block body %}
+
+    {% spaceless %}
+
+
+        <section class="speaker page" id="PeterWenz">
+            <article>
+                <div class="content">
+                    <h1>Peter Wenz</h1>
+                </div>
+            </article>
+        </section>
+
+        <section class="content">
+            <article>
+
+                <div class="left">
+                    <img src="{{ asset('images/PeterWenz.jpg') }}">
+
+                    <a target="_blank" href="http://gospel-forum.de"
+                       class="button">gospel-forum.de</a>
+                </div>
+
+                <div class="right">
+
+                    <p>Peter Wenz is the Senior Pastor of the Gospel Forum Stuttgart, the biggest charismatic church in
+                        Germany. Besides pastoring this church and councelling other pastors, he travels a lot
+                        nationally and internationally, as the BGG has missionaries and contacts to many different
+                        churches and institutions in more than 20 nations. His main concern is encouraging believers
+                        about the Love of God and the vital importance of a deep, personal relationship with the
+                        Lord.</p>
+
+                </div>
+            </article>
+        </section>
+
+
+    {% endspaceless %}
+{% endblock %}

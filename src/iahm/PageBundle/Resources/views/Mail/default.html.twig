@@ -1,0 +1,208 @@
+{% set website = 'http://malley2016.local' %}
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta name="viewport" content="width=device-width"/>
+    <style>
+
+        @font-face {
+            font-family: 'titilliumlight';
+            src: url('{{ website }}/fonts/titillium-light-webfont.eot');
+            src: url('{{ website }}/fonts/titillium-light-webfont.eot?#iefix') format('embedded-opentype'),
+            url('{{ website }}/fonts/titillium-light-webfont.woff2') format('woff2'),
+            url('{{ website }}/fonts/titillium-light-webfont.woff') format('woff'),
+            url('{{ website }}/fonts/titillium-light-webfont.ttf') format('truetype'),
+            url('{{ website }}/fonts/titillium-light-webfont.svg#titilliumlight') format('svg');
+            font-weight: normal;
+            font-style: normal;
+
+        }
+
+        @font-face {
+            font-family: 'titilliumbold';
+            src: url('{{ website }}/fonts/titillium-semibold-webfont.eot');
+            src: url('{{ website }}/fonts/titillium-semibold-webfont.eot?#iefix') format('embedded-opentype'),
+            url('{{ website }}/fonts/titillium-semibold-webfont.woff2') format('woff2'),
+            url('{{ website }}/fonts/titillium-semibold-webfont.woff') format('woff'),
+            url('{{ website }}/fonts/titillium-semibold-webfont.ttf') format('truetype'),
+            url('{{ website }}/fonts/titillium-semibold-webfont.svg#titilliumbold') format('svg');
+            font-weight: normal;
+            font-style: normal;
+
+        }
+
+        #outlook a {
+            padding: 0;
+        }
+
+        body {
+            width: 100% !important;
+            min-width: 100%;
+            -webkit-text-size-adjust: 100%;
+            -ms-text-size-adjust: 100%;
+            margin: 0;
+            padding: 0;
+            font-family: 'titilliumlight', sans-serif;
+            font-size: 16px;
+            color: #434343;
+            background-color: #EBEBEB;
+        }
+
+        table.body {
+            max-width: 580px;
+            margin: 30px auto;
+            width: 100%;
+            background-color: #FDFDFC;
+        }
+
+        table.header,
+        table.main,
+        table.footer {
+            margin: 20px;
+            width: auto;
+        }
+
+        table {
+            table-layout: fixed;
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        table, tr, td {
+            max-width: 100%;
+
+        }
+
+        img {
+            max-width: 100%;
+        }
+
+        em {
+            font-style: normal;
+            font-family: 'titilliumbold', 'titilliumlight', sans-serif;
+        }
+
+        h1 {
+            font-family: 'titilliumbold', 'titilliumlight', sans-serif;
+            text-transform: uppercase;
+            font-size: 1.15em;
+        }
+
+        table.header {
+            margin-bottom: 30px;
+        }
+
+        td.logo img {
+            max-width: 180px;
+            width: 100%;
+        }
+
+        p {
+            white-space: normal;
+        }
+
+        td.left {
+            text-align: left;
+        }
+
+        td.right {
+            text-align: right;
+        }
+
+        a {
+            color: #878787;
+            text-decoration: none;
+        }
+
+        table.main {
+            margin-bottom: 20px;
+        }
+
+        tr.title {
+            width: 100%;
+        }
+
+        tr.title td {
+            width: 100%;
+        }
+
+        tr.title h1 {
+            margin: 0;
+        }
+
+        table.info td {
+            vertical-align: top;
+        }
+
+        table.footer .title {
+            margin-top: 10px;
+        }
+
+        table.footer {
+            font-size: 0.75em;
+            text-transform: uppercase;
+            margin: 30px auto 10px;
+            width: 100%;
+            padding: 20px;
+            border-collapse: separate;
+        }
+
+        table.footer p {
+            margin: 5px 0;
+            line-height: 1.5em;
+        }
+
+        table.footer a {
+            color: #313131;
+        }
+
+        table.footer h1 {
+            border-top: 2px solid #B5191D;
+            padding-top: 10px;
+            font-size: 1.2em;
+            line-height: 1.2em;
+        }
+
+    </style>
+</head>
+<body>
+
+<table class="body">
+    <tr>
+        <td>
+            <table class="header">
+                <tr>
+                    <td class="logo">
+                        <img src="{{ asset(website ~ '/images/aimg_logo_gray.svg') }}" alt=""/>
+                    </td>
+                </tr>
+            </table>
+            <table class="main">
+                <tr>
+                    <td>
+                        <p>{{ email }}</p>
+                    </td>
+                </tr>
+            </table>
+            <table class="footer">
+                <tr class="title">
+                    <td>
+                        <h1>AIMG<br/>
+                            Association Internationale<br/>
+                            des Ministères de Guérison</h1>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Route du Flon 28<br/>
+                        1610 Oron-La-Ville<br/>
+                        SUISSE</td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+</table>
+
+</body>
+</html>

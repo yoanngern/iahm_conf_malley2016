@@ -1,0 +1,14 @@
+iahm_page_home:
+    path:     /
+    defaults: { _controller: iahmPageBundle:Default:home }
+
+
+iahm_page_speaker:
+    path:     /{name}
+    defaults: { _controller: iahmPageBundle:Default:speaker }
+
+
+
+iahm_page_mail_test:
+    path:     /mail_test
+    defaults: { _controller: iahmPageBundle:Default:mailTest }

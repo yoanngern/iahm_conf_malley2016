@@ -1,0 +1,1041 @@
+@import "reset";
+@import "functions";
+@import "color";
+@import "font";
+
+html, body {
+
+    color: $text-color;
+    font-family: $font-conf;
+    font-size: 14px;
+    transform-style: preserve-3d;
+    background-color: $black;
+}
+
+section.page {
+    max-width: 2000px;
+    margin: 0 auto;
+
+    section {
+        display: block;
+        width: 100%;
+
+        article {
+            width: 100%;
+            max-width: 900px;
+            margin: 0 auto;
+        }
+    }
+
+    section.header {
+        background-image: url("../images/header.jpg");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 500px;
+        position: relative;
+        display: block;
+
+        .logo_conf {
+            width: 500px;
+            height: 500px;
+            display: block;
+            margin: 0 auto;
+            position: relative;
+            background-image: url("../images/logo_conf.png");
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: contain;
+        }
+
+        .logo_conf1 {
+            width: 160px;
+            height: 160px;
+            display: block;
+            position: absolute;
+            background-image: url("../images/logo_conf_1.svg");
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: contain;
+            top: 17%;
+            left: 50%;
+            margin-left: -80px;
+        }
+
+        .logo_conf2 {
+            width: 500px;
+            height: 200px;
+            display: block;
+            position: absolute;
+            background-image: url("../images/logo_conf_2.svg");
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: contain;
+            top: 40%;
+            left: 50%;
+            margin-left: -250px;
+        }
+    }
+
+    section.details,
+    section.registration {
+        background-image: url("../images/bg_light.png");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        color: $gray2;
+        padding: 90px 0;
+    }
+
+    section.details {
+        h1 {
+            text-align: center;
+            display: block;
+            text-transform: uppercase;
+            margin-bottom: 20px;
+
+            span {
+                border: 4px solid $gray2;
+                line-height: 2em;
+                font-size: 3em;
+                padding: 12px 12px 2px 12px;
+
+                sup {
+                    font-size: 0.5em;
+                }
+            }
+        }
+
+        h2 {
+            text-align: center;
+            text-transform: uppercase;
+            font-size: 1.6em;
+        }
+    }
+
+    section.registration {
+        h1 {
+            text-align: center;
+            text-transform: uppercase;
+            font-size: 2.5em;
+            font-family: $font-conf-bold;
+        }
+    }
+
+    section.speakers {
+
+        .speaker {
+            display: block;
+            width: 100%;
+
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            position: relative;
+
+            background-color: $gray2;
+
+            &.solo {
+                height: 300px;
+
+                .content {
+                    bottom: 10%;
+                    position: absolute;
+
+                    h1 {
+                        text-transform: uppercase;
+                        color: $white;
+                        font-size: 2.4em;
+                        font-family: $font-conf-bold;
+                        line-height: 60px;
+                        text-align: center;
+                    }
+
+                    a.button {
+                        background-color: $white;
+                        color: $gray2;
+                        line-height: 20px;
+                        padding: 7px 5px 2px 5px;
+                        text-decoration: none;
+                        font-size: 1.2em;
+                        display: inline-block;
+                        text-align: center;
+                    }
+                }
+
+                .photo {
+                    display: block;
+                    width: 300px;
+                    height: 300px;
+                    background-repeat: no-repeat;
+                    background-position: bottom center;
+                    background-size: contain;
+                    float: left;
+                }
+
+                &#HeidiBaker {
+                    background-image: url("../images/background1.jpg");
+
+                    .photo {
+
+                        background-image: url("../images/HeidiBaker.png");
+                    }
+
+                    .content {
+                        left: 37%;
+                        right: inherit;
+                    }
+                }
+
+                &#PaulManwaring {
+                    background-image: url("../images/background2.jpg");
+
+                    .photo {
+                        float: right;
+                        background-image: url("../images/PaulManwaring.png");
+                    }
+
+                    a.button {
+                        float: right;
+                    }
+
+                    .content {
+                        right: 36%;
+                        left: inherit;
+                    }
+                }
+
+                &#ToddWhite {
+                    background-image: url("../images/background3.jpg");
+
+                    .photo {
+                        width: 500px;
+                        background-image: url("../images/ToddWhite.png");
+                    }
+
+                    a.button {
+                        float: left;
+                    }
+
+                    .content {
+                        left: 42%;
+                        right: inherit;
+                    }
+                }
+
+                &#MichaelKoulianos {
+                    background-image: url("../images/background4.jpg");
+
+                    .photo {
+                        float: right;
+                        background-image: url("../images/MichaelKoulianos.png");
+                    }
+
+                    a.button {
+                        float: right;
+                    }
+
+                    .content {
+                        right: 37%;
+                        left: inherit;
+                    }
+                }
+
+            }
+
+            &.multi {
+                background: $black;
+                text-align: center;
+
+                article {
+                    display: inline-block;
+                    width: 20%;
+                    height: 220px;
+                    margin: 0;
+                    padding: 0;
+                    vertical-align: top;
+                    background-position: top center;
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    position: relative;
+
+                    &#PhilipMantofa {
+                        background-image: url('../images/PhilipMontofa.jpg');
+                    }
+
+                    &#BenFitzgerald {
+                        background-image: url('../images/BenFitzgerald.jpg');
+                    }
+
+                    &#PeterWenz {
+                        background-image: url('../images/PeterWenz.jpg');
+                    }
+
+                    &#MatthiasKuhn {
+                        background-image: url('../images/MatthiasKuhn.jpg');
+                    }
+
+                    &#CarlosPayan {
+                        background-image: url('../images/CarlosPayan.jpg');
+                    }
+
+                    &#Jean-MichelTour {
+                        background-image: url('../images/Jean-MichelTour.jpg');
+                    }
+
+                    &#UrbanCamenzind {
+                        background-image: url('../images/UrbanCamenzind.jpg');
+                    }
+
+                    &#NicolasButtet {
+                        background-image: url('../images/NicolasButtet.jpg');
+                    }
+
+                    &#WernerLehmann {
+                        background-image: url('../images/WernerLehmann.jpg');
+                    }
+
+                    &#Jean-LucTrachsel {
+                        background-image: url('../images/Jean-LucTrachsel.jpg');
+                    }
+
+                    &:hover {
+
+                        a.black {
+                            background-color: rgba($black, 0.6);
+                        }
+
+                        section {
+                            bottom: 10%;
+                        }
+
+                        div.button {
+                            margin-top: 30px;
+                            display: inline-block;
+                        }
+                    }
+
+                    a.black {
+                        background-color: rgba($black, 0.2);
+                        height: 100%;
+                        display: block;
+                        width: 100%;
+                    }
+
+                    section {
+                        width: 100%;
+                        margin: 0;
+                        text-align: center;
+                        position: absolute;
+                        bottom: 5%;
+
+                        h1 {
+                            text-align: center;
+                            color: $white;
+                            font-size: 1.4em;
+                            text-transform: uppercase;
+                            font-family: $font-conf-bold;
+
+                        }
+
+                        div.button {
+                            display: none;
+                            background-color: $white;
+                            color: $gray2;
+                            line-height: 20px;
+                            padding: 7px 5px 2px 5px;
+                            text-decoration: none;
+                            font-size: 1.2em;
+                            text-align: center;
+                        }
+                    }
+                }
+
+            }
+
+        }
+
+    }
+
+    section.getInfo {
+        //background-image: url("../images/bg.jpg");
+        background-image: url("../images/background3.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        padding: 90px 0;
+
+        h1 {
+            text-align: center;
+            text-transform: uppercase;
+            font-size: 2em;
+            font-family: $font-conf-bold;
+            color: $white;
+            margin-bottom: 20px;
+        }
+
+        form {
+            text-align: center;
+
+            input[type="email"] {
+                line-height: 22px;
+                background-color: rgba($white, 0.92);
+                //background-color: $white;
+                border: 1px solid $white;
+                color: $gray2;
+                font-family: $font-conf;
+                font-size: 1.2em;
+                padding: 3px 5px 0px 5px;
+                outline: none;
+                margin-right: 20px;
+            }
+
+            input[type="submit"] {
+                line-height: 23px;
+                background-color: $white !important;
+                border: 1px solid $white;
+                color: $gray2;
+                font-family: $font-conf;
+                font-size: 1.2em;
+                padding: 2px 5px 0px 5px;
+                outline: none;
+                cursor: pointer;
+
+            }
+
+        }
+    }
+
+    section.speaker.page {
+
+        display: block;
+        width: 100%;
+        height: 300px;
+        background-position: top center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+
+        .photo {
+            display: block;
+            width: 300px;
+            height: 300px;
+            background-repeat: no-repeat;
+            background-position: bottom center;
+            background-size: contain;
+            float: left;
+
+        }
+
+        .content {
+            bottom: 10%;
+            position: absolute;
+
+            h1 {
+                text-transform: uppercase;
+                color: $white;
+                font-size: 2.4em;
+                font-family: $font-conf-bold;
+                line-height: 60px;
+                text-align: center;
+            }
+
+            a.button {
+                background-color: $white;
+                color: $gray2;
+                line-height: 20px;
+                padding: 5px 5px 2px 5px;
+                text-decoration: none;
+                font-size: 1.2em;
+                display: inline-block;
+                text-align: center;
+            }
+        }
+
+        background-image: url("../images/background1.jpg");
+
+        &#HeidiBaker {
+            background-image: url("../images/background1.jpg");
+
+            .photo {
+
+                background-image: url("../images/HeidiBaker.png");
+            }
+
+            .content {
+                left: 37%;
+                right: inherit;
+            }
+        }
+
+        &#PaulManwaring {
+            background-image: url("../images/background2.jpg");
+
+            .photo {
+                float: right;
+                background-image: url("../images/PaulManwaring.png");
+            }
+
+            a.button {
+                float: right;
+            }
+
+            .content {
+                right: 35%;
+                left: inherit;
+            }
+        }
+
+        &#ToddWhite {
+            background-image: url("../images/background3.jpg");
+
+            .photo {
+                width: 500px;
+                background-image: url("../images/ToddWhite.png");
+            }
+
+            a.button {
+                float: left;
+            }
+
+            .content {
+                left: 42%;
+                right: inherit;
+            }
+        }
+
+        &#MichaelKoulianos {
+            background-image: url("../images/background4.jpg");
+
+            .photo {
+                float: right;
+                background-image: url("../images/MichaelKoulianos.png");
+            }
+
+            a.button {
+                float: right;
+            }
+
+            .content {
+                right: 37%;
+                left: inherit;
+            }
+        }
+
+        &#PhilipMantofa {
+            background-image: url("../images/background2.jpg");
+        }
+
+        &#BenFitzgerald {
+            background-image: url("../images/background1.jpg");
+        }
+
+        &#PeterWenz {
+            background-image: url("../images/background4.jpg");
+        }
+
+        &#MatthiasKuhn {
+            background-image: url("../images/background2.jpg");
+        }
+
+        &#CarlosPayan {
+            background-image: url("../images/background1.jpg");
+        }
+
+        &#Jean-MichelTour {
+            background-image: url("../images/background3.jpg");
+        }
+
+        &#UrbanCamenzind {
+            background-image: url("../images/background1.jpg");
+        }
+
+        &#NicolasButtet {
+            background-image: url("../images/background1.jpg");
+        }
+
+        &#WernerLehmann {
+            background-image: url("../images/background1.jpg");
+        }
+
+        &#Jean-LucTrachsel {
+            background-image: url("../images/background1.jpg");
+        }
+
+        &#thanks {
+            background-image: url("../images/background3.jpg");
+        }
+    }
+
+    section.content {
+        color: $gray2;
+        padding: 90px 0 10px;
+        font-size: 1.2em;
+        background-color: $white;
+
+        .left {
+            width: 30%;
+            margin-right: 3%;
+            display: inline-block;
+            vertical-align: top;
+        }
+
+        .right {
+            width: 67%;
+            display: inline-block;
+            vertical-align: top;
+        }
+
+        img {
+            width: 100%;
+            //display: none;
+            margin: 12px 0 20px 0;
+            display: block;
+            float: left;
+        }
+
+        p {
+            padding: 10px 0;
+            //text-align: justify;
+        }
+
+        a.button {
+            background-color: $gray2;
+            color: $white;
+            line-height: 20px;
+            padding: 5px 5px 2px 5px;
+            margin: 20px 20px 20px 0;
+            text-decoration: none;
+            font-size: 1.2em;
+            display: inline-block;
+            text-align: center;
+            max-width: 100%;
+        }
+    }
+
+}
+
+footer {
+    background-image: url("../images/footer.jpg");
+    background-position: center 10%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 120px 0 100px;
+    display: block;
+    width: 100%;
+    max-width: 2000px;
+    margin: 0 auto;
+
+    article {
+        width: 100%;
+        max-width: 900px;
+        margin: 0 auto;
+
+        h1 {
+            text-align: center;
+            text-transform: uppercase;
+            font-size: 1.6em;
+            font-family: $font-conf;
+            color: $gray2;
+            margin-bottom: 10px;
+
+            a {
+                color: $gray2;
+                text-decoration: none;
+            }
+        }
+
+        div.line {
+            height: 2px;
+            background-color: $gray2;
+            width: 70%;
+            margin: 0 auto;
+        }
+
+        ul.social {
+            text-align: center;
+            margin-top: 20px;
+
+            li {
+                display: inline-block;
+                width: 40px;
+                height: 40px;
+                margin: 0 1%;
+                cursor: pointer;
+
+                a {
+                    width: 100%;
+                    height: 100%;
+                    display: block;
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    background-size: contain;
+                }
+
+                &.facebook a {
+                    background-image: url("../images/facebook.svg");
+                }
+
+                &.twitter a {
+                    background-image: url("../images/twitter.svg");
+                }
+
+                &.instagram a {
+                    background-image: url("../images/instagram.svg");
+                }
+
+                &.youtube {
+                    width: 80px;
+
+                    a {
+                        background-image: url("../images/youtube.svg");
+                    }
+                }
+            }
+        }
+
+    }
+}
+
+@media only screen and (max-width: 900px) {
+
+    body {
+
+        section.page {
+
+            section.speakers {
+                .speaker.solo {
+
+                    .content h1 {
+                        font-size: 1.8em;
+                    }
+
+                    &#HeidiBaker {
+
+                        .content {
+                            left: 280px;
+
+                        }
+                    }
+
+                    &#PaulManwaring {
+
+                        .content {
+                            right: 260px;
+                        }
+                    }
+
+                    &#ToddWhite {
+
+                        .content {
+                            left: 320px;
+                        }
+                    }
+
+                    &#MichaelKoulianos {
+
+                        .content {
+                            right: 260px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+
+    body {
+        section.page {
+            section.header {
+                height: 600px;
+
+                .logo_conf1 {
+                    width: 170px;
+                    height: 170px;
+                    top: 19%;
+                    margin-left: -85px;
+                }
+
+                .logo_conf2 {
+                    width: 560px;
+                    height: 250px;
+                    top: 37%;
+                    margin-left: -280px;
+                }
+            }
+
+            section.speakers {
+                .speaker.solo {
+
+                    &#HeidiBaker {
+
+                        .content {
+                            left: 35%;
+                        }
+                    }
+
+                    &#PaulManwaring {
+
+                        .content {
+                            right: 33%;
+                        }
+                    }
+
+                    &#ToddWhite {
+
+                        .content {
+                            left: 42%;
+                        }
+                    }
+
+                    &#MichaelKoulianos {
+
+                        .content {
+                            right: 34%;
+                        }
+                    }
+                }
+            }
+
+        }
+    }
+}
+
+@media only screen and (min-width: 1600px) {
+
+    body {
+        section.page {
+            section.header {
+                height: 900px;
+
+                .logo_conf1 {
+                    width: 220px;
+                    height: 220px;
+                    top: 21%;
+                    margin-left: -110px;
+                }
+
+                .logo_conf2 {
+                    width: 700px;
+                    height: 300px;
+                    top: 35%;
+                    margin-left: -350px;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 1240px) {
+
+    body {
+
+        font-size: 18px;
+
+        section.page {
+            section {
+                article {
+                    max-width: 1200px;
+                }
+            }
+
+            section.header {
+                .logo_conf {
+                    width: 800px;
+                    height: 800px;
+                }
+            }
+
+            section.details,
+            section.registration,
+            section.getInfo {
+                padding: 180px 0;
+            }
+
+            section.speakers {
+                .speaker.solo {
+                    height: 400px;
+
+                    &.solo .photo {
+                        height: 400px;
+                        width: 400px;
+                    }
+                }
+            }
+
+            section.getInfo form {
+                input[type="email"] {
+                    padding: 7px 7px 0px 7px;
+                }
+
+                input[type="submit"] {
+                    line-height: 1.3em;
+                    padding: 6px 7px 0px 7px;
+                }
+            }
+            section.content {
+
+                a.button {
+                    line-height: 30px;
+                    padding: 7px 12px 4px;
+                }
+            }
+        }
+
+        footer {
+            padding-top: 200px;
+        }
+    }
+}
+
+@media only screen and (max-width: 940px) {
+
+    body {
+        section.page {
+
+            section.speaker {
+                padding-left: 3%;
+                padding-right: 3%;
+                width: 94%;
+            }
+
+            section.content {
+                padding-left: 3%;
+                padding-right: 3%;
+                width: 94%;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 1400px) {
+
+    body {
+
+        section.page {
+
+            section.speakers {
+                .speaker.solo {
+
+                    &#HeidiBaker {
+
+                        .content {
+                            left: 37%;
+                        }
+                    }
+
+                    &#PaulManwaring {
+
+                        .content {
+                            right: 36%;
+                        }
+                    }
+
+                    &#ToddWhite {
+
+                        .content {
+                            left: 37%;
+                        }
+                    }
+
+                    &#MichaelKoulianos {
+
+                        .content {
+                            right: 35%;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 1900px) {
+    section.page {
+        section.speakers {
+            .speaker.multi {
+                article {
+                    width: 33.33333%;
+                    height: 300px;
+                }
+            }
+        }
+    }
+}
+
+
+@media only screen and (max-width: 1700px) {
+    section.page {
+        section.speakers {
+            .speaker.multi {
+                article {
+                    height: 270px;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 1500px) {
+    section.page {
+        section.speakers {
+            .speaker.multi {
+                article {
+                    height: 240px;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 1300px) {
+    section.page {
+        section.speakers {
+            .speaker.multi {
+                article {
+                    height: 210px;
+                }
+            }
+        }
+    }
+}
+
+
+@media only screen and (max-width: 1100px) {
+    section.page {
+        section.speakers {
+            .speaker.multi {
+                article {
+                    height: 180px;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    section.page {
+        section.speakers {
+            .speaker.multi {
+                article {
+                    height: 150px;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 690px) {
+    section.page {
+        section.speakers {
+            .speaker.multi {
+                article {
+                    width: 50%;
+                    height: 200px;
+                }
+            }
+        }
+    }
+}

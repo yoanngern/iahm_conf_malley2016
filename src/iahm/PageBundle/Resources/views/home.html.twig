@@ -1,0 +1,178 @@
+{% extends "::layout.html.twig" %}
+
+{% block body %}
+
+    {% spaceless %}
+
+        <section class="header">
+            <!--<div class="logo_conf"></div>-->
+            <div class="logo_conf1"></div>
+            <div class="logo_conf2"></div>
+        </section>
+
+        <section class="details">
+            <article>
+                <h1><span>May 5<sup>TH</sup> - 7<sup>TH</sup> 2016</span></h1>
+
+                <h2>Ice Rink // Malley // Lausanne (CH)</h2>
+            </article>
+        </section>
+
+        <section class="speakers">
+            <section class="speaker solo" id="HeidiBaker">
+                <article>
+                    <div class="photo"></div>
+                    <div class="content">
+                        <h1>Heidi Baker</h1>
+                        <a href="{{ path('iahm_page_speaker', {'name': 'HeidiBaker'}) }}" class="button">More info</a>
+                    </div>
+                </article>
+            </section>
+            <section class="speaker solo" id="PaulManwaring">
+                <article>
+                    <div class="photo"></div>
+                    <div class="content">
+                        <h1>Paul Manwaring</h1>
+                        <a href="{{ path('iahm_page_speaker', {'name': 'PaulManwaring'}) }}" class="button">More
+                            info</a>
+                    </div>
+                </article>
+            </section>
+            <section class="speaker solo" id="ToddWhite">
+                <article>
+                    <div class="photo"></div>
+                    <div class="content">
+                        <h1>Todd White</h1>
+                        <a href="{{ path('iahm_page_speaker', {'name': 'ToddWhite'}) }}" class="button">More info</a>
+                    </div>
+                </article>
+            </section>
+            <section class="speaker solo" id="MichaelKoulianos">
+                <article>
+                    <div class="photo"></div>
+                    <div class="content">
+                        <h1>Michael Koulianos</h1>
+                        <a href="{{ path('iahm_page_speaker', {'name': 'MichaelKoulianos'}) }}" class="button">More
+                            info</a>
+                    </div>
+                </article>
+            </section>
+            <section class="speaker multi">
+                <article id="PhilipMantofa">
+                    <a href="{{ path('iahm_page_speaker', {'name': 'PhilipMantofa'}) }}" class="black">
+                        <section>
+                            <h1>Philip Mantofa</h1>
+                            <div class="button">More
+                                info</div>
+                        </section>
+                    </a>
+                </article>
+                <article id="BenFitzgerald">
+                    <a href="{{ path('iahm_page_speaker', {'name': 'BenFitzgerald'}) }}" class="black">
+                        <section>
+                            <h1>Ben Fitzgerald</h1>
+                            <div class="button">More
+                                info</div>
+                        </section>
+                    </a>
+                </article>
+                <article id="PeterWenz">
+                    <a href="{{ path('iahm_page_speaker', {'name': 'PeterWenz'}) }}" class="black">
+                        <section>
+                            <h1>Peter Wenz</h1>
+                            <div class="button">More
+                                info</div>
+                        </section>
+                    </a>
+                </article>
+                <article id="MatthiasKuhn">
+                    <a href="{{ path('iahm_page_speaker', {'name': 'MatthiasKuhn'}) }}" class="black">
+                        <section>
+                            <h1>Matthias "Kuno" Kuhn</h1>
+                            <div class="button">More
+                                info</div>
+                        </section>
+                    </a>
+                </article>
+                <article id="CarlosPayan">
+                    <a href="{{ path('iahm_page_speaker', {'name': 'CarlosPayan'}) }}" class="black">
+                        <section>
+                            <h1>Carlos Payan</h1>
+                            <div class="button">More
+                                info</div>
+                        </section>
+                    </a>
+                </article>
+                <article id="Jean-MichelTour">
+                    <a href="{{ path('iahm_page_speaker', {'name': 'Jean-MichelTour'}) }}" class="black">
+                        <section>
+                            <h1>Jean-Michel Tour</h1>
+                            <div class="button">More
+                                info</div>
+                        </section>
+                    </a>
+                </article>
+                <article Id="UrbanCamenzind">
+                    <a href="{{ path('iahm_page_speaker', {'name': 'UrbanCamenzind'}) }}" class="black">
+                        <section>
+                            <h1>Urban Camenzind</h1>
+                            <div class="button">More
+                                info</div>
+                        </section>
+                    </a>
+                </article>
+                <article id="NicolasButtet">
+                    <a href="{{ path('iahm_page_speaker', {'name': 'NicolasButtet'}) }}" class="black">
+                        <section>
+                            <h1>Nicolas Buttet</h1>
+                            <div class="button">More
+                                info</div>
+                        </section>
+                    </a>
+                </article>
+                <article id="WernerLehmann">
+                    <a href="{{ path('iahm_page_speaker', {'name': 'WernerLehmann'}) }}" class="black">
+                        <section>
+                            <h1>Werner Lehmann</h1>
+                            <div class="button">More
+                                info</div>
+                        </section>
+                    </a>
+                </article>
+                <article id="Jean-LucTrachsel">
+                    <a href="{{ path('iahm_page_speaker', {'name': 'Jean-LucTrachsel'}) }}" class="black">
+                        <section>
+                            <h1>Jean-Luc Trachsel</h1>
+                            <div class="button">More
+                                info</div>
+                        </section>
+                    </a>
+                </article>
+            </section>
+        </section>
+
+        <section class="registration">
+            <article>
+                <h1>Registration opens<br>
+                    February 2016</h1>
+            </article>
+        </section>
+
+        <section class="getInfo">
+
+            <article>
+
+                <h1>Be the first<br>
+                    to get informed:</h1>
+
+                <form action="" method="POST">
+                    <input name="email" placeholder="E-mail" type="email"/>
+
+                    <input type="submit" value="Send"/>
+                </form>
+            </article>
+        </section>
+
+
+    {% endspaceless %}
+{% endblock %}
