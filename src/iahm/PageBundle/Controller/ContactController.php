@@ -37,7 +37,7 @@ class ContactController extends Controller
             return $this->render(
                 'iahmPageBundle:Mail:thanks.html.twig',
                 array(
-                    'message' => 'Merci...'
+                    'message' => 'Thank you for subscribing. You will get informed when you can register to the conference.'
                 )
             );
         }
