@@ -8,7 +8,7 @@
         <section class="speaker page" id="thanks">
             <article>
                 <div class="content">
-                    <h1>Thanks</h1>
+                    <h1>{{ 'general.thanks'|trans }}</h1>
                 </div>
             </article>
         </section>
@@ -16,10 +16,10 @@
         <section class="content">
             <article>
 
-                <p>{{ message }}</p>
+                <p>{{ message|trans }}</p>
 
                 <a href="{{ path('iahm_page_home') }}"
-                   class="button">Back to the home page</a>
+                   class="button">{{ 'general.back_home'|trans }}</a>
 
             </article>
         </section>

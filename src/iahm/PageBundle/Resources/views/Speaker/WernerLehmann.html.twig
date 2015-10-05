@@ -17,7 +17,7 @@
             <article>
 
                 <div class="left">
-                    <img src="{{ asset('conference/images/WernerLehmann.jpg') }}">
+                    <img src="{{ path }}/images/WernerLehmann.jpg">
 
                     <a target="_blank" href="http://www.ee-oron.ch"
                        class="button">ee-oron.ch</a>
@@ -25,11 +25,7 @@
 
                 <div class="right">
 
-                    <p>Married, father of four children and grand-father many times, Werner Lehmann is the senior pastor
-                        of the Evangelical Church in Oron-la-Ville, Switzerland. In the ministry for more than 30 years,
-                        he preaches the Word of God in Europe, Africa and Asia. His teaching rich and practical is very
-                        appreciated and many people are transformed, healed, and delivered by the power of God. Werner
-                        has a strong and recognized apostolic gift.</p>
+                    {{ 'presentation.WernerLehmann'|trans|raw }}
 
                 </div>
             </article>

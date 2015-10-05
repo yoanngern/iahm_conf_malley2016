@@ -1,3 +1,5 @@
+{% set path = 'conference' %}
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,14 +10,13 @@
           content="initial-scale=1, width=device-width, minimum-scale=1, user-scalable=no, maximum-scale=1, width=device-width, minimal-ui">
 
     {% block meta %}{% endblock %}
-    <link rel="apple-touch-icon" href="{{ asset('conference/apple-touch-icon.png') }}"/>
-    <link rel="shortcut icon" href="{{ asset('conference/favicon.ico') }}" type="image/x-icon">
-    <link rel="icon" type="image/png" href="{{ asset('conference/favicon.png') }}"/>
+    <link rel="apple-touch-icon" href="{{ path}}/apple-touch-icon.png"/>
+    <link rel="shortcut icon" href="{{ path }}/favicon.ico" type="image/x-icon">
+    <link rel="icon" type="image/png" href="{{ path }}/favicon.png"/>
 
     {% block stylesheets %}
-        <link rel="stylesheet" href="{{ asset('conference/css/layout.css') }}" type="text/css"/>
+        <link rel="stylesheet" href="{{ path }}/css/layout.css" type="text/css"/>
     {% endblock %}
-
 
     {% block javascripts %}
     {% endblock %}
@@ -39,9 +40,9 @@
 <footer>
     <article>
 
-        <a href="http://healing-ministries.org" id="logo_iahm"></a>
+        <a href="http://healing-ministries.org" id="logo_iahm" class="{{ app.request.locale }}"></a>
 
-        <h1><a href="{{ path('iahm_page_home') }}">International Healing Conference</a></h1>
+        <h1><a href="{{ path('iahm_page_home') }}">{{ 'general.international_conf'|trans }}</a></h1>
 
         <div class="line"></div>
 

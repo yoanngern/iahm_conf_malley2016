@@ -330,7 +330,7 @@ section.page {
         background-size: cover;
         position: relative; }
         section.page section.speakers .speaker.multi article#PhilipMantofa {
-          background-image: url("../images/PhilipMontofa.jpg"); }
+          background-image: url("../images/PhilipMantofa.jpg"); }
         section.page section.speakers .speaker.multi article#BenFitzgerald {
           background-image: url("../images/BenFitzgerald.jpg"); }
         section.page section.speakers .speaker.multi article#PeterWenz {
@@ -609,6 +609,8 @@ footer {
       background-position: center;
       background-size: contain;
       background-repeat: no-repeat; }
+      footer article #logo_iahm.fr {
+        background-image: url("../images/logo_aimg.svg"); }
 
 @media only screen and (max-width: 900px) {
   body section.page section.speakers .speaker.solo .content h1 {

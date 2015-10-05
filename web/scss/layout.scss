@@ -298,7 +298,7 @@ section.page {
                     position: relative;
 
                     &#PhilipMantofa {
-                        background-image: url('../images/PhilipMontofa.jpg');
+                        background-image: url('../images/PhilipMantofa.jpg');
                     }
 
                     &#BenFitzgerald {
@@ -741,6 +741,10 @@ footer {
             background-position: center;
             background-size: contain;
             background-repeat: no-repeat;
+
+            &.fr {
+                background-image: url('../images/logo_aimg.svg');
+            }
         }
 
     }
