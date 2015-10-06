@@ -1,4 +1,5 @@
-{% set path = 'conference' %}
+{% set path = '/conference' %}
+{% set src_url = 'http://healing-ministries.org/conference/web' %}
 
 <!DOCTYPE html>
 <html lang="en">
@@ -10,12 +11,12 @@
           content="initial-scale=1, width=device-width, minimum-scale=1, user-scalable=no, maximum-scale=1, width=device-width, minimal-ui">
 
     {% block meta %}{% endblock %}
-    <link rel="apple-touch-icon" href="{{ path}}/apple-touch-icon.png"/>
-    <link rel="shortcut icon" href="{{ path }}/favicon.ico" type="image/x-icon">
-    <link rel="icon" type="image/png" href="{{ path }}/favicon.png"/>
+    <link rel="apple-touch-icon" href="{{ src_url }}/apple-touch-icon.png"/>
+    <link rel="shortcut icon" href="{{ src_url }}/favicon.ico" type="image/x-icon">
+    <link rel="icon" type="image/png" href="{{ src_url }}/favicon.png"/>
 
     {% block stylesheets %}
-        <link rel="stylesheet" href="{{ path }}/css/layout.css" type="text/css"/>
+        <link rel="stylesheet" href="{{ src_url }}/css/layout.css" type="text/css"/>
     {% endblock %}
 
     {% block javascripts %}
