@@ -762,6 +762,8 @@ footer {
                     .content h1 {
                         font-size: 1.8em;
                         line-height: inherit;
+                        padding-bottom: 20px;
+
                     }
 
                     &#HeidiBaker {
@@ -1158,6 +1160,10 @@ footer {
                 padding-left: 3%;
                 padding-right: 3%;
                 width: 94%;
+
+                .content h1 {
+                    line-height: inherit;
+                }
             }
 
             section.content {
