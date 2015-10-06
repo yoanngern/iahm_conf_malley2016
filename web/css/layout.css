@@ -21,9 +21,6 @@ table {
 article, aside, footer, header, hgroup, nav, section, figure, figcaption {
   display: block; }
 
-/** regular **/
-/** italic **/
-/** upright **/
 @font-face {
   font-family: 'titilliumblack';
   src: url("../fonts/titillium-black-webfont.eot");
@@ -128,6 +125,9 @@ article, aside, footer, header, hgroup, nav, section, figure, figcaption {
   font-family: 'CaeciliaLTPro-75Bold';
   src: url("../fonts/2F483F_1_0.eot");
   src: url("../fonts/2F483F_1_0.eot?#iefix") format("embedded-opentype"), url("../fonts/2F483F_1_0.woff2") format("woff2"), url("../fonts/2F483F_1_0.woff") format("woff"), url("../fonts/2F483F_1_0.ttf") format("truetype"); }
+/** regular **/
+/** italic **/
+/** upright **/
 html, body {
   color: #434343;
   font-family: "CaeciliaLTPro-55Roman", "titilliumregular", Arial, Helvetica, Verdana sans-serif;

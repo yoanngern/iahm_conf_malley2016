@@ -1,28 +1,4 @@
-/** regular **/
 
-$font: "titilliumregular", Arial, Helvetica, Verdana sans-serif;
-$font-light: "titilliumlight", $font;
-$font-thin: "titilliumthin", $font-light;
-$font-semi-bold: "titilliumbold", $font;
-$font-bold: "titillium_bdbold", $font-semi-bold;
-$font-black: "titilliumblack", $font-bold;
-
-/** italic **/
-$font-i: "titilliumitalic", $font;
-$font-light-i: "titilliumlight_italic", $font-i;
-$font-thin-i: "titilliumthin_italic", $font-light-i;
-$font-semi-bold-i: "titilliumbold_italic", $font-i;
-$font-bold-i: "titillium_bdbold_italic", $font-semi-bold-i;
-
-/** upright **/
-$font-u: "titilliumregular_upright", $font;
-$font-light-u: "titilliumlight_upright", $font-u;
-$font-thin-u: "titilliumthin_upright", $font-light-u;
-$font-semi-bold-u: "titilliumsemibold_upright", $font-u;
-$font-bold-u: "titilliumbold_upright", $font-semi-bold-u;
-
-$font-conf: "CaeciliaLTPro-55Roman", $font;
-$font-conf-bold: "CaeciliaLTPro-75Bold", $font-conf;
 
 
 @font-face {
@@ -251,3 +227,28 @@ $font-conf-bold: "CaeciliaLTPro-75Bold", $font-conf;
     url('../fonts/2F483F_1_0.ttf') format('truetype');
 }
 
+/** regular **/
+
+$font: "titilliumregular", Arial, Helvetica, Verdana sans-serif;
+$font-light: "titilliumlight", $font;
+$font-thin: "titilliumthin", $font-light;
+$font-semi-bold: "titilliumbold", $font;
+$font-bold: "titillium_bdbold", $font-semi-bold;
+$font-black: "titilliumblack", $font-bold;
+
+/** italic **/
+$font-i: "titilliumitalic", $font;
+$font-light-i: "titilliumlight_italic", $font-i;
+$font-thin-i: "titilliumthin_italic", $font-light-i;
+$font-semi-bold-i: "titilliumbold_italic", $font-i;
+$font-bold-i: "titillium_bdbold_italic", $font-semi-bold-i;
+
+/** upright **/
+$font-u: "titilliumregular_upright", $font;
+$font-light-u: "titilliumlight_upright", $font-u;
+$font-thin-u: "titilliumthin_upright", $font-light-u;
+$font-semi-bold-u: "titilliumsemibold_upright", $font-u;
+$font-bold-u: "titilliumbold_upright", $font-semi-bold-u;
+
+$font-conf: "CaeciliaLTPro-55Roman", $font;
+$font-conf-bold: "CaeciliaLTPro-75Bold", $font-conf;
