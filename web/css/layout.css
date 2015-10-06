@@ -614,7 +614,8 @@ footer {
 
 @media only screen and (max-width: 900px) {
   body section.page section.speakers .speaker.solo .content h1 {
-    font-size: 1.8em; }
+    font-size: 1.8em;
+    line-height: inherit; }
   body section.page section.speakers .speaker.solo#HeidiBaker .content {
     left: 280px; }
   body section.page section.speakers .speaker.solo#PaulManwaring .content {
