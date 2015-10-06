@@ -41,7 +41,12 @@
 <footer>
     <article>
 
-        <a href="http://healing-ministries.org" id="logo_iahm" class="{{ app.request.locale }}"></a>
+        {% if app.request.locale == "fr" %}
+            <a href="http://laguerison.org" id="logo_iahm" class="fr"></a>
+        {% else %}
+            <a href="http://healing-ministries.org" id="logo_iahm" class="en"></a>
+        {% endif %}
+
 
         <h1><a href="http://laguerison.org/conference">{{ 'general.international_conf'|trans }}</a></h1>
 
