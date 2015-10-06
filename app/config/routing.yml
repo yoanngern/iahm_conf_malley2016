@@ -1,6 +1,10 @@
+iahm_page_home_default:
+    path:     /
+    defaults: { _controller: iahmPageBundle:Default:home }
+
 iahm_page:
     resource: "@iahmPageBundle/Resources/config/routing.yml"
-    prefix:   /
+    prefix:   /conference/
 
 app:
     resource: "@AppBundle/Controller/"
