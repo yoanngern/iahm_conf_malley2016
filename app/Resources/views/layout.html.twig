@@ -43,12 +43,14 @@
 
         {% if app.request.locale == "fr" %}
             <a href="http://laguerison.org" id="logo_iahm" class="fr"></a>
+            <h1><a href="http://laguerison.org/conference">{{ 'general.international_conf'|trans }}</a></h1>
         {% else %}
             <a href="http://healing-ministries.org" id="logo_iahm" class="en"></a>
+            <h1><a href="http://healing-ministries.org/conference">{{ 'general.international_conf'|trans }}</a></h1>
         {% endif %}
 
 
-        <h1><a href="http://laguerison.org/conference">{{ 'general.international_conf'|trans }}</a></h1>
+
 
         <div class="line"></div>
 
