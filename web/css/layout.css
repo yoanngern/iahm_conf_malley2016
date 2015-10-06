@@ -634,7 +634,7 @@ footer {
         width: 80%;
         padding: 0 10%; }
         body section.page section.details article h1 {
-          font-size: 0.8em; }
+          font-size: 0.7em; }
     body section.page section.registration {
       padding: 50px 0; }
       body section.page section.registration article {
@@ -793,7 +793,8 @@ footer {
     padding-right: 3%;
     width: 94%; }
     body section.page section.speaker.page .content h1 {
-      line-height: inherit; }
+      line-height: inherit;
+      padding-bottom: 20px; }
   body section.page section.content {
     padding-left: 3%;
     padding-right: 3%;

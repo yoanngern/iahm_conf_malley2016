@@ -30,8 +30,8 @@
       <file leaf-file-name="layout.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/web/scss/layout.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.55766314">
-              <caret line="1164" column="41" selection-start-line="1164" selection-start-column="41" selection-end-line="1164" selection-end-column="41" />
+            <state vertical-scroll-proportion="0.3414264">
+              <caret line="819" column="17" selection-start-line="819" selection-start-column="17" selection-end-line="819" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -634,7 +634,13 @@
       <option name="project" value="LOCAL" />
       <updated>1444138950112</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="change mobile text">
+      <created>1444139154487</created>
+      <option name="number" value="00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1444139154487</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1089,8 +1095,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/scss/layout.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.55766314">
-          <caret line="1164" column="41" selection-start-line="1164" selection-start-column="41" selection-end-line="1164" selection-end-column="41" />
+        <state vertical-scroll-proportion="0.3414264">
+          <caret line="819" column="17" selection-start-line="819" selection-start-column="17" selection-end-line="819" selection-end-column="17" />
           <folding />
         </state>
       </provider>
