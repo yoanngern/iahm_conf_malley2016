@@ -51,7 +51,8 @@
                     <div class="photo"></div>
                     <div class="content">
                         <h1>Michael Koulianos</h1>
-                        <a href="/conference/MichaelKoulianos" class="button"><span>{{ 'general.more_info'|trans }}</span></a>
+                        <a href="/conference/MichaelKoulianos"
+                           class="button"><span>{{ 'general.more_info'|trans }}</span></a>
                     </div>
                 </article>
             </section>
@@ -60,6 +61,7 @@
                     <a href="/conference/PhilipMantofa" class="black">
                         <section>
                             <h1>Philip Mantofa</h1>
+
                             <div class="button">{{ 'general.more_info'|trans }}</div>
                         </section>
                     </a>
@@ -68,6 +70,7 @@
                     <a href="/conference/BenFitzgerald" class="black">
                         <section>
                             <h1>Ben Fitzgerald</h1>
+
                             <div class="button">{{ 'general.more_info'|trans }}</div>
                         </section>
                     </a>
@@ -76,6 +79,7 @@
                     <a href="/conference/PeterWenz" class="black">
                         <section>
                             <h1>Peter Wenz</h1>
+
                             <div class="button">{{ 'general.more_info'|trans }}</div>
                         </section>
                     </a>
@@ -84,6 +88,7 @@
                     <a href="/conference/MatthiasKuhn" class="black">
                         <section>
                             <h1>Matthias "Kuno" Kuhn</h1>
+
                             <div class="button">{{ 'general.more_info'|trans }}</div>
                         </section>
                     </a>
@@ -92,6 +97,7 @@
                     <a href="/conference/CarlosPayan" class="black">
                         <section>
                             <h1>Carlos Payan</h1>
+
                             <div class="button">{{ 'general.more_info'|trans }}</div>
                         </section>
                     </a>
@@ -100,6 +106,7 @@
                     <a href="/conference/Jean-MichelTour" class="black">
                         <section>
                             <h1>Jean-Michel Tour</h1>
+
                             <div class="button">{{ 'general.more_info'|trans }}</div>
                         </section>
                     </a>
@@ -108,6 +115,7 @@
                     <a href="/conference/UrbanCamenzind" class="black">
                         <section>
                             <h1>Urban Camenzind</h1>
+
                             <div class="button">{{ 'general.more_info'|trans }}</div>
                         </section>
                     </a>
@@ -116,6 +124,7 @@
                     <a href="/conference/NicolasButtet" class="black">
                         <section>
                             <h1>Nicolas Buttet</h1>
+
                             <div class="button">{{ 'general.more_info'|trans }}</div>
                         </section>
                     </a>
@@ -124,6 +133,7 @@
                     <a href="/conference/WernerLehmann" class="black">
                         <section>
                             <h1>Werner Lehmann</h1>
+
                             <div class="button">{{ 'general.more_info'|trans }}</div>
                         </section>
                     </a>
@@ -132,6 +142,7 @@
                     <a href="/conference/Jean-LucTrachsel" class="black">
                         <section>
                             <h1>Jean-Luc Trachsel</h1>
+
                             <div class="button">{{ 'general.more_info'|trans }}</div>
                         </section>
                     </a>
@@ -151,10 +162,20 @@
 
                 <h1>{{ 'general.first_informed'|trans|nl2br }}</h1>
 
-                <form action="" method="POST">
-                    <input name="email" placeholder="{{ 'general.email'|trans }}" type="email"/>
+                <form action='http://marketing.laguerison.org/proc.php' method='post'
+                      accept-charset='utf-8' enctype='multipart/form-data'>
+                    <input type='hidden' name='f' {% if app.request.locale == "fr" %}value='44'
+                           {% else %}value='40'{% endif %}>
+                    <input type='hidden' name='s' value=''>
+                    <input type='hidden' name='c' value='0'>
+                    <input type='hidden' name='m' value='0'>
+                    <input type='hidden' name='act' value='sub'>
+                    <input type='hidden' name='nlbox[]' value='3'>
 
-                    <input type="submit" value="{{ 'general.send'|trans }}"/>
+                    <input type='email' placeholder="{{ 'general.email'|trans }}" name='email'>
+
+                    <input type='submit' value="{{ 'general.send'|trans }}">
+
                 </form>
             </article>
         </section>

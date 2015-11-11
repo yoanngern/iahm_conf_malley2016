@@ -4,6 +4,10 @@ iahm_page_home:
 
 
 iahm_page_mail_test:
+    path:     /thanks
+    defaults: { _controller: iahmPageBundle:Default:thanks }
+
+iahm_page_mail_test:
     path:     /mail_test
     defaults: { _controller: iahmPageBundle:Default:mailTest }
 

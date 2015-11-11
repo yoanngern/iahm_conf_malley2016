@@ -14,6 +14,7 @@ class DefaultController extends Controller
     public function homeAction()
     {
 
+        /*
         $request = $this->get('request');
 
         if ($request->getMethod() == 'POST') {
@@ -44,7 +45,15 @@ class DefaultController extends Controller
             );
         }
 
+        */
+
         return $this->render('iahmPageBundle::home.html.twig');
+    }
+
+    public function thanksAction()
+    {
+
+        return $this->render('iahmPageBundle:Mail:thanks.html.twig');
     }
 
     public function mailTestAction()
