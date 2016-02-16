@@ -1,5 +1,10 @@
-{% set path = '/conference' %}
-{% set src_url = '/conference/web' %}
+{% if app.environment == 'dev' %}
+    {% set path = '/' %}
+    {% set src_url = '' %}
+{% else %}
+    {% set path = '/conference' %}
+    {% set src_url = '/conference/web' %}
+{% endif %}
 
 <!DOCTYPE html>
 <html lang="en">
