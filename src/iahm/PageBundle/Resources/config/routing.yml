@@ -4,6 +4,10 @@ iahm_page_home:
 
 
 iahm_page_mail_test:
+    path:     /intercesseurs/merci
+    defaults: { _controller: iahmPageBundle:Default:intercessorsThanks }
+
+iahm_page_mail_test:
     path:     /thanks
     defaults: { _controller: iahmPageBundle:Default:thanks }
 

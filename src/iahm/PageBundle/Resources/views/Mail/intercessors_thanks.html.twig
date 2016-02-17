@@ -1,0 +1,29 @@
+{% extends "::layout.html.twig" %}
+
+{% block body %}
+
+    {% spaceless %}
+
+
+        <section class="speaker page" id="thanks">
+            <article>
+                <div class="content">
+                    <h1>{{ 'general.thanks'|trans }}</h1>
+                </div>
+            </article>
+        </section>
+
+        <section class="content">
+            <article>
+
+                <p>Vous avez été inscrits en tant qu'intercesseur de la conférence Presence.</p>
+
+                <a href="http://laguerison.org/conference"
+                   class="button">{{ 'general.back_home'|trans }}</a>
+
+            </article>
+        </section>
+
+
+    {% endspaceless %}
+{% endblock %}

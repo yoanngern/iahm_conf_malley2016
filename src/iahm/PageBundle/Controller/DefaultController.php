@@ -50,6 +50,12 @@ class DefaultController extends Controller
         return $this->render('iahmPageBundle::home.html.twig');
     }
 
+    public function intercessorsThanksAction()
+    {
+
+        return $this->render('iahmPageBundle:Mail:intercessors_thanks.html.twig');
+    }
+
     public function thanksAction()
     {
 
