@@ -444,6 +444,8 @@ section.page {
         }
     }
 
+
+
     section.speaker.page,
     section.info.page {
 
@@ -815,6 +817,12 @@ footer {
     body {
 
         section.page {
+
+            &.info {
+                .content {
+                    padding-left: 3%;
+                }
+            }
 
             section.speakers {
                 .speaker.solo {

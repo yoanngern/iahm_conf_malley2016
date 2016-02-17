@@ -686,6 +686,8 @@ footer {
         background-image: url("../images/logo_aimg.svg"); }
 
 @media only screen and (max-width: 900px) {
+  body section.page.info .content {
+    padding-left: 3%; }
   body section.page section.speakers .speaker.solo .content h1 {
     font-size: 1.8em;
     line-height: inherit;

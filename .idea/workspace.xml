@@ -2,36 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c11bf8b1-ef02-471e-90b0-8e8d6c0ddc3e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/iahm/PageBundle/Resources/views/Page/accommodation.html.twig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/iahm/PageBundle/Resources/views/Page/intercesseurs.html.twig" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/iahm/PageBundle/Resources/views/Speaker/BenFitzgerald.html.twig" afterPath="$PROJECT_DIR$/src/iahm/PageBundle/Resources/views/Page/BenFitzgerald.html.twig" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/iahm/PageBundle/Resources/views/Speaker/CarlosPayan.html.twig" afterPath="$PROJECT_DIR$/src/iahm/PageBundle/Resources/views/Page/CarlosPayan.html.twig" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/iahm/PageBundle/Resources/views/Speaker/HeidiBaker.html.twig" afterPath="$PROJECT_DIR$/src/iahm/PageBundle/Resources/views/Page/HeidiBaker.html.twig" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/iahm/PageBundle/Resources/views/Speaker/Jean-LucTrachsel.html.twig" afterPath="$PROJECT_DIR$/src/iahm/PageBundle/Resources/views/Page/Jean-LucTrachsel.html.twig" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/iahm/PageBundle/Resources/views/Speaker/Jean-MichelTour.html.twig" afterPath="$PROJECT_DIR$/src/iahm/PageBundle/Resources/views/Page/Jean-MichelTour.html.twig" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/iahm/PageBundle/Resources/views/Speaker/MatthiasKuhn.html.twig" afterPath="$PROJECT_DIR$/src/iahm/PageBundle/Resources/views/Page/MatthiasKuhn.html.twig" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/iahm/PageBundle/Resources/views/Speaker/MichaelKoulianos.html.twig" afterPath="$PROJECT_DIR$/src/iahm/PageBundle/Resources/views/Page/MichaelKoulianos.html.twig" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/iahm/PageBundle/Resources/views/Speaker/NicolasButtet.html.twig" afterPath="$PROJECT_DIR$/src/iahm/PageBundle/Resources/views/Page/NicolasButtet.html.twig" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/iahm/PageBundle/Resources/views/Speaker/PaulManwaring.html.twig" afterPath="$PROJECT_DIR$/src/iahm/PageBundle/Resources/views/Page/PaulManwaring.html.twig" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/iahm/PageBundle/Resources/views/Speaker/PeterWenz.html.twig" afterPath="$PROJECT_DIR$/src/iahm/PageBundle/Resources/views/Page/PeterWenz.html.twig" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/iahm/PageBundle/Resources/views/Speaker/PhilipMantofa.html.twig" afterPath="$PROJECT_DIR$/src/iahm/PageBundle/Resources/views/Page/PhilipMantofa.html.twig" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/iahm/PageBundle/Resources/views/Speaker/ToddWhite.html.twig" afterPath="$PROJECT_DIR$/src/iahm/PageBundle/Resources/views/Page/ToddWhite.html.twig" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/iahm/PageBundle/Resources/views/Speaker/UrbanCamenzind.html.twig" afterPath="$PROJECT_DIR$/src/iahm/PageBundle/Resources/views/Page/UrbanCamenzind.html.twig" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/iahm/PageBundle/Resources/views/Speaker/WernerLehmann.html.twig" afterPath="$PROJECT_DIR$/src/iahm/PageBundle/Resources/views/Page/WernerLehmann.html.twig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/scss/.sass-cache/21b319e734541f675da4eda7d5f51e1a78a6dd04/_color.scssc" afterPath="$PROJECT_DIR$/web/scss/.sass-cache/21b319e734541f675da4eda7d5f51e1a78a6dd04/_color.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/scss/.sass-cache/21b319e734541f675da4eda7d5f51e1a78a6dd04/_font.scssc" afterPath="$PROJECT_DIR$/web/scss/.sass-cache/21b319e734541f675da4eda7d5f51e1a78a6dd04/_font.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/scss/.sass-cache/21b319e734541f675da4eda7d5f51e1a78a6dd04/_functions.scssc" afterPath="$PROJECT_DIR$/web/scss/.sass-cache/21b319e734541f675da4eda7d5f51e1a78a6dd04/_functions.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/scss/.sass-cache/21b319e734541f675da4eda7d5f51e1a78a6dd04/_reset.scssc" afterPath="$PROJECT_DIR$/web/scss/.sass-cache/21b319e734541f675da4eda7d5f51e1a78a6dd04/_reset.scssc" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/scss/.sass-cache/21b319e734541f675da4eda7d5f51e1a78a6dd04/layout.scssc" afterPath="$PROJECT_DIR$/web/scss/.sass-cache/21b319e734541f675da4eda7d5f51e1a78a6dd04/layout.scssc" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Resources/translations/messages.en.yml" afterPath="$PROJECT_DIR$/app/Resources/translations/messages.en.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Resources/translations/messages.fr.yml" afterPath="$PROJECT_DIR$/app/Resources/translations/messages.fr.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Resources/views/layout.html.twig" afterPath="$PROJECT_DIR$/app/Resources/views/layout.html.twig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/iahm/PageBundle/Controller/DefaultController.php" afterPath="$PROJECT_DIR$/src/iahm/PageBundle/Controller/DefaultController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/iahm/PageBundle/Resources/views/home.html.twig" afterPath="$PROJECT_DIR$/src/iahm/PageBundle/Resources/views/home.html.twig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/config.codekit" afterPath="$PROJECT_DIR$/web/config.codekit" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/css/layout.css" afterPath="$PROJECT_DIR$/web/css/layout.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/scss/_color.scss" afterPath="$PROJECT_DIR$/web/scss/_color.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/scss/layout.scss" afterPath="$PROJECT_DIR$/web/scss/layout.scss" />
     </list>
     <ignored path="iahm_conf_malley2016.iws" />
@@ -67,8 +40,8 @@
       <file leaf-file-name="layout.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/web/scss/layout.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.3652968">
-              <caret line="574" column="0" selection-start-line="574" selection-start-column="0" selection-end-line="574" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.6514995">
+              <caret line="822" column="37" selection-start-line="822" selection-start-column="37" selection-end-line="822" selection-end-column="37" />
               <folding />
             </state>
           </provider>
@@ -140,8 +113,7 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="946" />
-    <option name="width" value="1614" />
+    <option name="width" value="2560" />
     <option name="height" value="1440" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -681,29 +653,35 @@
       <option name="project" value="LOCAL" />
       <updated>1455622219671</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="add page for intercessor">
+      <created>1455714734758</created>
+      <option name="number" value="00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1455714734758</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="946" y="0" width="1614" height="1440" extended-state="6" />
+    <frame x="0" y="0" width="2560" height="1440" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296875" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25774473" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1625" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3517588" sideWeight="0.5015625" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24910265" sideWeight="0.5043371" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24910265" sideWeight="0.49566296" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2197092" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3517588" sideWeight="0.4984375" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -768,7 +746,8 @@
     <MESSAGE value="add Google Analytics tracker" />
     <MESSAGE value="add ActiveCampaign form" />
     <MESSAGE value="change date of start registration&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="change date of start registration&#10;" />
+    <MESSAGE value="add page for intercessor" />
+    <option name="LAST_COMMIT_MESSAGE" value="add page for intercessor" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -961,6 +940,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.46979865">
           <caret line="42" column="21" selection-start-line="42" selection-start-column="21" selection-end-line="42" selection-end-column="21" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -968,6 +948,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.16778524">
           <caret line="15" column="33" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -975,6 +956,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.3914989">
           <caret line="35" column="14" selection-start-line="35" selection-start-column="14" selection-end-line="35" selection-end-column="14" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -982,6 +964,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.3131991">
           <caret line="28" column="14" selection-start-line="28" selection-start-column="14" selection-end-line="28" selection-end-column="14" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -989,6 +972,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.08948546">
           <caret line="8" column="21" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -996,6 +980,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.3914989">
           <caret line="35" column="14" selection-start-line="35" selection-start-column="14" selection-end-line="35" selection-end-column="14" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1003,6 +988,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.3914989">
           <caret line="35" column="14" selection-start-line="35" selection-start-column="14" selection-end-line="35" selection-end-column="14" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1010,6 +996,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.30201343">
           <caret line="27" column="19" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="67" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1017,6 +1004,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.3914989">
           <caret line="35" column="14" selection-start-line="35" selection-start-column="14" selection-end-line="35" selection-end-column="14" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1024,6 +1012,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.30201343">
           <caret line="27" column="64" selection-start-line="27" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1066,6 +1055,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.078299776">
           <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="23" selection-end-column="18" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1081,6 +1071,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.7718121">
           <caret line="70" column="40" selection-start-line="70" selection-start-column="40" selection-end-line="70" selection-end-column="40" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1134,8 +1125,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/scss/layout.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3652968">
-          <caret line="574" column="0" selection-start-line="574" selection-start-column="0" selection-end-line="574" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.6514995">
+          <caret line="822" column="37" selection-start-line="822" selection-start-column="37" selection-end-line="822" selection-end-column="37" />
           <folding />
         </state>
       </provider>
