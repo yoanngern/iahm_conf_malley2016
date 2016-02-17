@@ -444,7 +444,8 @@ section.page {
         }
     }
 
-    section.speaker.page {
+    section.speaker.page,
+    section.info.page {
 
         display: block;
         width: 100%;
@@ -603,6 +604,16 @@ section.page {
         &#thanks {
             background-image: url("../images/background3.jpg");
         }
+
+        &#accommodation {
+            background-image: url("../images/background3.jpg");
+        }
+
+        &#intercesseurs {
+            background-image: url("../images/background3.jpg");
+
+            height: 200px;
+        }
     }
 
     section.content {
@@ -648,6 +659,55 @@ section.page {
             display: inline-block;
             text-align: center;
             max-width: 100%;
+        }
+
+        h2 {
+            font-family: $font-conf-bold;
+            font-size: 1.4em;
+            text-transform: uppercase;
+            padding-top: 30px;
+            padding-bottom: 5px;
+            color: $gray3;
+        }
+
+        h3 {
+            font-family: $font-conf-bold;
+            padding-top: 15px;
+            color: $gray3;
+        }
+
+        a {
+            font-size: 0.9em;
+            text-decoration: underline;
+            color: $gray2;
+        }
+
+        form {
+            input[type="email"] {
+                line-height: 24px;
+                background-color: rgba($white, 0.92);
+                //background-color: $white;
+                border: 1px solid $gray2;
+                color: $gray2;
+                font-family: $font-conf;
+                font-size: 1.2em;
+                padding: 3px 5px 0px 5px;
+                outline: none;
+                margin-right: 20px;
+            }
+
+            input[type="submit"] {
+                line-height: 25px;
+                background-color: $gray2 !important;
+                border: 1px solid $white;
+                color: $white;
+                font-family: $font-conf;
+                font-size: 1.2em;
+                padding: 2px 5px 0px 5px;
+                outline: none;
+                cursor: pointer;
+
+            }
         }
     }
 

@@ -1,0 +1,142 @@
+{% extends "::layout.html.twig" %}
+
+{% block body %}
+
+    {% spaceless %}
+
+        {% if app.request.locale == "fr" %}
+
+            <section class="info page" id="{{ page }}">
+
+                <article>
+                    <div class="content">
+                        <h1>Logement</h1>
+                    </div>
+                </article>
+            </section>
+
+            <section class="content">
+                <article>
+
+                    <p>Si vous désirez être logé à proximité du lieu de la conférence, voici quelques informations qui vous
+                        permettront de faire le nécessaire rapidement.</p>
+
+                    <h2>Hotels</h2>
+
+                    <h3>Hôtel de la Gare</h3>
+
+                    <p>Rue de la Gare 1<br/>
+                        1607 Palézieux </p>
+
+                    <p>021 907 81 08</p>
+
+
+                    <h3>Motel des fleurs</h3>
+
+                    <p>Route Cantonale 7<br/>
+                        1077 Servion</p>
+
+                    <p>021 903 44 43</p>
+
+                    <h3>Auberge Communale</h3>
+
+                    <p>Route du Village 3<br/>
+                        1082 Corcelles-le-Jorat</p>
+
+                    <p>021 903 40 11</p>
+
+                    <h3>Auberge de l'Hôtel de Ville</h3>
+
+                    <p>Grand-Rue 34<br/>
+                        1623 Semsales</p>
+
+                    <p>026 918 51 06</p>
+
+                    <h3>Hôtel des Alpes</h3>
+
+                    <p>Route d'Oron 1<br/>
+                        1073 Savigny</p>
+
+                    <p>021 781 11 11</p>
+
+                    <h2>Chambres chez l'habitant</h2>
+
+                    <p>Pour trouver une chambre proche, vous pouvez réserver sur :</p>
+
+                    <p><a target="_blank" href="http://fr.airbnb.ch">fr.airbnb.ch</a></p>
+
+                    <p><a target="_blank" href="http://www.bnb.ch">www.bnb.ch</a></p>
+                </article>
+            </section>
+
+        {% else %}
+
+            <section class="info page" id="{{ page }}">
+                <article>
+                    <div class="content">
+                        <h1>Accommodation</h1>
+                    </div>
+                </article>
+            </section>
+
+            <section class="content">
+                <article>
+
+                    <p>Si vous désirez être logé à proximité du lieu de la conférence, voici quelques informations qui vous
+                        permettront de faire le nécessaire rapidement.</p>
+
+                    <h2>Hotels</h2>
+
+                    <h3>Hôtel de la Gare</h3>
+
+                    <p>Rue de la Gare 1<br/>
+                        1607 Palézieux </p>
+
+                    <p>021 907 81 08</p>
+
+
+                    <h3>Motel des fleurs</h3>
+
+                    <p>Route Cantonale 7<br/>
+                        1077 Servion</p>
+
+                    <p>021 903 44 43</p>
+
+                    <h3>Auberge Communale</h3>
+
+                    <p>Route du Village 3<br/>
+                        1082 Corcelles-le-Jorat</p>
+
+                    <p>021 903 40 11</p>
+
+                    <h3>Auberge de l'Hôtel de Ville</h3>
+
+                    <p>Grand-Rue 34<br/>
+                        1623 Semsales</p>
+
+                    <p>026 918 51 06</p>
+
+                    <h3>Hôtel des Alpes</h3>
+
+                    <p>Route d'Oron 1<br/>
+                        1073 Savigny</p>
+
+                    <p>021 781 11 11</p>
+
+                    <h2>Chambres chez l'habitant</h2>
+
+                    <p>Pour trouver une chambre proche, vous pouvez réserver sur :</p>
+
+                    <p><a target="_blank" href="http://fr.airbnb.ch">fr.airbnb.ch</a></p>
+
+                    <p><a target="_blank" href="http://www.bnb.ch">www.bnb.ch</a></p>
+                </article>
+            </section>
+
+        {% endif %}
+
+
+
+
+    {% endspaceless %}
+{% endblock %}

@@ -71,6 +71,9 @@ class DefaultController extends Controller
     public function speakerAction($name)
     {
 
-        return $this->render('iahmPageBundle:Speaker:'.$name.'.html.twig');
+        return $this->render('iahmPageBundle:Page:' . $name . '.html.twig',
+            array(
+                'page' => $name,
+            ));
     }
 }

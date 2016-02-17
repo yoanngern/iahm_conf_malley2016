@@ -1,0 +1,53 @@
+{% extends "::layout.html.twig" %}
+
+{% block body %}
+
+    {% spaceless %}
+
+        <section class="info page" id="{{ page }}">
+
+            <article>
+                <div class="content">
+                    <h1>Intercesseurs</h1>
+                </div>
+            </article>
+        </section>
+
+        <section class="content">
+            <article>
+
+                <p>L'intercession est décrite dans le dictionnaire comme le fait d'intervenir, d'user de son influence
+                    en faveur de quelqu'un, quelque chose.</p>
+                <p>Nous croyons que Jésus-Christ intercède en notre faveur et intervient dans nos vies par le
+                    Saint-Esprit. Ainsi, partant de la victoire du Christ acquise à la croix, nous avons l'assurance que
+                    nous pouvons influencer tous les aspects de cette rencontre en étant remplis de la présence divine
+                    et ainsi embrasser notre rôle d'intercesseurs.</p>
+                <p>Nous allons vivre différents temps. Tout d'abord, avant la conférence, dans la prière et le
+                    jeûne.</p>
+                <p>Un peu plus tard, nous nous rendrons à Lausanne, autour des lieux de la conférence afin de soumettre
+                    ces endroits par le combat spirituel à l'action du Saint-Esprit.</p>
+                <p>Finalement, durant le temps même de la conférence, nous porterons cet événement dans la prière afin
+                    que soient relevés les défis du moment et que nous demeurions à l'écoute de ce que l'Esprit Saint
+                    aura à nous communiquer.</p>
+
+                <h2>S'inscrire comme intercesseur</h2>
+
+                <form action='http://news.laguerison.org/proc.php' method='post' id='_form_147' accept-charset='utf-8' enctype='multipart/form-data'>
+                    <input type='hidden' name='f' value='147'>
+                    <input type='hidden' name='s' value=''>
+                    <input type='hidden' name='c' value='0'>
+                    <input type='hidden' name='m' value='0'>
+                    <input type='hidden' name='act' value='sub'>
+                    <input type='hidden' name='nlbox[]' value='10'>
+
+                    <p><input type='email' placeholder="{{ 'general.email'|trans }}" name='email' ></p>
+
+                    <p><input type='submit' value="{{ 'general.register'|trans }}"></p>
+
+                </form>
+
+            </article>
+        </section>
+
+    {% endspaceless %}
+{% endblock %}

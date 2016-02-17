@@ -417,7 +417,8 @@ section.page {
         padding: 2px 5px 0px 5px;
         outline: none;
         cursor: pointer; }
-  section.page section.speaker.page {
+  section.page section.speaker.page,
+  section.page section.info.page {
     display: block;
     width: 100%;
     height: 300px;
@@ -426,7 +427,8 @@ section.page {
     background-size: cover;
     position: relative;
     background-image: url("../images/background1.jpg"); }
-    section.page section.speaker.page .photo {
+    section.page section.speaker.page .photo,
+    section.page section.info.page .photo {
       display: block;
       width: 300px;
       height: 300px;
@@ -434,17 +436,20 @@ section.page {
       background-position: bottom center;
       background-size: contain;
       float: left; }
-    section.page section.speaker.page .content {
+    section.page section.speaker.page .content,
+    section.page section.info.page .content {
       bottom: 10%;
       position: absolute; }
-      section.page section.speaker.page .content h1 {
+      section.page section.speaker.page .content h1,
+      section.page section.info.page .content h1 {
         text-transform: uppercase;
         color: #FFFFFF;
         font-size: 2.4em;
         font-family: "CaeciliaLTPro-75Bold", "CaeciliaLTPro-55Roman", "titilliumregular", Arial, Helvetica, Verdana sans-serif;
         line-height: 60px;
         text-align: center; }
-      section.page section.speaker.page .content a.button {
+      section.page section.speaker.page .content a.button,
+      section.page section.info.page .content a.button {
         background-color: #FFFFFF;
         color: #434343;
         line-height: 20px;
@@ -453,65 +458,98 @@ section.page {
         font-size: 1.2em;
         display: inline-block;
         text-align: center; }
-    section.page section.speaker.page#HeidiBaker {
+    section.page section.speaker.page#HeidiBaker,
+    section.page section.info.page#HeidiBaker {
       background-image: url("../images/background1.jpg"); }
-      section.page section.speaker.page#HeidiBaker .photo {
+      section.page section.speaker.page#HeidiBaker .photo,
+      section.page section.info.page#HeidiBaker .photo {
         background-image: url("../images/HeidiBaker.png"); }
-      section.page section.speaker.page#HeidiBaker .content {
+      section.page section.speaker.page#HeidiBaker .content,
+      section.page section.info.page#HeidiBaker .content {
         left: 37%;
         right: inherit; }
-    section.page section.speaker.page#PaulManwaring {
+    section.page section.speaker.page#PaulManwaring,
+    section.page section.info.page#PaulManwaring {
       background-image: url("../images/background2.jpg"); }
-      section.page section.speaker.page#PaulManwaring .photo {
+      section.page section.speaker.page#PaulManwaring .photo,
+      section.page section.info.page#PaulManwaring .photo {
         float: right;
         background-image: url("../images/PaulManwaring.png"); }
-      section.page section.speaker.page#PaulManwaring a.button {
+      section.page section.speaker.page#PaulManwaring a.button,
+      section.page section.info.page#PaulManwaring a.button {
         float: right; }
-      section.page section.speaker.page#PaulManwaring .content {
+      section.page section.speaker.page#PaulManwaring .content,
+      section.page section.info.page#PaulManwaring .content {
         right: 35%;
         left: inherit; }
-    section.page section.speaker.page#ToddWhite {
+    section.page section.speaker.page#ToddWhite,
+    section.page section.info.page#ToddWhite {
       background-image: url("../images/background3.jpg"); }
-      section.page section.speaker.page#ToddWhite .photo {
+      section.page section.speaker.page#ToddWhite .photo,
+      section.page section.info.page#ToddWhite .photo {
         width: 500px;
         background-image: url("../images/ToddWhite.png"); }
-      section.page section.speaker.page#ToddWhite a.button {
+      section.page section.speaker.page#ToddWhite a.button,
+      section.page section.info.page#ToddWhite a.button {
         float: left; }
-      section.page section.speaker.page#ToddWhite .content {
+      section.page section.speaker.page#ToddWhite .content,
+      section.page section.info.page#ToddWhite .content {
         left: 42%;
         right: inherit; }
-    section.page section.speaker.page#MichaelKoulianos {
+    section.page section.speaker.page#MichaelKoulianos,
+    section.page section.info.page#MichaelKoulianos {
       background-image: url("../images/background4.jpg"); }
-      section.page section.speaker.page#MichaelKoulianos .photo {
+      section.page section.speaker.page#MichaelKoulianos .photo,
+      section.page section.info.page#MichaelKoulianos .photo {
         float: right;
         background-image: url("../images/MichaelKoulianos.png"); }
-      section.page section.speaker.page#MichaelKoulianos a.button {
+      section.page section.speaker.page#MichaelKoulianos a.button,
+      section.page section.info.page#MichaelKoulianos a.button {
         float: right; }
-      section.page section.speaker.page#MichaelKoulianos .content {
+      section.page section.speaker.page#MichaelKoulianos .content,
+      section.page section.info.page#MichaelKoulianos .content {
         right: 37%;
         left: inherit; }
-    section.page section.speaker.page#PhilipMantofa {
+    section.page section.speaker.page#PhilipMantofa,
+    section.page section.info.page#PhilipMantofa {
       background-image: url("../images/background2.jpg"); }
-    section.page section.speaker.page#BenFitzgerald {
+    section.page section.speaker.page#BenFitzgerald,
+    section.page section.info.page#BenFitzgerald {
       background-image: url("../images/background1.jpg"); }
-    section.page section.speaker.page#PeterWenz {
+    section.page section.speaker.page#PeterWenz,
+    section.page section.info.page#PeterWenz {
       background-image: url("../images/background4.jpg"); }
-    section.page section.speaker.page#MatthiasKuhn {
+    section.page section.speaker.page#MatthiasKuhn,
+    section.page section.info.page#MatthiasKuhn {
       background-image: url("../images/background2.jpg"); }
-    section.page section.speaker.page#CarlosPayan {
+    section.page section.speaker.page#CarlosPayan,
+    section.page section.info.page#CarlosPayan {
       background-image: url("../images/background1.jpg"); }
-    section.page section.speaker.page#Jean-MichelTour {
+    section.page section.speaker.page#Jean-MichelTour,
+    section.page section.info.page#Jean-MichelTour {
       background-image: url("../images/background3.jpg"); }
-    section.page section.speaker.page#UrbanCamenzind {
+    section.page section.speaker.page#UrbanCamenzind,
+    section.page section.info.page#UrbanCamenzind {
       background-image: url("../images/background1.jpg"); }
-    section.page section.speaker.page#NicolasButtet {
+    section.page section.speaker.page#NicolasButtet,
+    section.page section.info.page#NicolasButtet {
       background-image: url("../images/background1.jpg"); }
-    section.page section.speaker.page#WernerLehmann {
+    section.page section.speaker.page#WernerLehmann,
+    section.page section.info.page#WernerLehmann {
       background-image: url("../images/background1.jpg"); }
-    section.page section.speaker.page#Jean-LucTrachsel {
+    section.page section.speaker.page#Jean-LucTrachsel,
+    section.page section.info.page#Jean-LucTrachsel {
       background-image: url("../images/background1.jpg"); }
-    section.page section.speaker.page#thanks {
+    section.page section.speaker.page#thanks,
+    section.page section.info.page#thanks {
       background-image: url("../images/background3.jpg"); }
+    section.page section.speaker.page#accommodation,
+    section.page section.info.page#accommodation {
+      background-image: url("../images/background3.jpg"); }
+    section.page section.speaker.page#intercesseurs,
+    section.page section.info.page#intercesseurs {
+      background-image: url("../images/background3.jpg");
+      height: 200px; }
   section.page section.content {
     color: #434343;
     padding: 90px 0 10px;
@@ -544,6 +582,41 @@ section.page {
       display: inline-block;
       text-align: center;
       max-width: 100%; }
+    section.page section.content h2 {
+      font-family: "CaeciliaLTPro-75Bold", "CaeciliaLTPro-55Roman", "titilliumregular", Arial, Helvetica, Verdana sans-serif;
+      font-size: 1.4em;
+      text-transform: uppercase;
+      padding-top: 30px;
+      padding-bottom: 5px;
+      color: #333333; }
+    section.page section.content h3 {
+      font-family: "CaeciliaLTPro-75Bold", "CaeciliaLTPro-55Roman", "titilliumregular", Arial, Helvetica, Verdana sans-serif;
+      padding-top: 15px;
+      color: #333333; }
+    section.page section.content a {
+      font-size: 0.9em;
+      text-decoration: underline;
+      color: #434343; }
+    section.page section.content form input[type="email"] {
+      line-height: 24px;
+      background-color: rgba(255, 255, 255, 0.92);
+      border: 1px solid #434343;
+      color: #434343;
+      font-family: "CaeciliaLTPro-55Roman", "titilliumregular", Arial, Helvetica, Verdana sans-serif;
+      font-size: 1.2em;
+      padding: 3px 5px 0px 5px;
+      outline: none;
+      margin-right: 20px; }
+    section.page section.content form input[type="submit"] {
+      line-height: 25px;
+      background-color: #434343 !important;
+      border: 1px solid #FFFFFF;
+      color: #FFFFFF;
+      font-family: "CaeciliaLTPro-55Roman", "titilliumregular", Arial, Helvetica, Verdana sans-serif;
+      font-size: 1.2em;
+      padding: 2px 5px 0px 5px;
+      outline: none;
+      cursor: pointer; }
 
 footer {
   background-image: url("../images/footer.jpg");

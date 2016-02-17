@@ -11,6 +11,7 @@ general:
         to get informed:
     email: Email
     send: Send
+    register: Register
     international_conf: International Healing Conference
     back_home: Back to the home page
     thanks: Thanks
