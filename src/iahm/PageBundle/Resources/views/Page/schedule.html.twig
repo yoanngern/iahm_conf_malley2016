@@ -1,0 +1,262 @@
+{% extends "::layout.html.twig" %}
+
+{% block body %}
+
+    {% spaceless %}
+
+        <section class="info page" id="{{ page }}">
+
+            <article>
+                <div class="content">
+                    <h1>{{ 'general.schedule'|trans|raw }}</h1>
+                </div>
+            </article>
+        </section>
+
+        {% if app.request.locale == "fr" %}
+
+            <section class="content">
+                <article>
+
+                    <h2><span>jeudi 5</span></h2>
+
+                    <table class="schedule">
+                        <tr>
+                            <th>9:00</th>
+                            <td>Ouverture des portes</td>
+                        </tr>
+                        <tr>
+                            <th>9:30</th>
+                            <td>Session</td>
+                        </tr>
+                        <tr>
+                            <th>12:30</th>
+                            <td>Pause de midi</td>
+                        </tr>
+                        <tr>
+                            <th>14:00</th>
+                            <td>Session</td>
+                        </tr>
+                        <tr>
+                            <th>16:00</th>
+                            <td>Pause</td>
+                        </tr>
+                        <tr>
+                            <th>16:30</th>
+                            <td>Session</td>
+                        </tr>
+                        <tr>
+                            <th>18:00</th>
+                            <td>Pause du soir</td>
+                        </tr>
+                        <tr>
+                            <th>19:30</th>
+                            <td>Soirée</td>
+                        </tr>
+                    </table>
+
+                    <h2><span>vendredi 6</span></h2>
+
+                    <table class="schedule">
+                        <tr>
+                            <th>9:00</th>
+                            <td>Ouverture des portes</td>
+                        </tr>
+                        <tr>
+                            <th>9:30</th>
+                            <td>Session</td>
+                        </tr>
+                        <tr>
+                            <th>12:30</th>
+                            <td>Pause de midi</td>
+                        </tr>
+                        <tr>
+                            <th>14:00</th>
+                            <td>Session</td>
+                        </tr>
+                        <tr>
+                            <th>16:00</th>
+                            <td>Pause</td>
+                        </tr>
+                        <tr>
+                            <th>16:30</th>
+                            <td>Session</td>
+                        </tr>
+                        <tr>
+                            <th>18:00</th>
+                            <td>Pause du soir</td>
+                        </tr>
+                        <tr>
+                            <th>19:30</th>
+                            <td>Soirée</td>
+                        </tr>
+                    </table>
+
+                    <h2><span>samedi 7</span></h2>
+
+                    <table class="schedule">
+                        <tr>
+                            <th>9:00</th>
+                            <td>Ouverture des portes</td>
+                        </tr>
+                        <tr>
+                            <th>9:30</th>
+                            <td>Session</td>
+                        </tr>
+                        <tr>
+                            <th>12:30</th>
+                            <td>Pause de midi</td>
+                        </tr>
+                        <tr>
+                            <th>14:00</th>
+                            <td>Session</td>
+                        </tr>
+                        <tr>
+                            <th>16:00</th>
+                            <td>Pause</td>
+                        </tr>
+                        <tr>
+                            <th>16:30</th>
+                            <td>Session</td>
+                        </tr>
+                        <tr>
+                            <th>18:00</th>
+                            <td>Pause du soir</td>
+                        </tr>
+                        <tr>
+                            <th>19:30</th>
+                            <td>Soirée</td>
+                        </tr>
+                    </table>
+
+
+                </article>
+            </section>
+
+        {% else %}
+
+            <section class="content">
+                <article>
+
+                    <h2><span>Thursday, May 5</span></h2>
+
+                    <table class="schedule">
+                        <tr>
+                            <th><span>am</span>9:00</th>
+                            <td>Doors Open</td>
+                        </tr>
+                        <tr>
+                            <th><span>am</span>9:30</th>
+                            <td>Session</td>
+                        </tr>
+                        <tr>
+                            <th><span>pm</span>12:30</th>
+                            <td>Lunch Break</td>
+                        </tr>
+                        <tr>
+                            <th><span>pm</span>2:00</th>
+                            <td>Session</td>
+                        </tr>
+                        <tr>
+                            <th><span>pm</span>4:00</th>
+                            <td>Break</td>
+                        </tr>
+                        <tr>
+                            <th><span>pm</span>4:30</th>
+                            <td>Session</td>
+                        </tr>
+                        <tr>
+                            <th><span>pm</span>6:00</th>
+                            <td>Dinner Break</td>
+                        </tr>
+                        <tr>
+                            <th><span>pm</span>7:30</th>
+                            <td>Evening meeting</td>
+                        </tr>
+                    </table>
+
+                    <h2><span>Friday, May 6</span></h2>
+
+                    <table class="schedule">
+                        <tr>
+                            <th><span>am</span>9:00</th>
+                            <td>Doors Open</td>
+                        </tr>
+                        <tr>
+                            <th><span>am</span>9:30</th>
+                            <td>Session</td>
+                        </tr>
+                        <tr>
+                            <th><span>pm</span>12:30</th>
+                            <td>Lunch Break</td>
+                        </tr>
+                        <tr>
+                            <th><span>pm</span>2:00</th>
+                            <td>Session</td>
+                        </tr>
+                        <tr>
+                            <th><span>pm</span>4:00</th>
+                            <td>Break</td>
+                        </tr>
+                        <tr>
+                            <th><span>pm</span>4:30</th>
+                            <td>Session</td>
+                        </tr>
+                        <tr>
+                            <th><span>pm</span>6:00</th>
+                            <td>Dinner Break</td>
+                        </tr>
+                        <tr>
+                            <th><span>pm</span>7:30</th>
+                            <td>Evening meeting</td>
+                        </tr>
+                    </table>
+
+                    <h2><span>Saturday, May 7</span></h2>
+
+                    <table class="schedule">
+                        <tr>
+                            <th><span>am</span>9:00</th>
+                            <td>Doors Open</td>
+                        </tr>
+                        <tr>
+                            <th><span>am</span>9:30</th>
+                            <td>Session</td>
+                        </tr>
+                        <tr>
+                            <th><span>pm</span>12:30</th>
+                            <td>Lunch Break</td>
+                        </tr>
+                        <tr>
+                            <th><span>pm</span>2:00</th>
+                            <td>Session</td>
+                        </tr>
+                        <tr>
+                            <th><span>pm</span>4:00</th>
+                            <td>Break</td>
+                        </tr>
+                        <tr>
+                            <th><span>pm</span>4:30</th>
+                            <td>Session</td>
+                        </tr>
+                        <tr>
+                            <th><span>pm</span>6:00</th>
+                            <td>Dinner Break</td>
+                        </tr>
+                        <tr>
+                            <th><span>pm</span>7:30</th>
+                            <td>Evening meeting</td>
+                        </tr>
+                    </table>
+
+
+                </article>
+            </section>
+
+        {% endif %}
+
+
+
+
+    {% endspaceless %}
+{% endblock %}

@@ -1,0 +1,178 @@
+{% extends "::layout.html.twig" %}
+
+{% block body %}
+
+    {% spaceless %}
+
+        <section class="info page" id="{{ page }}">
+
+            <article>
+                <div class="content">
+                    <h1>{{ 'general.registrations'|trans }}</h1>
+                </div>
+            </article>
+        </section>
+
+        <section class="content">
+            <article>
+
+                <h2><span>{{ 'registration.normal_price'|trans }}</span></h2>
+
+                <table class="price">
+                    <thead>
+                    <tr>
+                        <th></th>
+                        <th></th>
+                        <th>{{ 'registration.until'|trans }}</th>
+                        <th>{{ 'registration.from'|trans }}</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr class="regular">
+                        <th rowspan="2">{{ 'registration.entire_conference'|trans }}</th>
+                        <td class="title">{{ 'registration.adults'|trans }}</td>
+                        <td class="actual"><a
+                                    href="https://www.eventbrite.fr/e/billets-presence-conference-internationale-de-guerison-21726962931">CHF
+                                <span>60.-</span></a></td>
+                        <td>CHF <span>90.-</span></td>
+                    </tr>
+                    <tr class="reduced">
+                        <td class="title">{{ 'registration.16avs'|trans }}</td>
+                        <td class="actual"><a
+                                    href="https://www.eventbrite.fr/e/billets-presence-conference-internationale-de-guerison-21726962931">CHF
+                                <span>40.-</span></a></td>
+                        <td>CHF <span>75.-</span></td>
+                    </tr>
+                    <tr class="space">
+                        <td colspan="4"></td>
+                    </tr>
+                    <tr class="regular">
+                        <th rowspan="2">{{ 'registration.day_night'|trans }}</th>
+                        <td class="title">{{ 'registration.adults'|trans }}</td>
+                        <td></td>
+                        <td>CHF <span>30.-</span></td>
+                    </tr>
+                    <tr class="reduced">
+                        <td class="title">{{ 'registration.16avs'|trans }}</td>
+                        <td></td>
+                        <td>CHF <span>25.-</span></td>
+                    </tr>
+                    <tr class="space">
+                        <td colspan="4"></td>
+                    </tr>
+                    <tr class="regular">
+                        <th rowspan="2">{{ 'registration.night'|trans }}</th>
+                        <td class="title">{{ 'registration.adults'|trans }}</td>
+                        <td></td>
+                        <td>CHF <span>20.-</span></td>
+                    </tr>
+                    <tr class="reduced">
+                        <td class="title">{{ 'registration.16avs'|trans }}</td>
+                        <td></td>
+                        <td>CHF <span>17.-</span></td>
+                    </tr>
+                    </tbody>
+                    <tfoot>
+                    <tr>
+                        <td></td>
+                        <td colspan="3">{{ 'registration.studentsUnemployed'|trans }}</td>
+                    </tr>
+                    </tfoot>
+                </table>
+
+
+                <h2><span>{{ 'registration.support_price'|trans }}</span></h2>
+
+                {% if app.request.locale == "fr" %}
+
+                    <p>Ces trois jours exceptionnels sont proposés à un prix abordable afin que chacun ait l’occasion de
+                        vivre cette conférence ! Pour ceux qui désirent soutenir cet événement, nous vous proposons
+                        plusieurs packs de soutien comprenant :</p>
+
+                    <div class="pass" id="bronze">
+                        <div class="icon"></div>
+                        <ul>
+                            <li>Votre entrée</li>
+                            <li>Frais réels d’organisation</li>
+                        </ul>
+                    </div>
+                    <div class="pass" id="silver">
+                        <div class="icon"></div>
+                        <ul>
+                            <li>Votre entrée</li>
+                            <li>Frais réels d’organisation</li>
+                            <li>3 entrées offertes à une soirée à des non-croyants</li>
+                        </ul>
+                    </div>
+                    <div class="pass" id="golden">
+                        <div class="icon"></div>
+                        <ul>
+                            <li>Votre entrée</li>
+                            <li>Frais réels d’organisation</li>
+                            <li>10 entrées offertes à une soirée à des non-croyants</li>
+                            <li>130 bibles</li>
+                        </ul>
+                    </div>
+                    <div class="pass" id="platinium">
+                        <div class="icon"></div>
+                        <ul>
+                            <li>Votre entrée</li>
+                            <li>Frais réels d’organisation</li>
+                            <li>20 entrées offertes à une soirée à des non-croyants</li>
+                            <li>280 bibles</li>
+                        </ul>
+                    </div>
+
+                {% else %}
+
+                    <p>These three exceptional days are proposed to you at an affordable price so that everyone can
+                        enjoy this conference. For those of you who are willing to support this event, we suggest you
+                        many supporting packs containing:</p>
+
+                    <div class="pass" id="bronze">
+                        <div class="icon"></div>
+                        <ul>
+                            <li>Your entrance</li>
+                            <li>Real cost of the conference</li>
+                        </ul>
+                    </div>
+                    <div class="pass" id="silver">
+                        <div class="icon"></div>
+                        <ul>
+                            <li>Your entrance</li>
+                            <li>Real cost of the conference</li>
+                            <li>3 free entrances given to an evening for non-chritians</li>
+                        </ul>
+                    </div>
+                    <div class="pass" id="golden">
+                        <div class="icon"></div>
+                        <ul>
+                            <li>Your entrance</li>
+                            <li>Real cost of the conference</li>
+                            <li>10 free entrances given to an evening for non-chritians</li>
+                            <li>130 Bibles</li>
+                        </ul>
+                    </div>
+                    <div class="pass" id="platinium">
+                        <div class="icon"></div>
+                        <ul>
+                            <li>Your entrance</li>
+                            <li>Real cost of the conference</li>
+                            <li>20 free entrances given to an evening for non-chritians</li>
+                            <li>280 Bibles</li>
+                        </ul>
+                    </div>
+
+                {% endif %}
+
+
+                <p class="big_button"><a target="_blank"
+                                         href="https://www.eventbrite.fr/e/billets-presence-conference-internationale-de-guerison-21726962931">{{ 'registration.buy_tickets'|trans }}</a>
+                </p>
+
+
+            </article>
+        </section>
+
+    {% endspaceless %}
+{% endblock %}

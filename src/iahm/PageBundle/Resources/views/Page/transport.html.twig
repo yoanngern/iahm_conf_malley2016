@@ -1,0 +1,147 @@
+{% extends "::layout.html.twig" %}
+
+{% block body %}
+
+    {% spaceless %}
+
+        <section class="info page" id="{{ page }}">
+
+            <article>
+                <div class="content">
+                    <h1>{{ 'general.transport'|trans|raw }}</h1>
+                </div>
+            </article>
+        </section>
+
+        {% if app.request.locale == "fr" %}
+
+            <section class="content">
+                <article>
+
+                    <h2><span>Adresse</span></h2>
+
+                    <p>Centre Intercommunal de Glace de Malley S.A.<br/>
+                        Chemin du Viaduc 14<br/>
+                        1008 Prilly<br/>
+                        Suisse</p>
+
+                    <iframe id="map"
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2744.955501248884!2d6.597998216420369!3d46.528782379127954!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x478c31c7d5d2d885%3A0xc80fa7275939a518!2sCentre+Intercommunal+de+Glace+de+Malley!5e0!3m2!1sfr!2sch!4v1456158962135"
+                            width="600" height="350" frameborder="0" style="border:0" allowfullscreen></iframe>
+
+                    <h2><span>En voiture</span></h2>
+
+                    <img width="139px" height="100px" src="/images/espace_malley.jpg" alt="avl interprètes sàrl">
+
+                    <p>L’itinéraire d’accès « Malley » est signalé sur les sorties d’autoroute.</p>
+
+                    <h3>Depuis Genève / A1</h3>
+                    <p>Autoroute : Direction « Lausanne-Sud » – Sortie : « Lausanne-Malley » puis suivre les panneaux
+                        "Malley".</p>
+
+                    <h3>Depuis le Valais / A9</h3>
+                    <p>Autoroute : Sortie « Blécherette » puis suivre les panneaux « Malley ».</p>
+
+                    <h3>Mobilité réduite</h3>
+                    <p>Pour les personnes à mobilité réduite, outre les 6 places de parking devant l'entrée principale,
+                        l'accès à l'Espace Odyssée se fait par le côté « sud ».</p>
+
+                    {#
+                    <h3>Le covoiturage, le bon réflexe !</h3>
+                    <p>Profitez, vous aussi, des avantages d'un moyen de transport économique, convivial et
+                        écologique.</p>
+
+                        #}
+
+                    <h2><span>Transports publics</span></h2>
+                    <h3>Train CFF</h3>
+                    <p>Ligne: S1 / S2 / S3</p>
+                    <p>A partir des gares de Renens ou Lausanne, connexion directe et très rapide avec la halte de
+                        Prilly-Malley (3 minutes à pied)</p>
+                    <p><a target="_blank" href="http://www.cff.ch">www.cff.ch</a></p>
+
+                    <h3>Bus</h3>
+                    <p>ligne 17 - arrêt Galicien ou Perrelet</p>
+                    <p>ligne 18 - arrêt Perrelet</p>
+                    <p>ligne 32 - arrêt Galicien</p>
+                    <p>ligne 33 - arrêt Galicien</p>
+                    <p><a target="_blank" href="http://www.t-l.ch">www.t-l.ch</a></p>
+
+
+
+                    <h3>Métro</h3>
+                    <p>M1 - arrêt Malley</p>
+                    <p><a target="_blank" href="http://www.t-l.ch">www.t-l.ch</a></p>
+
+                    {#
+                    <h2><span>Plan</span></h2>
+                    #}
+                </article>
+            </section>
+
+        {% else %}
+
+            <section class="content">
+                <article>
+
+                    <h2><span>Address</span></h2>
+
+                    <p>Centre Intercommunal de Glace de Malley S.A.<br/>
+                        Chemin du Viaduc 14<br/>
+                        1008 Prilly<br/>
+                        Switzerland</p>
+
+                    <iframe id="map"
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2744.955501248884!2d6.597998216420369!3d46.528782379127954!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x478c31c7d5d2d885%3A0xc80fa7275939a518!2sCentre+Intercommunal+de+Glace+de+Malley!5e0!3m2!1sfr!2sch!4v1456158962135"
+                            width="600" height="350" frameborder="0" style="border:0" allowfullscreen></iframe>
+
+                    <h2><span>By car</span></h2>
+
+                    <p>The itinerary for "Malley" is indicated on the freeway exit </p>
+
+                    <h3>From Geneva / A1</h3>
+                    <p>Freeway: To "Lausanne-Sud" - Exit: "Lausanne-Malley" then follow signs "Malley"</p>
+
+                    <h3>From Valais / A9</h3>
+                    <p>Freeway: Exit: "Blécherette" then follow signs "Malley"</p>
+
+                    <h3>People with reduced mobility</h3>
+                    <p>For people with reduced mobility, besides the 6 parking spaces in front of the principal
+                        entrance, the access to the "Espace Odysée" is by the south entrance </p>
+
+                    {#
+                    <h3>Carpooling is encouraged </h3>
+                    <p>You too can benefit of an economic and environmentally friendly mode of transport.</p>
+                    #}
+
+                    <h2><span>Public Transports</span></h2>
+                    <h3>Train SBB/CFF</h3>
+                    <p>Line: S1 / S2 / S3</p>
+                    <p>From the train station of Renens or Lausanne, take the train to the stop "Prilly-Malley" (3 min
+                        walk)</p>
+                    <p><a target="_blank" href="http://www.sbb.ch/en/home.html">www.sbb.ch</a></p>
+
+                    <h3>Buses</h3>
+                    <p>line 17 - Galicien or Perrelet Stop</p>
+                    <p>line 18 - Perrelet Stop</p>
+                    <p>line 32 - Galicien Stop</p>
+                    <p>line 33 - Galicien Stop</p>
+                    <p><a target="_blank" href="http://www.t-l.ch/en/">www.t-l.ch</a></p>
+
+                    <h3>Subway</h3>
+                    <p>M1 - Malley Stop</p>
+                    <p><a target="_blank" href="http://www.t-l.ch/en/">www.t-l.ch</a></p>
+
+                    {#
+                    <h2><span>Plan</span></h2>
+                    #}
+                </article>
+            </section>
+
+        {% endif %}
+
+
+
+
+    {% endspaceless %}
+{% endblock %}

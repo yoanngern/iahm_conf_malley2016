@@ -1,0 +1,30 @@
+{% extends "::layout.html.twig" %}
+
+{% block body %}
+
+    {% spaceless %}
+
+        <section class="info page" id="{{ page }}">
+
+            <article>
+                <div class="content">
+                    <h1>{{ 'general.contact'|trans|raw }}</h1>
+                </div>
+            </article>
+        </section>
+
+        <section class="content">
+            <article>
+
+                <form class="contact" action="" method="POST">
+                    <input name="name" type="text" placeholder="{{ 'general.name'|trans|raw }}">
+                    <input name="email" type="text" placeholder="{{ 'general.email'|trans|raw }}">
+                    <input name="phone" type="text" placeholder="{{ 'general.phone'|trans|raw }}">
+                    <textarea rows="4"  name="message" placeholder="{{ 'general.message'|trans|raw }}"></textarea>
+                    <input type="submit" value="{{ 'general.send'|trans|raw }}" class="buttonLink"/>
+                </form>
+
+            </article>
+        </section>
+    {% endspaceless %}
+{% endblock %}

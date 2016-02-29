@@ -1,0 +1,154 @@
+{% extends "::layout.html.twig" %}
+
+{% block body %}
+
+    {% spaceless %}
+
+        <section class="info page" id="{{ page }}">
+            <article>
+                <div class="content">
+                    <h1>{{ 'general.speakers_title'|trans }}</h1>
+                </div>
+            </article>
+        </section>
+
+        <section class="speakers">
+            <section class="speaker solo" id="HeidiBaker">
+                <article>
+                    <div class="photo"></div>
+                    <div class="content">
+                        <h1>Heidi Baker</h1>
+                        <a href="{{ path('iahm_page_custom', {'name': 'HeidiBaker'}) }}" class="button"><span>{{ 'general.more_info'|trans }}</span></a>
+                    </div>
+                </article>
+            </section>
+            <section class="speaker solo" id="PaulManwaring">
+                <article>
+                    <div class="photo"></div>
+                    <div class="content">
+                        <h1>Paul Manwaring</h1>
+                        <a href="{{ path('iahm_page_custom', {'name': 'PaulManwaring'}) }}"
+                           class="button"><span>{{ 'general.more_info'|trans }}</span></a>
+                    </div>
+                </article>
+            </section>
+            <section class="speaker solo" id="ToddWhite">
+                <article>
+                    <div class="photo"></div>
+                    <div class="content">
+                        <h1>Todd White</h1>
+                        <a href="{{ path('iahm_page_custom', {'name': 'ToddWhite'}) }}" class="button"><span>{{ 'general.more_info'|trans }}</span></a>
+                    </div>
+                </article>
+            </section>
+            <section class="speaker solo" id="MichaelKoulianos">
+                <article>
+                    <div class="photo"></div>
+                    <div class="content">
+                        <h1>Michael Koulianos</h1>
+                        <a href="{{ path('iahm_page_custom', {'name': 'MichaelKoulianos'}) }}"
+                           class="button"><span>{{ 'general.more_info'|trans }}</span></a>
+                    </div>
+                </article>
+            </section>
+            <section class="speaker multi">
+                {#
+                <article id="PhilipMantofa">
+                    <a href="{{ path }}/PhilipMantofa" class="black">
+                        <section>
+                            <h1>Philip Mantofa</h1>
+
+                            <div class="button">{{ 'general.more_info'|trans }}</div>
+                        </section>
+                    </a>
+                </article>
+                #}
+                <article id="BenFitzgerald">
+                    <a href="{{ path('iahm_page_custom', {'name': 'BenFitzgerald'}) }}" class="black">
+                        <section>
+                            <h1>Ben Fitzgerald</h1>
+
+                            <div class="button">{{ 'general.more_info'|trans }}</div>
+                        </section>
+                    </a>
+                </article>
+                <article id="PeterWenz">
+                    <a href="{{ path('iahm_page_custom', {'name': 'PeterWenz'}) }}" class="black">
+                        <section>
+                            <h1>Peter Wenz</h1>
+
+                            <div class="button">{{ 'general.more_info'|trans }}</div>
+                        </section>
+                    </a>
+                </article>
+                <article id="MatthiasKuhn">
+                    <a href="{{ path('iahm_page_custom', {'name': 'MatthiasKuhn'}) }}" class="black">
+                        <section>
+                            <h1>Matthias "Kuno" Kuhn</h1>
+
+                            <div class="button">{{ 'general.more_info'|trans }}</div>
+                        </section>
+                    </a>
+                </article>
+                <article id="CarlosPayan">
+                    <a href="{{ path('iahm_page_custom', {'name': 'CarlosPayan'}) }}" class="black">
+                        <section>
+                            <h1>Carlos Payan</h1>
+
+                            <div class="button">{{ 'general.more_info'|trans }}</div>
+                        </section>
+                    </a>
+                </article>
+                <article id="Jean-MichelTour">
+                    <a href="{{ path('iahm_page_custom', {'name': 'Jean-MichelTour'}) }}" class="black">
+                        <section>
+                            <h1>Jean-Michel Tour</h1>
+
+                            <div class="button">{{ 'general.more_info'|trans }}</div>
+                        </section>
+                    </a>
+                </article>
+                <article Id="UrbanCamenzind">
+                    <a href="{{ path('iahm_page_custom', {'name': 'UrbanCamenzind'}) }}" class="black">
+                        <section>
+                            <h1>Urban Camenzind</h1>
+
+                            <div class="button">{{ 'general.more_info'|trans }}</div>
+                        </section>
+                    </a>
+                </article>
+                <article id="NicolasButtet">
+                    <a href="{{ path('iahm_page_custom', {'name': 'NicolasButtet'}) }}" class="black">
+                        <section>
+                            <h1>Nicolas Buttet</h1>
+
+                            <div class="button">{{ 'general.more_info'|trans }}</div>
+                        </section>
+                    </a>
+                </article>
+                <article id="WernerLehmann">
+                    <a href="{{ path('iahm_page_custom', {'name': 'WernerLehmann'}) }}" class="black">
+                        <section>
+                            <h1>Werner Lehmann</h1>
+
+                            <div class="button">{{ 'general.more_info'|trans }}</div>
+                        </section>
+                    </a>
+                </article>
+                <article id="Jean-LucTrachsel">
+                    <a href="{{ path('iahm_page_custom', {'name': 'Jean-LucTrachsel'}) }}" class="black">
+                        <section>
+                            <h1>Jean-Luc Trachsel</h1>
+
+                            <div class="button">{{ 'general.more_info'|trans }}</div>
+                        </section>
+                    </a>
+                </article>
+            </section>
+        </section>
+
+
+
+
+    {% endspaceless %}
+{% endblock %}

@@ -1,0 +1,234 @@
+section.page section.speakers {
+
+    .speaker {
+        display: block;
+        width: 100%;
+
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+
+        background-color: $gray2;
+
+        &.solo {
+            height: 300px;
+
+            .content {
+                bottom: 10%;
+                position: absolute;
+
+                h1 {
+                    text-transform: uppercase;
+                    color: $white;
+                    font-size: 2.4em;
+                    font-family: $font-conf-bold;
+                    line-height: 60px;
+                    text-align: center;
+                }
+
+                a.button {
+                    background-color: $white;
+                    color: $gray2;
+                    line-height: 20px;
+                    padding: 7px 5px 2px 5px;
+                    text-decoration: none;
+                    font-size: 1.2em;
+                    display: inline-block;
+                    text-align: center;
+                }
+            }
+
+            .photo {
+                display: block;
+                width: 300px;
+                height: 300px;
+                background-repeat: no-repeat;
+                background-position: bottom center;
+                background-size: contain;
+                float: left;
+            }
+
+            &#HeidiBaker {
+                background-image: url("../images/background1.jpg");
+
+                .photo {
+
+                    background-image: url("../images/HeidiBaker.png");
+                }
+
+                .content {
+                    left: 37%;
+                    right: inherit;
+                }
+            }
+
+            &#PaulManwaring {
+                background-image: url("../images/background2.jpg");
+
+                .photo {
+                    float: right;
+                    background-image: url("../images/PaulManwaring.png");
+                }
+
+                a.button {
+                    float: right;
+                }
+
+                .content {
+                    right: 36%;
+                    left: inherit;
+                }
+            }
+
+            &#ToddWhite {
+                background-image: url("../images/background3.jpg");
+
+                .photo {
+                    width: 500px;
+                    background-image: url("../images/ToddWhite.png");
+                }
+
+                a.button {
+                    float: left;
+                }
+
+                .content {
+                    left: 42%;
+                    right: inherit;
+                }
+            }
+
+            &#MichaelKoulianos {
+                background-image: url("../images/background4.jpg");
+
+                .photo {
+                    float: right;
+                    background-image: url("../images/MichaelKoulianos.png");
+                }
+
+                a.button {
+                    float: right;
+                }
+
+                .content {
+                    right: 37%;
+                    left: inherit;
+                }
+            }
+
+        }
+
+        &.multi {
+            background: $black;
+            text-align: center;
+
+            article {
+                display: inline-block;
+                width: 20%;
+                height: 220px;
+                margin: 0;
+                padding: 0;
+                vertical-align: top;
+                background-position: top center;
+                background-repeat: no-repeat;
+                background-size: cover;
+                position: relative;
+
+                &#PhilipMantofa {
+                    background-image: url('../images/PhilipMantofa.jpg');
+                }
+
+                &#BenFitzgerald {
+                    background-image: url('../images/BenFitzgerald.jpg');
+                }
+
+                &#PeterWenz {
+                    background-image: url('../images/PeterWenz.jpg');
+                }
+
+                &#MatthiasKuhn {
+                    background-image: url('../images/MatthiasKuhn.jpg');
+                }
+
+                &#CarlosPayan {
+                    background-image: url('../images/CarlosPayan.jpg');
+                }
+
+                &#Jean-MichelTour {
+                    background-image: url('../images/Jean-MichelTour.jpg');
+                }
+
+                &#UrbanCamenzind {
+                    background-image: url('../images/UrbanCamenzind.jpg');
+                }
+
+                &#NicolasButtet {
+                    background-image: url('../images/NicolasButtet.jpg');
+                }
+
+                &#WernerLehmann {
+                    background-image: url('../images/WernerLehmann.jpg');
+                }
+
+                &#Jean-LucTrachsel {
+                    background-image: url('../images/Jean-LucTrachsel.jpg');
+                }
+
+                &:hover {
+
+                    a.black {
+                        background-color: rgba($black, 0.6);
+                    }
+
+                    section {
+                        bottom: 10%;
+                    }
+
+                    div.button {
+                        margin-top: 30px;
+                        display: inline-block;
+                    }
+                }
+
+                a.black {
+                    background-color: rgba($black, 0.2);
+                    height: 100%;
+                    display: block;
+                    width: 100%;
+                }
+
+                section {
+                    width: 100%;
+                    margin: 0;
+                    text-align: center;
+                    position: absolute;
+                    bottom: 5%;
+
+                    h1 {
+                        text-align: center;
+                        color: $white;
+                        font-size: 1.4em;
+                        text-transform: uppercase;
+                        font-family: $font-conf-bold;
+
+                    }
+
+                    div.button {
+                        display: none;
+                        background-color: $white;
+                        color: $gray2;
+                        line-height: 20px;
+                        padding: 7px 5px 2px 5px;
+                        text-decoration: none;
+                        font-size: 1.2em;
+                        text-align: center;
+                    }
+                }
+            }
+
+        }
+
+    }
+
+}

@@ -15,168 +15,75 @@
                 <h1>{{ 'general.dates'|trans|raw }}</h1>
 
                 <h2>{{ 'general.place'|trans|raw }}</h2>
+
+                <a href="{{ path('iahm_page_custom', {'name': 'transport'}) }}"
+                   class="button"><span>{{ 'general.access'|trans }}</span></a>
             </article>
         </section>
 
-        <section class="speakers">
-            <section class="speaker solo" id="HeidiBaker">
-                <article>
-                    <div class="photo"></div>
-                    <div class="content">
-                        <h1>Heidi Baker</h1>
-                        <a href="{{ path }}/HeidiBaker" class="button"><span>{{ 'general.more_info'|trans }}</span></a>
-                    </div>
-                </article>
-            </section>
-            <section class="speaker solo" id="PaulManwaring">
-                <article>
-                    <div class="photo"></div>
-                    <div class="content">
-                        <h1>Paul Manwaring</h1>
-                        <a href="{{ path }}/PaulManwaring" class="button"><span>{{ 'general.more_info'|trans }}</span></a>
-                    </div>
-                </article>
-            </section>
-            <section class="speaker solo" id="ToddWhite">
-                <article>
-                    <div class="photo"></div>
-                    <div class="content">
-                        <h1>Todd White</h1>
-                        <a href="{{ path }}/ToddWhite" class="button"><span>{{ 'general.more_info'|trans }}</span></a>
-                    </div>
-                </article>
-            </section>
-            <section class="speaker solo" id="MichaelKoulianos">
-                <article>
-                    <div class="photo"></div>
-                    <div class="content">
-                        <h1>Michael Koulianos</h1>
-                        <a href="{{ path }}/MichaelKoulianos"
-                           class="button"><span>{{ 'general.more_info'|trans }}</span></a>
-                    </div>
-                </article>
-            </section>
-            <section class="speaker multi">
-                <article id="PhilipMantofa">
-                    <a href="{{ path }}/PhilipMantofa" class="black">
-                        <section>
-                            <h1>Philip Mantofa</h1>
+        <section class="video">
 
-                            <div class="button">{{ 'general.more_info'|trans }}</div>
-                        </section>
-                    </a>
-                </article>
-                <article id="BenFitzgerald">
-                    <a href="{{ path }}/BenFitzgerald" class="black">
-                        <section>
-                            <h1>Ben Fitzgerald</h1>
-
-                            <div class="button">{{ 'general.more_info'|trans }}</div>
-                        </section>
-                    </a>
-                </article>
-                <article id="PeterWenz">
-                    <a href="{{ path }}/PeterWenz" class="black">
-                        <section>
-                            <h1>Peter Wenz</h1>
-
-                            <div class="button">{{ 'general.more_info'|trans }}</div>
-                        </section>
-                    </a>
-                </article>
-                <article id="MatthiasKuhn">
-                    <a href="{{ path }}/MatthiasKuhn" class="black">
-                        <section>
-                            <h1>Matthias "Kuno" Kuhn</h1>
-
-                            <div class="button">{{ 'general.more_info'|trans }}</div>
-                        </section>
-                    </a>
-                </article>
-                <article id="CarlosPayan">
-                    <a href="{{ path }}/CarlosPayan" class="black">
-                        <section>
-                            <h1>Carlos Payan</h1>
-
-                            <div class="button">{{ 'general.more_info'|trans }}</div>
-                        </section>
-                    </a>
-                </article>
-                <article id="Jean-MichelTour">
-                    <a href="{{ path }}/Jean-MichelTour" class="black">
-                        <section>
-                            <h1>Jean-Michel Tour</h1>
-
-                            <div class="button">{{ 'general.more_info'|trans }}</div>
-                        </section>
-                    </a>
-                </article>
-                <article Id="UrbanCamenzind">
-                    <a href="{{ path }}/UrbanCamenzind" class="black">
-                        <section>
-                            <h1>Urban Camenzind</h1>
-
-                            <div class="button">{{ 'general.more_info'|trans }}</div>
-                        </section>
-                    </a>
-                </article>
-                <article id="NicolasButtet">
-                    <a href="{{ path }}/NicolasButtet" class="black">
-                        <section>
-                            <h1>Nicolas Buttet</h1>
-
-                            <div class="button">{{ 'general.more_info'|trans }}</div>
-                        </section>
-                    </a>
-                </article>
-                <article id="WernerLehmann">
-                    <a href="{{ path }}/WernerLehmann" class="black">
-                        <section>
-                            <h1>Werner Lehmann</h1>
-
-                            <div class="button">{{ 'general.more_info'|trans }}</div>
-                        </section>
-                    </a>
-                </article>
-                <article id="Jean-LucTrachsel">
-                    <a href="{{ path }}/Jean-LucTrachsel" class="black">
-                        <section>
-                            <h1>Jean-Luc Trachsel</h1>
-
-                            <div class="button">{{ 'general.more_info'|trans }}</div>
-                        </section>
-                    </a>
-                </article>
-            </section>
-        </section>
-
-        <section class="registration">
             <article>
-                <h1>{{ 'general.registration_opens'|trans|nl2br }}</h1>
+
+                <div id="fb-root"></div>
+                <script>(function (d, s, id) {
+                        var js, fjs = d.getElementsByTagName(s)[0];
+                        if (d.getElementById(id)) return;
+                        js = d.createElement(s);
+                        js.id = id;
+                        js.src = "//connect.facebook.net/fr_FR/sdk.js#xfbml=1&version=v2.3";
+                        fjs.parentNode.insertBefore(js, fjs);
+                    }(document, 'script', 'facebook-jssdk'));</script>
+                <div class="fb-video" data-allowfullscreen="1"
+                     data-href="/iahmConference/videos/p.800029676792996/800029676792996/?type=3"></div>
+
             </article>
         </section>
 
-        <section class="getInfo">
+        <section class="presentation_txt">
 
             <article>
 
-                <h1>{{ 'general.first_informed'|trans|nl2br }}</h1>
+                {{ 'presentation.conf'|trans|raw }}
+            </article>
+        </section>
 
-                <form action='http://news.laguerison.org/proc.php' method='post'
-                      accept-charset='utf-8' enctype='multipart/form-data'>
-                    <input type='hidden' name='f' {% if app.request.locale == "fr" %}value='44'
-                           {% else %}value='40'{% endif %}>
-                    <input type='hidden' name='s' value=''>
-                    <input type='hidden' name='c' value='0'>
-                    <input type='hidden' name='m' value='0'>
-                    <input type='hidden' name='act' value='sub'>
-                    <input type='hidden' name='nlbox[]' value='3'>
+        <section class="speakers_link">
 
-                    <input type='email' placeholder="{{ 'general.email'|trans }}" name='email'>
+            <article>
+                <h1>{{ 'general.speakers_title'|trans }}</h1>
 
-                    <input type='submit' value="{{ 'general.send'|trans }}">
+                <a href="{{ path('iahm_page_custom', {'name': 'speakers'}) }}"
+                   class="button"><span>{{ 'general.discover_speakers'|trans }}</span></a>
+            </article>
 
-                </form>
+            <div class="speakers"></div>
+        </section>
+
+        <section class="infos">
+            <article>
+
+                <h1>{{ 'general.more_info_title'|trans }}</h1>
+
+                <a id="transport"
+                   href="{{ path('iahm_page_custom', {'name': 'transport'}) }}"><span>{{ 'general.transport'|trans }}</span></a>
+                <a id="schedule"
+                   href="{{ path('iahm_page_custom', {'name': 'schedule'}) }}"><span>{{ 'general.schedule'|trans }}</span></a>
+                <a id="meal"
+                   href="{{ path('iahm_page_custom', {'name': 'meal'}) }}"><span>{{ 'general.meal'|trans }}</span></a>
+                <a id="accommodation"
+                   href="{{ path('iahm_page_custom', {'name': 'accommodation'}) }}"><span>{{ 'general.accommodation'|trans }}</span></a>
+                <a id="partners"
+                   href="{{ path('iahm_page_custom', {'name': 'partners'}) }}"><span>{{ 'general.partners'|trans }}</span></a>
+
+            </article>
+        </section>
+
+        <section class="register">
+
+            <article>
+
+                <a href="{{ path('iahm_page_custom', {'name': 'registration'}) }}"><span>{{ 'general.register'|trans }}</span></a>
             </article>
         </section>
 

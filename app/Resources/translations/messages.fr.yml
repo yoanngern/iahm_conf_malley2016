@@ -3,6 +3,8 @@ general:
         <span>5 - 7 mai 2016</span>
     place: Patinoire de Malley // Lausanne (CH)
     more_info: Plus d'infos
+    more_info_title: Plus d'informations
+    discover_speakers: Présentation
     registration_opens: |
             Ouverture des inscriptions
             fin Février 2016
@@ -10,9 +12,24 @@ general:
             Sois le premier
             à être informé :
     email: E-mail
+    name: Nom
+    phone: Téléphone
+    message: Votre message
     send: Envoyer
     register: S'inscrire
     international_conf: Conférence Internationale de Guérison
     back_home: Retour à la page d'accueil
     thanks: Merci
-    thanks_informed: Un e-mail de confirmation vous a été envoyé.
+    thanks_informed: Merci d'avoir pris le temps de nous envoyer un message. Nous vous répondrons dans les meilleurs délais.
+    access: Plan et accès
+    registrations: Inscriptions
+    speakers: Orateurs
+    speakers_title: Orateurs et intervenants
+    transport: Transports
+    schedule: Horaires
+    meal: Repas
+    accommodation: Logement
+    partners: Partenaires
+    contact: Contact
+    until: Jusqu’au
+    from: Depuis

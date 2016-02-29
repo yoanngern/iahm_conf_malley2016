@@ -4,134 +4,115 @@
 
     {% spaceless %}
 
+        <section class="info page" id="{{ page }}">
+
+            <article>
+                <div class="content">
+                    <h1>{{ 'general.accommodation'|trans|raw }}</h1>
+                </div>
+            </article>
+        </section>
+
         {% if app.request.locale == "fr" %}
-
-            <section class="info page" id="{{ page }}">
-
-                <article>
-                    <div class="content">
-                        <h1>Logement</h1>
-                    </div>
-                </article>
-            </section>
 
             <section class="content">
                 <article>
 
-                    <p>Si vous désirez être logé à proximité du lieu de la conférence, voici quelques informations qui vous
-                        permettront de faire le nécessaire rapidement.</p>
+                    <h2><span>Hotels</span></h2>
 
-                    <h2>Hotels</h2>
+                    <p><a target="_blank"
+                          href="http://www.booking.com/landmark/ch/cig-de-malley.fr.html?aid=318615;label=New_French_FR_5226378145-l1PWjR2gJS65ZDk_ik2GqQS73336353985:pl:ta:p1:p2:ac:ap1t1:neg;ws=&gclid=CNjs-rfoi8sCFUSVGwod5iEPFg">www.booking.com</a>
+                    </p>
 
-                    <h3>Hôtel de la Gare</h3>
+                    <p><a target="_blank" href="http://www.eurobookings.com/landmark/ch/cig-de-malley.fr.html">www.eurobookings.com</a>
+                    </p>
 
-                    <p>Rue de la Gare 1<br/>
-                        1607 Palézieux </p>
+                    <p><a target="_blank"
+                          href="https://fr.hotels.com/de1740910/hotel-quartier-patinoire-de-malley-lausanne-suisse/">www.hotels.com</a>
+                    </p>
 
-                    <p>021 907 81 08</p>
+                    <p><a target="_blank"
+                          href="http://www.trivago.ch/fr/lausanne-49810/quartiers/sebeillon-malley-1990461">www.trivago.ch</a>
+                    </p>
 
-
-                    <h3>Motel des fleurs</h3>
-
-                    <p>Route Cantonale 7<br/>
-                        1077 Servion</p>
-
-                    <p>021 903 44 43</p>
-
-                    <h3>Auberge Communale</h3>
-
-                    <p>Route du Village 3<br/>
-                        1082 Corcelles-le-Jorat</p>
-
-                    <p>021 903 40 11</p>
-
-                    <h3>Auberge de l'Hôtel de Ville</h3>
-
-                    <p>Grand-Rue 34<br/>
-                        1623 Semsales</p>
-
-                    <p>026 918 51 06</p>
-
-                    <h3>Hôtel des Alpes</h3>
-
-                    <p>Route d'Oron 1<br/>
-                        1073 Savigny</p>
-
-                    <p>021 781 11 11</p>
-
-                    <h2>Chambres chez l'habitant</h2>
+                    <h2><span>Chambres chez l'habitant</span></h2>
 
                     <p>Pour trouver une chambre proche, vous pouvez réserver sur :</p>
 
                     <p><a target="_blank" href="http://fr.airbnb.ch">fr.airbnb.ch</a></p>
 
                     <p><a target="_blank" href="http://www.bnb.ch">www.bnb.ch</a></p>
+
+                    <h2><span>Auberge de Jeunesse</span></h2>
+                    <p><a target="_blank"
+                          href="http://www.youthhostel.ch/fr/hostels/lausanne">www.youthhostel.ch</a></p>
+
+
+                    <h2><span>Camping</span></h2>
+
+
+                    <h3>Camping de Vidy</h3>
+                    <p>Chemin du Camping 3<br/>
+                        1007 Lausanne</p>
+                    <p>+41 (0) 21 622 50 00</p>
+
+                    <p><a target="_blank"
+                          href="http://www.campinglausannevidy.ch/">www.campinglausannevidy.ch</a>
+                    </p>
+
                 </article>
             </section>
 
         {% else %}
-
-            <section class="info page" id="{{ page }}">
-                <article>
-                    <div class="content">
-                        <h1>Accommodation</h1>
-                    </div>
-                </article>
-            </section>
-
             <section class="content">
                 <article>
 
-                    <p>Si vous désirez être logé à proximité du lieu de la conférence, voici quelques informations qui vous
-                        permettront de faire le nécessaire rapidement.</p>
+                    <h2><span>Hotels</span></h2>
 
-                    <h2>Hotels</h2>
+                    <p><a target="_blank"
+                          href="http://www.booking.com/landmark/ch/cig-de-malley.fr.html?aid=318615;label=New_French_FR_5226378145-l1PWjR2gJS65ZDk_ik2GqQS73336353985:pl:ta:p1:p2:ac:ap1t1:neg;ws=&gclid=CNjs-rfoi8sCFUSVGwod5iEPFg">www.booking.com</a>
+                    </p>
 
-                    <h3>Hôtel de la Gare</h3>
+                    <p><a target="_blank" href="http://www.eurobookings.com/landmark/ch/cig-de-malley.fr.html">www.eurobookings.com</a>
+                    </p>
 
-                    <p>Rue de la Gare 1<br/>
-                        1607 Palézieux </p>
+                    <p><a target="_blank"
+                          href="https://fr.hotels.com/de1740910/hotel-quartier-patinoire-de-malley-lausanne-suisse/">www.hotels.com</a>
+                    </p>
 
-                    <p>021 907 81 08</p>
+                    <p><a target="_blank"
+                          href="http://www.trivago.ch/fr/lausanne-49810/quartiers/sebeillon-malley-1990461">www.trivago.ch</a>
+                    </p>
 
+                    <h2><span>Guest house</span></h2>
 
-                    <h3>Motel des fleurs</h3>
-
-                    <p>Route Cantonale 7<br/>
-                        1077 Servion</p>
-
-                    <p>021 903 44 43</p>
-
-                    <h3>Auberge Communale</h3>
-
-                    <p>Route du Village 3<br/>
-                        1082 Corcelles-le-Jorat</p>
-
-                    <p>021 903 40 11</p>
-
-                    <h3>Auberge de l'Hôtel de Ville</h3>
-
-                    <p>Grand-Rue 34<br/>
-                        1623 Semsales</p>
-
-                    <p>026 918 51 06</p>
-
-                    <h3>Hôtel des Alpes</h3>
-
-                    <p>Route d'Oron 1<br/>
-                        1073 Savigny</p>
-
-                    <p>021 781 11 11</p>
-
-                    <h2>Chambres chez l'habitant</h2>
-
-                    <p>Pour trouver une chambre proche, vous pouvez réserver sur :</p>
+                    <p>To find a guest house, you can apply on :</p>
 
                     <p><a target="_blank" href="http://fr.airbnb.ch">fr.airbnb.ch</a></p>
 
                     <p><a target="_blank" href="http://www.bnb.ch">www.bnb.ch</a></p>
+
+
+
+                    <h2><span>Youth hostel</span></h2>
+                    <p><a target="_blank"
+                          href="http://www.youthhostel.ch/fr/hostels/lausanne">www.youthhostel.ch</a></p>
+
+                    <h2><span>Camping</span></h2>
+
+
+                    <h3>Camping de Vidy</h3>
+                    <p>Chemin du Camping 3<br/>
+                        1007 Lausanne</p>
+                    <p>+41 (0) 21 622 50 00</p>
+
+                    <p><a target="_blank"
+                          href="http://www.campinglausannevidy.ch/">www.campinglausannevidy.ch</a>
+                    </p>
+
                 </article>
             </section>
+
 
         {% endif %}
 

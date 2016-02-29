@@ -1,0 +1,252 @@
+{% extends "::layout.html.twig" %}
+
+{% block body %}
+
+    {% spaceless %}
+
+        <section class="info page" id="{{ page }}">
+
+            <article>
+                <div class="content">
+                    <h1>{{ 'general.meal'|trans|raw }}</h1>
+                </div>
+            </article>
+        </section>
+
+        {% if app.request.locale == "fr" %}
+            <section class="content">
+                <article>
+
+                    <h2><span>Sur place</span></h2>
+
+                    <p>Sandwichs, snacks et boissons en vente sur le site</p>
+
+                    <h2><span>Restaurants</span></h2>
+
+                    <h3>Brasserie de Malley</h3>
+
+                    <p>Chemin de Renens 56<br/>
+                        1004 Lausanne</p>
+
+                    <p>+41 (0) 21 625 95 25</p>
+
+                    <h3>Restaurant Café des Bouchers</h3>
+
+                    <p>Avenue du Chablais 21<br/>
+                        1008 Prilly</p>
+
+                    <p>+41 (0) 21 624 08 08</p>
+
+                    <h3>Restaurant de la Patinoire</h3>
+
+                    <p>Patinoire de Malley<br/>
+                        Chemin du Viaduc 14<br/>
+                        1008 Prilly</p>
+
+                    <p>+41 (0) 21 625 58 34</p>
+
+                    <h3>Passaggio freeflow Restaurant Spizzico</h3>
+
+                    <p>Chemin du Viaduc 1<br/>
+                        1008 Prilly</p>
+
+                    <p>+41 (0) 21 661 32 61</p>
+
+                    <h3>Restaurant Aux Reflets des Isles</h3>
+
+                    <p>Chemin de Renens 43<br/>
+                        1004 Lausanne</p>
+
+                    <p>+41 (0) 21 625 41 57</p>
+
+                    <h3>Brasserie des Abattoirs</h3>
+
+                    <p>Avenue du Chablais 28<br/>
+                        1007 Lausanne</p>
+
+                    <p>+41 (0) 21 661 11 50</p>
+
+                    <h3>ABC Soleil Sa</h3>
+
+                    <p>Avenue du Chablais 29<br/>
+                        1008 Prilly</p>
+
+                    <p>+41 (0) 21 624 72 23</p>
+
+                    <h2><span>Supermarchés</span></h2>
+
+                    <h3>COOP - Prilly Malley</h3>
+                    <p>Avenue du Chablais 41<br/>
+                        1008 Prilly</p>
+
+                    <h4>Heures d’ouverture :</h4>
+                    <p>Jeudi 5 mai : fermé<br/>
+                        Vendredi 6 mai : 7h30-20h<br/>
+                        Samedi 7 mai : 7h30-18h</p>
+
+                    <h3>MIGROS - CENTRE MALLEY-LUMIERES</h3>
+
+                    <p>Chemin du Viaduc 1<br/>
+                        1008 Prilly</p>
+
+                    <h4>Heures d’ouverture :</h4>
+                    <p>Jeudi 5 mai : fermé<br/>
+                        Vendredi 6 mai : 8h-19h<br/>
+                        Samedi 7 mai : 7h30-18h</p>
+
+                    <h3>DENNER - CENTRE MALLEY-LUMIERES</h3>
+
+                    <p>Chemin du Viaduc 1<br/>
+                        1008 Prilly</p>
+
+                    <h4>Heures d’ouverture :</h4>
+                    <p>Jeudi 5 mai : fermé<br/>
+                        Vendredi 6 mai : 8h-19h<br/>
+                        Samedi 7 mai : 7h30-18h</p>
+
+                    <h3>KIOSQUE - CENTRE MALLEY-LUMIERES</h3>
+
+                    <p>Chemin du Viaduc 1<br/>
+                        1008 Prilly</p>
+
+                    <h4>Heures d’ouverture :</h4>
+                    <p>Jeudi 5 mai : fermé<br/>
+                        Vendredi 6 mai : 8h-19h<br/>
+                        Samedi 7 mai : 8h-18h</p>
+
+                    <h3>ALDI</h3>
+
+                    <p>Av. du Chablais 3b<br/>
+                        1007 Lausanne</p>
+
+                    <h4>Heures d’ouverture :</h4>
+                    <p>Jeudi 5 mai : fermé<br/>
+                        Vendredi 6 mai : 8h-19h<br/>
+                        Samedi 7 mai : 8h-19h</p>
+
+
+                </article>
+            </section>
+
+        {% else %}
+
+            <section class="content">
+                <article>
+
+                    <h2><span>On site</span></h2>
+
+                    <p>Sandwichs, snacks and drinks will be for sale on site</p>
+
+                    <h2><span>Restaurants</span></h2>
+
+                    <h3>Brasserie de Malley</h3>
+
+                    <p>Chemin de Renens 56<br/>
+                        1004 Lausanne</p>
+
+                    <p>+41 (0) 21 625 95 25</p>
+
+                    <h3>Restaurant Café des Bouchers</h3>
+
+                    <p>Avenue du Chablais 21<br/>
+                        1008 Prilly</p>
+
+                    <p>+41 (0) 21 624 08 08</p>
+
+                    <h3>Restaurant de la Patinoire</h3>
+
+                    <p>Patinoire de Malley<br/>
+                        Chemin du Viaduc 14<br/>
+                        1008 Prilly</p>
+
+                    <p>+41 (0) 21 625 58 34</p>
+
+                    <h3>Passaggio freeflow Restaurant Spizzico</h3>
+
+                    <p>Chemin du Viaduc 1<br/>
+                        1008 Prilly</p>
+
+                    <p>+41 (0) 21 661 32 61</p>
+
+                    <h3>Restaurant Aux Reflets des Isles</h3>
+
+                    <p>Chemin de Renens 43<br/>
+                        1004 Lausanne</p>
+
+                    <p>+41 (0) 21 625 41 57</p>
+
+                    <h3>Brasserie des Abattoirs</h3>
+
+                    <p>Avenue du Chablais 28<br/>
+                        1007 Lausanne</p>
+
+                    <p>+41 (0) 21 661 11 50</p>
+
+                    <h3>ABC Soleil Sa</h3>
+
+                    <p>Avenue du Chablais 29<br/>
+                        1008 Prilly</p>
+
+                    <p>+41 (0) 21 624 72 23</p>
+
+                    <h2><span>Supermarket</span></h2>
+
+                    <h3>COOP - Prilly Malley</h3>
+                    <p>Avenue du Chablais 41<br/>
+                        1008 Prilly</p>
+
+                    <h4>Opening hours :</h4>
+                    <p>Thursday, May 5 : closed<br/>
+                        Friday, May 6: 7:30am - 8pm<br/>
+                        Saturday, May 7: 7:30am - 6pm</p>
+
+                    <h3>MIGROS - CENTRE MALLEY-LUMIERES</h3>
+
+                    <p>Chemin du Viaduc 1<br/>
+                        1008 Prilly</p>
+
+                    <h4>Opening hours :</h4>
+                    <p>Thursday, May 5 : closed<br/>
+                        Friday, May 6: 8am - 7pm<br/>
+                        Saturday, May 7: 7:30am - 6pm</p>
+
+                    <h3>DENNER - CENTRE MALLEY-LUMIERES</h3>
+
+                    <p>Chemin du Viaduc 1<br/>
+                        1008 Prilly</p>
+
+                    <h4>Opening hours :</h4>
+                    <p>Thursday, May 5 : closed<br/>
+                        Friday, May 6: 8am - 7pm<br/>
+                        Saturday, May 7: 7:30am - 6pm</p>
+
+                    <h3>KIOSQUE - CENTRE MALLEY-LUMIERES</h3>
+
+                    <p>Chemin du Viaduc 1<br/>
+                        1008 Prilly</p>
+
+                    <h4>Opening hours :</h4>
+                    <p>Thursday, May 5 : closed<br/>
+                        Friday, May 6: 8am - 7pm<br/>
+                        Saturday, May 7: 8am - 6pm</p>
+
+                    <h3>ALDI</h3>
+
+                    <p>Av. du Chablais 3b<br/>
+                        1007 Lausanne</p>
+
+                    <h4>Opening hours :</h4>
+                    <p>Thursday, May 5 : closed<br/>
+                        Friday, May 6: 8am - 7pm<br/>
+                        Saturday, May 7: 8am - 7pm</p>
+
+                </article>
+            </section>
+
+        {% endif %}
+
+
+
+
+    {% endspaceless %}
+{% endblock %}

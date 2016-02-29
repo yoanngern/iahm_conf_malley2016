@@ -181,18 +181,31 @@
             </table>
             <table class="main">
                 <tr>
+                    <th><p>Nom:</p></th>
+                    <td>
+                        <p>{{ name }}</p>
+                    </td>
+                </tr>
+                <tr>
+                    <th><p>E-mail:</p></th>
                     <td>
                         <p>{{ email }}</p>
                     </td>
                 </tr>
                 <tr>
+                    <th><p>Téléphone:</p></th>
                     <td>
-                        <p>{{ now|date }}</p>
+                        <p>{{ phone }}</p>
                     </td>
                 </tr>
                 <tr>
-                    <td>
+                    <td colspan="2">
                         <p>{{ app.request.locale }}</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <p>{{ message }}</p>
                     </td>
                 </tr>
             </table>

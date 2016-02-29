@@ -128,496 +128,6 @@ article, aside, footer, header, hgroup, nav, section, figure, figcaption {
 /** regular **/
 /** italic **/
 /** upright **/
-html, body {
-  color: #434343;
-  font-family: "CaeciliaLTPro-55Roman", "titilliumregular", Arial, Helvetica, Verdana sans-serif;
-  font-size: 14px;
-  transform-style: preserve-3d;
-  background-color: #131313; }
-
-header {
-  position: relative;
-  width: 100%;
-  max-width: 2000px;
-  margin: 0 auto; }
-  header ul {
-    position: absolute;
-    top: 0;
-    right: 20px;
-    z-index: 1000; }
-    header ul li {
-      display: inline-block;
-      line-height: 26px;
-      margin: 20px 0 0 0;
-      padding: 2px 13px 0 7px;
-      border-right: 2px solid rgba(255, 255, 255, 0.9); }
-      header ul li:last-of-type {
-        border-right: none; }
-      header ul li a {
-        color: rgba(255, 255, 255, 0.9);
-        text-decoration: none;
-        font-size: 0.9em; }
-        header ul li a:hover {
-          color: #FFFFFF; }
-
-section.page {
-  max-width: 2000px;
-  margin: 0 auto; }
-  section.page section {
-    display: block;
-    width: 100%; }
-    section.page section article {
-      width: 100%;
-      max-width: 900px;
-      margin: 0 auto; }
-  section.page section.header {
-    background-image: url("../images/header.jpg");
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 500px;
-    position: relative;
-    display: block; }
-    section.page section.header .logo_conf {
-      width: 500px;
-      height: 500px;
-      display: block;
-      margin: 0 auto;
-      position: relative;
-      background-image: url("../images/logo_conf.png");
-      background-position: center;
-      background-repeat: no-repeat;
-      background-size: contain; }
-    section.page section.header .logo_conf1 {
-      width: 160px;
-      height: 160px;
-      display: block;
-      position: absolute;
-      background-image: url("../images/logo_conf_1.svg");
-      background-position: center;
-      background-repeat: no-repeat;
-      background-size: contain;
-      top: 17%;
-      left: 50%;
-      margin-left: -80px; }
-    section.page section.header .logo_conf2 {
-      width: 500px;
-      height: 200px;
-      display: block;
-      position: absolute;
-      background-image: url("../images/logo_conf_2.svg");
-      background-position: center;
-      background-repeat: no-repeat;
-      background-size: contain;
-      top: 40%;
-      left: 50%;
-      margin-left: -250px; }
-  section.page section.details,
-  section.page section.registration {
-    background-image: url("../images/bg_light.png");
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    color: #434343;
-    padding: 90px 0; }
-  section.page section.details h1 {
-    text-align: center;
-    display: block;
-    text-transform: uppercase;
-    margin-bottom: 20px; }
-    section.page section.details h1 span {
-      border: 4px solid #434343;
-      line-height: 2em;
-      font-size: 3em;
-      padding: 12px 12px 2px 12px; }
-      section.page section.details h1 span sup {
-        font-size: 0.5em; }
-  section.page section.details h2 {
-    text-align: center;
-    text-transform: uppercase;
-    font-size: 1.6em; }
-  section.page section.registration h1 {
-    text-align: center;
-    text-transform: uppercase;
-    font-size: 2.5em;
-    font-family: "CaeciliaLTPro-75Bold", "CaeciliaLTPro-55Roman", "titilliumregular", Arial, Helvetica, Verdana sans-serif; }
-  section.page section.speakers .speaker {
-    display: block;
-    width: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-    background-color: #434343; }
-    section.page section.speakers .speaker.solo {
-      height: 300px; }
-      section.page section.speakers .speaker.solo .content {
-        bottom: 10%;
-        position: absolute; }
-        section.page section.speakers .speaker.solo .content h1 {
-          text-transform: uppercase;
-          color: #FFFFFF;
-          font-size: 2.4em;
-          font-family: "CaeciliaLTPro-75Bold", "CaeciliaLTPro-55Roman", "titilliumregular", Arial, Helvetica, Verdana sans-serif;
-          line-height: 60px;
-          text-align: center; }
-        section.page section.speakers .speaker.solo .content a.button {
-          background-color: #FFFFFF;
-          color: #434343;
-          line-height: 20px;
-          padding: 7px 5px 2px 5px;
-          text-decoration: none;
-          font-size: 1.2em;
-          display: inline-block;
-          text-align: center; }
-      section.page section.speakers .speaker.solo .photo {
-        display: block;
-        width: 300px;
-        height: 300px;
-        background-repeat: no-repeat;
-        background-position: bottom center;
-        background-size: contain;
-        float: left; }
-      section.page section.speakers .speaker.solo#HeidiBaker {
-        background-image: url("../images/background1.jpg"); }
-        section.page section.speakers .speaker.solo#HeidiBaker .photo {
-          background-image: url("../images/HeidiBaker.png"); }
-        section.page section.speakers .speaker.solo#HeidiBaker .content {
-          left: 37%;
-          right: inherit; }
-      section.page section.speakers .speaker.solo#PaulManwaring {
-        background-image: url("../images/background2.jpg"); }
-        section.page section.speakers .speaker.solo#PaulManwaring .photo {
-          float: right;
-          background-image: url("../images/PaulManwaring.png"); }
-        section.page section.speakers .speaker.solo#PaulManwaring a.button {
-          float: right; }
-        section.page section.speakers .speaker.solo#PaulManwaring .content {
-          right: 36%;
-          left: inherit; }
-      section.page section.speakers .speaker.solo#ToddWhite {
-        background-image: url("../images/background3.jpg"); }
-        section.page section.speakers .speaker.solo#ToddWhite .photo {
-          width: 500px;
-          background-image: url("../images/ToddWhite.png"); }
-        section.page section.speakers .speaker.solo#ToddWhite a.button {
-          float: left; }
-        section.page section.speakers .speaker.solo#ToddWhite .content {
-          left: 42%;
-          right: inherit; }
-      section.page section.speakers .speaker.solo#MichaelKoulianos {
-        background-image: url("../images/background4.jpg"); }
-        section.page section.speakers .speaker.solo#MichaelKoulianos .photo {
-          float: right;
-          background-image: url("../images/MichaelKoulianos.png"); }
-        section.page section.speakers .speaker.solo#MichaelKoulianos a.button {
-          float: right; }
-        section.page section.speakers .speaker.solo#MichaelKoulianos .content {
-          right: 37%;
-          left: inherit; }
-    section.page section.speakers .speaker.multi {
-      background: #131313;
-      text-align: center; }
-      section.page section.speakers .speaker.multi article {
-        display: inline-block;
-        width: 20%;
-        height: 220px;
-        margin: 0;
-        padding: 0;
-        vertical-align: top;
-        background-position: top center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        position: relative; }
-        section.page section.speakers .speaker.multi article#PhilipMantofa {
-          background-image: url("../images/PhilipMantofa.jpg"); }
-        section.page section.speakers .speaker.multi article#BenFitzgerald {
-          background-image: url("../images/BenFitzgerald.jpg"); }
-        section.page section.speakers .speaker.multi article#PeterWenz {
-          background-image: url("../images/PeterWenz.jpg"); }
-        section.page section.speakers .speaker.multi article#MatthiasKuhn {
-          background-image: url("../images/MatthiasKuhn.jpg"); }
-        section.page section.speakers .speaker.multi article#CarlosPayan {
-          background-image: url("../images/CarlosPayan.jpg"); }
-        section.page section.speakers .speaker.multi article#Jean-MichelTour {
-          background-image: url("../images/Jean-MichelTour.jpg"); }
-        section.page section.speakers .speaker.multi article#UrbanCamenzind {
-          background-image: url("../images/UrbanCamenzind.jpg"); }
-        section.page section.speakers .speaker.multi article#NicolasButtet {
-          background-image: url("../images/NicolasButtet.jpg"); }
-        section.page section.speakers .speaker.multi article#WernerLehmann {
-          background-image: url("../images/WernerLehmann.jpg"); }
-        section.page section.speakers .speaker.multi article#Jean-LucTrachsel {
-          background-image: url("../images/Jean-LucTrachsel.jpg"); }
-        section.page section.speakers .speaker.multi article:hover a.black {
-          background-color: rgba(19, 19, 19, 0.6); }
-        section.page section.speakers .speaker.multi article:hover section {
-          bottom: 10%; }
-        section.page section.speakers .speaker.multi article:hover div.button {
-          margin-top: 30px;
-          display: inline-block; }
-        section.page section.speakers .speaker.multi article a.black {
-          background-color: rgba(19, 19, 19, 0.2);
-          height: 100%;
-          display: block;
-          width: 100%; }
-        section.page section.speakers .speaker.multi article section {
-          width: 100%;
-          margin: 0;
-          text-align: center;
-          position: absolute;
-          bottom: 5%; }
-          section.page section.speakers .speaker.multi article section h1 {
-            text-align: center;
-            color: #FFFFFF;
-            font-size: 1.4em;
-            text-transform: uppercase;
-            font-family: "CaeciliaLTPro-75Bold", "CaeciliaLTPro-55Roman", "titilliumregular", Arial, Helvetica, Verdana sans-serif; }
-          section.page section.speakers .speaker.multi article section div.button {
-            display: none;
-            background-color: #FFFFFF;
-            color: #434343;
-            line-height: 20px;
-            padding: 7px 5px 2px 5px;
-            text-decoration: none;
-            font-size: 1.2em;
-            text-align: center; }
-  section.page section.getInfo {
-    background-image: url("../images/background3.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    padding: 90px 0; }
-    section.page section.getInfo h1 {
-      text-align: center;
-      text-transform: uppercase;
-      font-size: 2em;
-      font-family: "CaeciliaLTPro-75Bold", "CaeciliaLTPro-55Roman", "titilliumregular", Arial, Helvetica, Verdana sans-serif;
-      color: #FFFFFF;
-      margin-bottom: 20px; }
-    section.page section.getInfo form {
-      text-align: center; }
-      section.page section.getInfo form input[type="email"] {
-        line-height: 22px;
-        background-color: rgba(255, 255, 255, 0.92);
-        border: 1px solid #FFFFFF;
-        color: #434343;
-        font-family: "CaeciliaLTPro-55Roman", "titilliumregular", Arial, Helvetica, Verdana sans-serif;
-        font-size: 1.2em;
-        padding: 3px 5px 0px 5px;
-        outline: none;
-        margin-right: 20px; }
-      section.page section.getInfo form input[type="submit"] {
-        line-height: 23px;
-        background-color: #FFFFFF !important;
-        border: 1px solid #FFFFFF;
-        color: #434343;
-        font-family: "CaeciliaLTPro-55Roman", "titilliumregular", Arial, Helvetica, Verdana sans-serif;
-        font-size: 1.2em;
-        padding: 2px 5px 0px 5px;
-        outline: none;
-        cursor: pointer; }
-  section.page section.speaker.page,
-  section.page section.info.page {
-    display: block;
-    width: 100%;
-    height: 300px;
-    background-position: top center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-    background-image: url("../images/background1.jpg"); }
-    section.page section.speaker.page .photo,
-    section.page section.info.page .photo {
-      display: block;
-      width: 300px;
-      height: 300px;
-      background-repeat: no-repeat;
-      background-position: bottom center;
-      background-size: contain;
-      float: left; }
-    section.page section.speaker.page .content,
-    section.page section.info.page .content {
-      bottom: 10%;
-      position: absolute; }
-      section.page section.speaker.page .content h1,
-      section.page section.info.page .content h1 {
-        text-transform: uppercase;
-        color: #FFFFFF;
-        font-size: 2.4em;
-        font-family: "CaeciliaLTPro-75Bold", "CaeciliaLTPro-55Roman", "titilliumregular", Arial, Helvetica, Verdana sans-serif;
-        line-height: 60px;
-        text-align: center; }
-      section.page section.speaker.page .content a.button,
-      section.page section.info.page .content a.button {
-        background-color: #FFFFFF;
-        color: #434343;
-        line-height: 20px;
-        padding: 5px 5px 2px 5px;
-        text-decoration: none;
-        font-size: 1.2em;
-        display: inline-block;
-        text-align: center; }
-    section.page section.speaker.page#HeidiBaker,
-    section.page section.info.page#HeidiBaker {
-      background-image: url("../images/background1.jpg"); }
-      section.page section.speaker.page#HeidiBaker .photo,
-      section.page section.info.page#HeidiBaker .photo {
-        background-image: url("../images/HeidiBaker.png"); }
-      section.page section.speaker.page#HeidiBaker .content,
-      section.page section.info.page#HeidiBaker .content {
-        left: 37%;
-        right: inherit; }
-    section.page section.speaker.page#PaulManwaring,
-    section.page section.info.page#PaulManwaring {
-      background-image: url("../images/background2.jpg"); }
-      section.page section.speaker.page#PaulManwaring .photo,
-      section.page section.info.page#PaulManwaring .photo {
-        float: right;
-        background-image: url("../images/PaulManwaring.png"); }
-      section.page section.speaker.page#PaulManwaring a.button,
-      section.page section.info.page#PaulManwaring a.button {
-        float: right; }
-      section.page section.speaker.page#PaulManwaring .content,
-      section.page section.info.page#PaulManwaring .content {
-        right: 35%;
-        left: inherit; }
-    section.page section.speaker.page#ToddWhite,
-    section.page section.info.page#ToddWhite {
-      background-image: url("../images/background3.jpg"); }
-      section.page section.speaker.page#ToddWhite .photo,
-      section.page section.info.page#ToddWhite .photo {
-        width: 500px;
-        background-image: url("../images/ToddWhite.png"); }
-      section.page section.speaker.page#ToddWhite a.button,
-      section.page section.info.page#ToddWhite a.button {
-        float: left; }
-      section.page section.speaker.page#ToddWhite .content,
-      section.page section.info.page#ToddWhite .content {
-        left: 42%;
-        right: inherit; }
-    section.page section.speaker.page#MichaelKoulianos,
-    section.page section.info.page#MichaelKoulianos {
-      background-image: url("../images/background4.jpg"); }
-      section.page section.speaker.page#MichaelKoulianos .photo,
-      section.page section.info.page#MichaelKoulianos .photo {
-        float: right;
-        background-image: url("../images/MichaelKoulianos.png"); }
-      section.page section.speaker.page#MichaelKoulianos a.button,
-      section.page section.info.page#MichaelKoulianos a.button {
-        float: right; }
-      section.page section.speaker.page#MichaelKoulianos .content,
-      section.page section.info.page#MichaelKoulianos .content {
-        right: 37%;
-        left: inherit; }
-    section.page section.speaker.page#PhilipMantofa,
-    section.page section.info.page#PhilipMantofa {
-      background-image: url("../images/background2.jpg"); }
-    section.page section.speaker.page#BenFitzgerald,
-    section.page section.info.page#BenFitzgerald {
-      background-image: url("../images/background1.jpg"); }
-    section.page section.speaker.page#PeterWenz,
-    section.page section.info.page#PeterWenz {
-      background-image: url("../images/background4.jpg"); }
-    section.page section.speaker.page#MatthiasKuhn,
-    section.page section.info.page#MatthiasKuhn {
-      background-image: url("../images/background2.jpg"); }
-    section.page section.speaker.page#CarlosPayan,
-    section.page section.info.page#CarlosPayan {
-      background-image: url("../images/background1.jpg"); }
-    section.page section.speaker.page#Jean-MichelTour,
-    section.page section.info.page#Jean-MichelTour {
-      background-image: url("../images/background3.jpg"); }
-    section.page section.speaker.page#UrbanCamenzind,
-    section.page section.info.page#UrbanCamenzind {
-      background-image: url("../images/background1.jpg"); }
-    section.page section.speaker.page#NicolasButtet,
-    section.page section.info.page#NicolasButtet {
-      background-image: url("../images/background1.jpg"); }
-    section.page section.speaker.page#WernerLehmann,
-    section.page section.info.page#WernerLehmann {
-      background-image: url("../images/background1.jpg"); }
-    section.page section.speaker.page#Jean-LucTrachsel,
-    section.page section.info.page#Jean-LucTrachsel {
-      background-image: url("../images/background1.jpg"); }
-    section.page section.speaker.page#thanks,
-    section.page section.info.page#thanks {
-      background-image: url("../images/background3.jpg"); }
-    section.page section.speaker.page#accommodation,
-    section.page section.info.page#accommodation {
-      background-image: url("../images/background3.jpg"); }
-    section.page section.speaker.page#intercesseurs,
-    section.page section.info.page#intercesseurs {
-      background-image: url("../images/background3.jpg");
-      height: 200px; }
-  section.page section.content {
-    color: #434343;
-    padding: 90px 0 10px;
-    font-size: 1.2em;
-    background-color: #FFFFFF; }
-    section.page section.content .left {
-      width: 30%;
-      margin-right: 3%;
-      display: inline-block;
-      vertical-align: top; }
-    section.page section.content .right {
-      width: 67%;
-      display: inline-block;
-      vertical-align: top; }
-    section.page section.content img {
-      width: 100%;
-      margin: 12px 0 20px 0;
-      display: block;
-      float: left; }
-    section.page section.content p {
-      padding: 10px 0; }
-    section.page section.content a.button {
-      background-color: #434343;
-      color: #FFFFFF;
-      line-height: 20px;
-      padding: 5px 5px 2px 5px;
-      margin: 20px 20px 20px 0;
-      text-decoration: none;
-      font-size: 1.2em;
-      display: inline-block;
-      text-align: center;
-      max-width: 100%; }
-    section.page section.content h2 {
-      font-family: "CaeciliaLTPro-75Bold", "CaeciliaLTPro-55Roman", "titilliumregular", Arial, Helvetica, Verdana sans-serif;
-      font-size: 1.4em;
-      text-transform: uppercase;
-      padding-top: 30px;
-      padding-bottom: 5px;
-      color: #333333; }
-    section.page section.content h3 {
-      font-family: "CaeciliaLTPro-75Bold", "CaeciliaLTPro-55Roman", "titilliumregular", Arial, Helvetica, Verdana sans-serif;
-      padding-top: 15px;
-      color: #333333; }
-    section.page section.content a {
-      font-size: 0.9em;
-      text-decoration: underline;
-      color: #434343; }
-    section.page section.content form input[type="email"] {
-      line-height: 24px;
-      background-color: rgba(255, 255, 255, 0.92);
-      border: 1px solid #434343;
-      color: #434343;
-      font-family: "CaeciliaLTPro-55Roman", "titilliumregular", Arial, Helvetica, Verdana sans-serif;
-      font-size: 1.2em;
-      padding: 3px 5px 0px 5px;
-      outline: none;
-      margin-right: 20px; }
-    section.page section.content form input[type="submit"] {
-      line-height: 25px;
-      background-color: #434343 !important;
-      border: 1px solid #FFFFFF;
-      color: #FFFFFF;
-      font-family: "CaeciliaLTPro-55Roman", "titilliumregular", Arial, Helvetica, Verdana sans-serif;
-      font-size: 1.2em;
-      padding: 2px 5px 0px 5px;
-      outline: none;
-      cursor: pointer; }
-
 footer {
   background-image: url("../images/footer.jpg");
   background-position: center top;
@@ -684,10 +194,1032 @@ footer {
       background-repeat: no-repeat; }
       footer article #logo_iahm.fr {
         background-image: url("../images/logo_aimg.svg"); }
+  footer div.register {
+    display: none;
+    position: fixed;
+    height: 50px;
+    width: 100%;
+    background-color: #333333;
+    bottom: 0;
+    text-align: center; }
+    footer div.register a {
+      color: #FFFFFF;
+      line-height: 34px;
+      margin-top: 8px;
+      display: inline-block;
+      text-decoration: none;
+      font-size: 1.2em; }
+
+section.page section.content {
+  color: #434343;
+  padding: 30px 0 10px;
+  font-size: 1.2em;
+  background-color: #FFFFFF; }
+  section.page section.content.center {
+    text-align: center; }
+  section.page section.content .left {
+    width: 30%;
+    margin-right: 3%;
+    display: inline-block;
+    vertical-align: top; }
+    section.page section.content .left img {
+      width: 100%;
+      float: left; }
+  section.page section.content .right {
+    width: 67%;
+    display: inline-block;
+    vertical-align: top; }
+  section.page section.content img {
+    margin: 12px 0 20px 0;
+    display: block; }
+  section.page section.content p {
+    padding: 5px 0; }
+    section.page section.content p img {
+      width: inherit;
+      display: block;
+      margin: 0; }
+    section.page section.content p.big_button {
+      text-align: center;
+      margin-top: 50px; }
+      section.page section.content p.big_button a {
+        display: inline-block;
+        padding: 10px 15px 7px;
+        font-family: "CaeciliaLTPro-75Bold", "CaeciliaLTPro-55Roman", "titilliumregular", Arial, Helvetica, Verdana sans-serif;
+        font-size: 1.7em;
+        text-decoration: none;
+        background-color: #BBE197;
+        border: 3px solid #FFFFFF; }
+        section.page section.content p.big_button a:hover {
+          border: 3px solid #568e19; }
+  section.page section.content a.button {
+    background-color: #434343;
+    color: #FFFFFF;
+    line-height: 20px;
+    padding: 5px 5px 2px 5px;
+    margin: 20px 20px 20px 0;
+    text-decoration: none;
+    font-size: 1.2em;
+    display: inline-block;
+    text-align: center;
+    max-width: 100%; }
+  section.page section.content h2 {
+    font-family: "CaeciliaLTPro-75Bold", "CaeciliaLTPro-55Roman", "titilliumregular", Arial, Helvetica, Verdana sans-serif;
+    font-size: 1.4em;
+    text-transform: uppercase;
+    padding-top: 30px;
+    padding-bottom: 5px;
+    color: #333333;
+    margin: 15px 0 10px; }
+    section.page section.content h2 span {
+      border: 2px solid #434343;
+      padding: 5px 5px 0px;
+      line-height: 25px;
+      display: inline-block; }
+  section.page section.content h3 {
+    font-family: "CaeciliaLTPro-75Bold", "CaeciliaLTPro-55Roman", "titilliumregular", Arial, Helvetica, Verdana sans-serif;
+    padding-top: 10px;
+    margin: 10px 0 0;
+    color: #333333; }
+  section.page section.content h4 {
+    font-family: "CaeciliaLTPro-75Bold", "CaeciliaLTPro-55Roman", "titilliumregular", Arial, Helvetica, Verdana sans-serif;
+    padding-top: 10px;
+    padding-bottom: 0;
+    font-size: 0.8em;
+    color: #333333; }
+  section.page section.content a {
+    font-size: 0.9em;
+    text-decoration: underline;
+    color: #434343;
+    display: inline-block; }
+  section.page section.content table.schedule tr {
+    vertical-align: top; }
+  section.page section.content table.schedule th {
+    font-family: "CaeciliaLTPro-75Bold", "CaeciliaLTPro-55Roman", "titilliumregular", Arial, Helvetica, Verdana sans-serif;
+    text-align: right;
+    padding-bottom: 10px;
+    padding-right: 3%;
+    min-width: 110px; }
+    section.page section.content table.schedule th span {
+      font-size: 0.6em;
+      text-transform: uppercase;
+      padding-right: 3px; }
+  section.page section.content table.price {
+    border-collapse: separate;
+    margin-bottom: 30px;
+    width: 100%; }
+    section.page section.content table.price thead tr th {
+      text-align: center;
+      padding: 20px 0 10px 0;
+      font-family: "CaeciliaLTPro-75Bold", "CaeciliaLTPro-55Roman", "titilliumregular", Arial, Helvetica, Verdana sans-serif;
+      font-size: 1.4em; }
+    section.page section.content table.price tbody tr.regular {
+      background-color: #E8E8E8; }
+      section.page section.content table.price tbody tr.regular td.actual {
+        border-top: 3px solid #568e19; }
+    section.page section.content table.price tbody tr.reduced {
+      background-color: #D5D5D5;
+      font-size: 0.8em; }
+      section.page section.content table.price tbody tr.reduced td {
+        padding: 6px 0 3px; }
+        section.page section.content table.price tbody tr.reduced td span {
+          font-size: 1.6em; }
+      section.page section.content table.price tbody tr.reduced td.actual {
+        border-bottom: 3px solid #568e19; }
+    section.page section.content table.price tbody tr.space {
+      background-color: #FFFFFF; }
+      section.page section.content table.price tbody tr.space td {
+        height: 15px;
+        padding: 0; }
+    section.page section.content table.price tbody tr th {
+      text-align: right;
+      vertical-align: middle;
+      padding: 0 20px 0 0;
+      background-color: #FFFFFF;
+      font-size: 1.2em;
+      width: auto;
+      font-family: "CaeciliaLTPro-75Bold", "CaeciliaLTPro-55Roman", "titilliumregular", Arial, Helvetica, Verdana sans-serif; }
+    section.page section.content table.price tbody tr td {
+      text-align: center;
+      padding: 20px 10px;
+      vertical-align: middle; }
+      section.page section.content table.price tbody tr td a {
+        display: block;
+        padding: 20px 10px;
+        text-decoration: none; }
+      section.page section.content table.price tbody tr td:first-of-type {
+        border-right: 3px solid #FFFFFF;
+        border-left: 2px solid #434343;
+        width: 28%; }
+      section.page section.content table.price tbody tr td:nth-of-type(1) {
+        width: 28%; }
+      section.page section.content table.price tbody tr td:last-of-type {
+        border-left: 3px solid #FFFFFF;
+        width: 28%; }
+      section.page section.content table.price tbody tr td.title {
+        font-family: "CaeciliaLTPro-75Bold", "CaeciliaLTPro-55Roman", "titilliumregular", Arial, Helvetica, Verdana sans-serif;
+        font-size: 1.2em;
+        text-align: left;
+        padding-left: 20px; }
+      section.page section.content table.price tbody tr td.actual {
+        background-color: rgba(126, 207, 37, 0.4);
+        border-left: 3px solid #568e19;
+        border-right: 3px solid #568e19;
+        padding: 0; }
+      section.page section.content table.price tbody tr td span {
+        font-family: "CaeciliaLTPro-75Bold", "CaeciliaLTPro-55Roman", "titilliumregular", Arial, Helvetica, Verdana sans-serif;
+        font-size: 1.8em;
+        padding-left: 5px; }
+    section.page section.content table.price tfoot tr td {
+      padding-top: 10px;
+      font-size: 0.8em; }
+  section.page section.content div.pass {
+    width: 250px;
+    display: inline-block;
+    margin: 0 30px 0 0;
+    vertical-align: top; }
+    section.page section.content div.pass div.icon {
+      background-repeat: no-repeat;
+      background-position: center bottom;
+      background-size: contain;
+      display: block;
+      width: 100%;
+      height: 250px; }
+    section.page section.content div.pass ul {
+      font-size: 0.8em; }
+      section.page section.content div.pass ul li {
+        padding-left: 2px;
+        padding-bottom: 5px;
+        margin-left: 20px; }
+    section.page section.content div.pass#bronze div.icon {
+      background-image: url("../images/Bronze-pass.png"); }
+    section.page section.content div.pass#silver div.icon {
+      background-image: url("../images/Silver-pass.png"); }
+    section.page section.content div.pass#golden div.icon {
+      background-image: url("../images/Golden-pass.png"); }
+    section.page section.content div.pass#platinium div.icon {
+      background-image: url("../images/Platinium-pass.png"); }
+  section.page section.content form.contact input {
+    display: block;
+    font-size: 1em;
+    font-family: "CaeciliaLTPro-55Roman", "titilliumregular", Arial, Helvetica, Verdana sans-serif;
+    border: 1px solid #434343;
+    margin: 5px 0px 10px 0px;
+    padding: 2px;
+    width: 280px; }
+  section.page section.content form.contact textarea {
+    display: block;
+    font-size: 1em;
+    font-family: "CaeciliaLTPro-55Roman", "titilliumregular", Arial, Helvetica, Verdana sans-serif;
+    border: 1px solid #434343;
+    margin: 5px 0px 10px 0px;
+    width: 280px; }
+  section.page section.content form input[type="email"] {
+    line-height: 24px;
+    background-color: rgba(255, 255, 255, 0.92);
+    border: 1px solid #434343;
+    color: #434343;
+    font-family: "CaeciliaLTPro-55Roman", "titilliumregular", Arial, Helvetica, Verdana sans-serif;
+    font-size: 1.2em;
+    padding: 3px 5px 0px 5px;
+    outline: none;
+    margin-right: 20px; }
+  section.page section.content form input[type="submit"] {
+    line-height: 25px;
+    background-color: #434343 !important;
+    border: 1px solid #FFFFFF;
+    color: #FFFFFF;
+    font-family: "CaeciliaLTPro-55Roman", "titilliumregular", Arial, Helvetica, Verdana sans-serif;
+    font-size: 1.2em;
+    padding: 2px 5px 0px 5px;
+    outline: none;
+    cursor: pointer;
+    width: auto; }
+
+@media only screen and (max-width: 1240px) {
+  section.page section.content div.pass {
+    width: 200px;
+    margin: 0 10px; }
+    section.page section.content div.pass div.icon {
+      height: 200px; }
+  section.page section.content table.schedule th {
+    min-width: 70px; } }
+@media only screen and (max-width: 940px) {
+  section.page section.content div.pass {
+    width: 170px;
+    margin: 0 10px; }
+    section.page section.content div.pass div.icon {
+      height: 170px; } }
+@media only screen and (max-width: 610px) {
+  section.page section.content div.pass {
+    width: 200px;
+    margin: 0 10px; }
+    section.page section.content div.pass div.icon {
+      height: 200px; } }
+@media only screen and (max-width: 470px) {
+  section.page section.content div.pass {
+    width: 180px;
+    margin: 0 10px; }
+    section.page section.content div.pass div.icon {
+      height: 180px; } }
+@media only screen and (max-width: 430px) {
+  section.page section.content div.pass {
+    width: 140px;
+    margin: 0 10px; }
+    section.page section.content div.pass div.icon {
+      height: 140px; } }
+@media only screen and (max-width: 340px) {
+  section.page section.content div.pass {
+    width: 128px;
+    margin: 0 10px; }
+    section.page section.content div.pass div.icon {
+      height: 128px; } }
+@media only screen and (min-width: 1240px) {
+  section.page section.content h2 span {
+    border: 3px solid #434343;
+    padding: 7px 5px 0px;
+    line-height: 28px; }
+  section.page section.content form input[type="submit"] {
+    padding: 4px 10px 0;
+    line-height: 1.2em; } }
+@media only screen and (max-width: 600px) {
+  section.page section.content table.price {
+    font-size: 0.8em; }
+    section.page section.content table.price tbody tr th {
+      padding-right: 10px; }
+    section.page section.content table.price tbody tr td {
+      padding: 7px 5px; }
+  section.page section.content iframe#map {
+    width: 100%; }
+  section.page section.content p.big_button a {
+    font-size: 1.3em; } }
+@media only screen and (max-width: 400px) {
+  section.page section.content table.price thead tr th {
+    font-size: 1em;
+    font-family: "CaeciliaLTPro-75Bold", "CaeciliaLTPro-55Roman", "titilliumregular", Arial, Helvetica, Verdana sans-serif; }
+    section.page section.content table.price thead tr th span {
+      display: none; }
+  section.page section.content table.price tbody tr th {
+    font-size: 1.2em; }
+  section.page section.content table.price tbody tr td.title {
+    padding: 0 7px 0 2px;
+    text-align: right; }
+  section.page section.content table.price tbody tr td span {
+    display: block; } }
+header {
+  position: relative;
+  width: 100%;
+  max-width: 2000px;
+  margin: 0 auto; }
+  header nav ul.nav {
+    background-color: #434343;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+    width: 100%;
+    max-width: 2000px;
+    height: 40px; }
+  header nav #burger {
+    display: none;
+    width: 40px;
+    height: 25px;
+    background-image: url("../images/burger.svg");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: fixed;
+    top: 7px;
+    right: 5px;
+    z-index: 1002; }
+  header nav ul li {
+    display: inline-block;
+    margin: 10px 0 0 0;
+    padding: 0 10px;
+    vertical-align: top; }
+    header nav ul li.logo {
+      margin: 0px; }
+      header nav ul li.logo a {
+        display: block;
+        width: 40px;
+        height: 30px;
+        margin-top: 5px;
+        background-image: url("../images/iahm_simple.svg");
+        background-repeat: no-repeat;
+        background-position: center; }
+        header nav ul li.logo a:hover {
+          border-bottom: none; }
+    header nav ul li a {
+      color: #FFFFFF;
+      text-decoration: none;
+      display: block;
+      line-height: 20px; }
+      header nav ul li a:hover {
+        border-bottom: 2px solid #FFFFFF; }
+  header nav ul.language {
+    position: fixed;
+    top: 0;
+    right: 20px;
+    z-index: 1001; }
+    header nav ul.language li {
+      display: inline-block;
+      line-height: 20px;
+      padding: 2px 13px 0 7px;
+      border-right: 2px solid rgba(255, 255, 255, 0.9); }
+      header nav ul.language li:last-of-type {
+        border-right: none; }
+      header nav ul.language li a {
+        color: rgba(255, 255, 255, 0.9);
+        text-decoration: none;
+        font-size: 0.9em; }
+        header nav ul.language li a:hover {
+          color: #FFFFFF; }
+
+@media only screen and (min-width: 2000px) {
+  header nav {
+    position: fixed;
+    z-index: 998;
+    width: 2000px;
+    height: 60px; }
+    header nav ul.language {
+      position: relative;
+      float: right; } }
+@media only screen and (min-width: 1240px) {
+  header nav ul.nav {
+    height: 60px; }
+  header nav ul li {
+    margin-top: 20px; }
+    header nav ul li.logo a {
+      width: 55px;
+      height: 40px;
+      margin-top: 10px;
+      background-size: contain; } }
+@media only screen and (max-width: 1050px) {
+  header nav ul.language {
+    top: 40px;
+    position: absolute;
+    z-index: 999; } }
+@media only screen and (max-width: 900px) {
+  header nav #burger {
+    display: block; }
+  header nav ul.language {
+    right: 0; }
+  header nav ul.nav li {
+    display: none; }
+    header nav ul.nav li.logo {
+      display: inline-block; }
+  header nav ul.nav.show {
+    height: inherit;
+    text-align: center; }
+    header nav ul.nav.show li {
+      display: block;
+      padding-bottom: 10px; }
+      header nav ul.nav.show li a:hover {
+        border: none; } }
+section.page section.details {
+  text-align: center; }
+  section.page section.details a.button {
+    background-color: #434343;
+    color: #FFFFFF;
+    line-height: 20px;
+    padding: 5px 5px 2px 5px;
+    margin: 20px 20px 20px 0;
+    text-decoration: none;
+    font-size: 1.2em;
+    display: inline-block;
+    text-align: center;
+    max-width: 100%; }
+  section.page section.details h1 {
+    text-align: center;
+    display: block;
+    text-transform: uppercase;
+    margin-bottom: 20px; }
+    section.page section.details h1 span {
+      border: 4px solid #434343;
+      line-height: 2em;
+      font-size: 3em;
+      padding: 12px 12px 2px 12px; }
+      section.page section.details h1 span sup {
+        font-size: 0.5em; }
+  section.page section.details h2 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1.6em; }
+section.page section.register {
+  background-image: url("../images/background3.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 90px 0;
+  text-align: center; }
+  section.page section.register a {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 2.5em;
+    font-family: "CaeciliaLTPro-75Bold", "CaeciliaLTPro-55Roman", "titilliumregular", Arial, Helvetica, Verdana sans-serif;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+    text-decoration: none; }
+section.page section.getInfo {
+  background-image: url("../images/background3.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 90px 0; }
+  section.page section.getInfo h1 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 2em;
+    font-family: "CaeciliaLTPro-75Bold", "CaeciliaLTPro-55Roman", "titilliumregular", Arial, Helvetica, Verdana sans-serif;
+    color: #FFFFFF;
+    margin-bottom: 20px; }
+  section.page section.getInfo form {
+    text-align: center; }
+    section.page section.getInfo form input[type="email"] {
+      line-height: 22px;
+      background-color: rgba(255, 255, 255, 0.92);
+      border: 1px solid #FFFFFF;
+      color: #434343;
+      font-family: "CaeciliaLTPro-55Roman", "titilliumregular", Arial, Helvetica, Verdana sans-serif;
+      font-size: 1.2em;
+      padding: 3px 5px 0px 5px;
+      outline: none;
+      margin-right: 20px; }
+    section.page section.getInfo form input[type="submit"] {
+      line-height: 23px;
+      background-color: #FFFFFF !important;
+      border: 1px solid #FFFFFF;
+      color: #434343;
+      font-family: "CaeciliaLTPro-55Roman", "titilliumregular", Arial, Helvetica, Verdana sans-serif;
+      font-size: 1.2em;
+      padding: 2px 5px 0px 5px;
+      outline: none;
+      cursor: pointer; }
+section.page section.speakers_link {
+  padding: 70px 0 0;
+  background-image: url("../images/background1.jpg"); }
+  section.page section.speakers_link article {
+    padding-bottom: 10px;
+    text-align: center; }
+    section.page section.speakers_link article h1 {
+      text-align: center;
+      text-transform: uppercase;
+      font-size: 2em;
+      font-family: "CaeciliaLTPro-75Bold", "CaeciliaLTPro-55Roman", "titilliumregular", Arial, Helvetica, Verdana sans-serif;
+      color: #FFFFFF; }
+    section.page section.speakers_link article a.button {
+      background-color: #FFFFFF;
+      color: #434343;
+      line-height: 20px;
+      padding: 7px 5px 2px 5px;
+      text-decoration: none;
+      font-size: 1.2em;
+      display: inline-block;
+      text-align: center;
+      margin-top: 30px; }
+  section.page section.speakers_link div.speakers {
+    background-image: url("../images/4speakers.png");
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    background-size: contain;
+    width: 96%;
+    padding-left: 2%;
+    max-width: 1200px;
+    margin: 0 auto;
+    height: 300px;
+    display: block; }
+section.page section.details,
+section.page section.registration {
+  background-image: url("../images/bg_light.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #434343;
+  padding: 90px 0; }
+section.page section.video {
+  background-color: #333333;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 30px 0; }
+  section.page section.video article {
+    width: 100%;
+    max-width: 960px;
+    margin-top: 70px;
+    margin-right: auto;
+    margin-bottom: 70px;
+    margin-left: auto; }
+    section.page section.video article iframe {
+      margin-top: 0px;
+      margin-right: auto;
+      margin-bottom: 0px;
+      margin-left: auto;
+      display: block;
+      width: 960px;
+      height: 540px; }
+section.page section.presentation_txt {
+  background-image: url("../images/bg_light.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #434343;
+  padding: 70px 0; }
+  section.page section.presentation_txt article {
+    max-width: 600px; }
+  section.page section.presentation_txt p {
+    text-align: center;
+    font-size: 1.2em;
+    margin: 0 20px 30px; }
+section.page section.infos {
+  background-image: url("../images/bg_light.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #434343;
+  padding: 70px 0; }
+  section.page section.infos h1 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 2em;
+    font-family: "CaeciliaLTPro-75Bold", "CaeciliaLTPro-55Roman", "titilliumregular", Arial, Helvetica, Verdana sans-serif; }
+  section.page section.infos article {
+    text-align: center; }
+    section.page section.infos article a {
+      display: inline-block;
+      width: 150px;
+      height: 153px;
+      text-decoration: none;
+      position: relative;
+      margin: 10px;
+      background-position: center;
+      background-repeat: no-repeat; }
+      section.page section.infos article a#transport {
+        background-image: url("../images/button_transports.svg"); }
+      section.page section.infos article a#partners {
+        background-image: url("../images/button_partenaires.svg"); }
+      section.page section.infos article a#schedule {
+        background-image: url("../images/button_horaires.svg"); }
+      section.page section.infos article a#meal {
+        background-image: url("../images/button_repas.svg"); }
+      section.page section.infos article a#accommodation {
+        background-image: url("../images/button_logement.svg"); }
+      section.page section.infos article a span {
+        color: #131313;
+        bottom: 0;
+        text-align: center;
+        position: absolute;
+        display: block;
+        width: 100%; }
+section.page section.registration h1 {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 2.5em;
+  font-family: "CaeciliaLTPro-75Bold", "CaeciliaLTPro-55Roman", "titilliumregular", Arial, Helvetica, Verdana sans-serif; }
+
+@media only screen and (max-width: 1100px) {
+  section.page section.speakers_link div.speakers {
+    height: 250px; } }
+@media only screen and (max-width: 960px) {
+  section.page section.video {
+    padding: 0;
+    margin: 0; }
+    section.page section.video article {
+      width: 100%;
+      max-width: 960px;
+      margin: 0 auto;
+      position: relative;
+      padding-bottom: 56.2%; }
+      section.page section.video article iframe {
+        margin-top: 0px;
+        margin-right: auto;
+        margin-bottom: 0px;
+        margin-left: auto;
+        display: block;
+        width: 100%;
+        height: 100%;
+        position: absolute; } }
+@media only screen and (max-width: 900px) {
+  body section.page section.speakers_link div.speakers {
+    height: 200px; } }
+@media only screen and (max-width: 690px) {
+  body section.page section.speakers_link div.speakers {
+    height: 170px; } }
+@media only screen and (max-width: 500px) {
+  body section.page section.speakers_link div.speakers {
+    height: 150px; } }
+@media only screen and (max-width: 420px) {
+  body section.page section.speakers_link {
+    padding-top: 40px; }
+    body section.page section.speakers_link article a.button {
+      margin-top: 10px; }
+    body section.page section.speakers_link div.speakers {
+      height: 100px; }
+  body section.page section.register {
+    padding: 60px 0; }
+  body section.page section.presentation_txt {
+    padding: 50px 0 30px; } }
+section.page section.speakers .speaker {
+  display: block;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  background-color: #434343; }
+  section.page section.speakers .speaker.solo {
+    height: 300px; }
+    section.page section.speakers .speaker.solo .content {
+      bottom: 10%;
+      position: absolute; }
+      section.page section.speakers .speaker.solo .content h1 {
+        text-transform: uppercase;
+        color: #FFFFFF;
+        font-size: 2.4em;
+        font-family: "CaeciliaLTPro-75Bold", "CaeciliaLTPro-55Roman", "titilliumregular", Arial, Helvetica, Verdana sans-serif;
+        line-height: 60px;
+        text-align: center; }
+      section.page section.speakers .speaker.solo .content a.button {
+        background-color: #FFFFFF;
+        color: #434343;
+        line-height: 20px;
+        padding: 7px 5px 2px 5px;
+        text-decoration: none;
+        font-size: 1.2em;
+        display: inline-block;
+        text-align: center; }
+    section.page section.speakers .speaker.solo .photo {
+      display: block;
+      width: 300px;
+      height: 300px;
+      background-repeat: no-repeat;
+      background-position: bottom center;
+      background-size: contain;
+      float: left; }
+    section.page section.speakers .speaker.solo#HeidiBaker {
+      background-image: url("../images/background1.jpg"); }
+      section.page section.speakers .speaker.solo#HeidiBaker .photo {
+        background-image: url("../images/HeidiBaker.png"); }
+      section.page section.speakers .speaker.solo#HeidiBaker .content {
+        left: 37%;
+        right: inherit; }
+    section.page section.speakers .speaker.solo#PaulManwaring {
+      background-image: url("../images/background2.jpg"); }
+      section.page section.speakers .speaker.solo#PaulManwaring .photo {
+        float: right;
+        background-image: url("../images/PaulManwaring.png"); }
+      section.page section.speakers .speaker.solo#PaulManwaring a.button {
+        float: right; }
+      section.page section.speakers .speaker.solo#PaulManwaring .content {
+        right: 36%;
+        left: inherit; }
+    section.page section.speakers .speaker.solo#ToddWhite {
+      background-image: url("../images/background3.jpg"); }
+      section.page section.speakers .speaker.solo#ToddWhite .photo {
+        width: 500px;
+        background-image: url("../images/ToddWhite.png"); }
+      section.page section.speakers .speaker.solo#ToddWhite a.button {
+        float: left; }
+      section.page section.speakers .speaker.solo#ToddWhite .content {
+        left: 42%;
+        right: inherit; }
+    section.page section.speakers .speaker.solo#MichaelKoulianos {
+      background-image: url("../images/background4.jpg"); }
+      section.page section.speakers .speaker.solo#MichaelKoulianos .photo {
+        float: right;
+        background-image: url("../images/MichaelKoulianos.png"); }
+      section.page section.speakers .speaker.solo#MichaelKoulianos a.button {
+        float: right; }
+      section.page section.speakers .speaker.solo#MichaelKoulianos .content {
+        right: 37%;
+        left: inherit; }
+  section.page section.speakers .speaker.multi {
+    background: #131313;
+    text-align: center; }
+    section.page section.speakers .speaker.multi article {
+      display: inline-block;
+      width: 20%;
+      height: 220px;
+      margin: 0;
+      padding: 0;
+      vertical-align: top;
+      background-position: top center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      position: relative; }
+      section.page section.speakers .speaker.multi article#PhilipMantofa {
+        background-image: url("../images/PhilipMantofa.jpg"); }
+      section.page section.speakers .speaker.multi article#BenFitzgerald {
+        background-image: url("../images/BenFitzgerald.jpg"); }
+      section.page section.speakers .speaker.multi article#PeterWenz {
+        background-image: url("../images/PeterWenz.jpg"); }
+      section.page section.speakers .speaker.multi article#MatthiasKuhn {
+        background-image: url("../images/MatthiasKuhn.jpg"); }
+      section.page section.speakers .speaker.multi article#CarlosPayan {
+        background-image: url("../images/CarlosPayan.jpg"); }
+      section.page section.speakers .speaker.multi article#Jean-MichelTour {
+        background-image: url("../images/Jean-MichelTour.jpg"); }
+      section.page section.speakers .speaker.multi article#UrbanCamenzind {
+        background-image: url("../images/UrbanCamenzind.jpg"); }
+      section.page section.speakers .speaker.multi article#NicolasButtet {
+        background-image: url("../images/NicolasButtet.jpg"); }
+      section.page section.speakers .speaker.multi article#WernerLehmann {
+        background-image: url("../images/WernerLehmann.jpg"); }
+      section.page section.speakers .speaker.multi article#Jean-LucTrachsel {
+        background-image: url("../images/Jean-LucTrachsel.jpg"); }
+      section.page section.speakers .speaker.multi article:hover a.black {
+        background-color: rgba(19, 19, 19, 0.6); }
+      section.page section.speakers .speaker.multi article:hover section {
+        bottom: 10%; }
+      section.page section.speakers .speaker.multi article:hover div.button {
+        margin-top: 30px;
+        display: inline-block; }
+      section.page section.speakers .speaker.multi article a.black {
+        background-color: rgba(19, 19, 19, 0.2);
+        height: 100%;
+        display: block;
+        width: 100%; }
+      section.page section.speakers .speaker.multi article section {
+        width: 100%;
+        margin: 0;
+        text-align: center;
+        position: absolute;
+        bottom: 5%; }
+        section.page section.speakers .speaker.multi article section h1 {
+          text-align: center;
+          color: #FFFFFF;
+          font-size: 1.4em;
+          text-transform: uppercase;
+          font-family: "CaeciliaLTPro-75Bold", "CaeciliaLTPro-55Roman", "titilliumregular", Arial, Helvetica, Verdana sans-serif; }
+        section.page section.speakers .speaker.multi article section div.button {
+          display: none;
+          background-color: #FFFFFF;
+          color: #434343;
+          line-height: 20px;
+          padding: 7px 5px 2px 5px;
+          text-decoration: none;
+          font-size: 1.2em;
+          text-align: center; }
+
+html, body {
+  color: #434343;
+  font-family: "CaeciliaLTPro-55Roman", "titilliumregular", Arial, Helvetica, Verdana sans-serif;
+  font-size: 14px;
+  transform-style: preserve-3d;
+  background-color: #131313; }
+
+section.page {
+  max-width: 2000px;
+  margin: 0 auto; }
+  section.page section {
+    display: block;
+    width: 100%; }
+    section.page section article {
+      width: 100%;
+      max-width: 900px;
+      margin: 0 auto; }
+  section.page section.header {
+    background-image: url("../images/header.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+    position: relative;
+    display: block; }
+    section.page section.header .logo_conf {
+      width: 500px;
+      height: 500px;
+      display: block;
+      margin: 0 auto;
+      position: relative;
+      background-image: url("../images/logo_conf.png");
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: contain; }
+    section.page section.header .logo_conf1 {
+      width: 160px;
+      height: 160px;
+      display: block;
+      position: absolute;
+      background-image: url("../images/logo_conf_1.svg");
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: contain;
+      top: 17%;
+      left: 50%;
+      margin-left: -80px; }
+    section.page section.header .logo_conf2 {
+      width: 500px;
+      height: 200px;
+      display: block;
+      position: absolute;
+      background-image: url("../images/logo_conf_2.svg");
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: contain;
+      top: 40%;
+      left: 50%;
+      margin-left: -250px; }
+  section.page section.speaker.page,
+  section.page section.info.page {
+    display: block;
+    width: 100%;
+    height: 240px;
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-image: url("../images/background1.jpg"); }
+    section.page section.speaker.page .photo,
+    section.page section.info.page .photo {
+      display: block;
+      margin-top: 40px;
+      width: 300px;
+      height: 300px;
+      background-repeat: no-repeat;
+      background-position: bottom center;
+      background-size: contain;
+      float: left; }
+    section.page section.speaker.page .content,
+    section.page section.info.page .content {
+      bottom: 10%;
+      position: absolute; }
+      section.page section.speaker.page .content h1,
+      section.page section.info.page .content h1 {
+        text-transform: uppercase;
+        color: #FFFFFF;
+        font-size: 2.4em;
+        font-family: "CaeciliaLTPro-75Bold", "CaeciliaLTPro-55Roman", "titilliumregular", Arial, Helvetica, Verdana sans-serif;
+        line-height: 60px;
+        text-align: center; }
+      section.page section.speaker.page .content a.button,
+      section.page section.info.page .content a.button {
+        background-color: #FFFFFF;
+        color: #434343;
+        line-height: 20px;
+        padding: 5px 5px 2px 5px;
+        text-decoration: none;
+        font-size: 1.2em;
+        display: inline-block;
+        text-align: center; }
+    section.page section.speaker.page#HeidiBaker,
+    section.page section.info.page#HeidiBaker {
+      background-image: url("../images/background1.jpg");
+      height: 340px; }
+      section.page section.speaker.page#HeidiBaker .photo,
+      section.page section.info.page#HeidiBaker .photo {
+        background-image: url("../images/HeidiBaker.png"); }
+      section.page section.speaker.page#HeidiBaker .content,
+      section.page section.info.page#HeidiBaker .content {
+        left: 37%;
+        right: inherit; }
+    section.page section.speaker.page#PaulManwaring,
+    section.page section.info.page#PaulManwaring {
+      background-image: url("../images/background2.jpg");
+      height: 340px; }
+      section.page section.speaker.page#PaulManwaring .photo,
+      section.page section.info.page#PaulManwaring .photo {
+        float: right;
+        background-image: url("../images/PaulManwaring.png"); }
+      section.page section.speaker.page#PaulManwaring a.button,
+      section.page section.info.page#PaulManwaring a.button {
+        float: right; }
+      section.page section.speaker.page#PaulManwaring .content,
+      section.page section.info.page#PaulManwaring .content {
+        right: 35%;
+        left: inherit; }
+    section.page section.speaker.page#ToddWhite,
+    section.page section.info.page#ToddWhite {
+      background-image: url("../images/background3.jpg");
+      height: 340px; }
+      section.page section.speaker.page#ToddWhite .photo,
+      section.page section.info.page#ToddWhite .photo {
+        width: 500px;
+        background-image: url("../images/ToddWhite.png"); }
+      section.page section.speaker.page#ToddWhite a.button,
+      section.page section.info.page#ToddWhite a.button {
+        float: left; }
+      section.page section.speaker.page#ToddWhite .content,
+      section.page section.info.page#ToddWhite .content {
+        left: 42%;
+        right: inherit; }
+    section.page section.speaker.page#MichaelKoulianos,
+    section.page section.info.page#MichaelKoulianos {
+      background-image: url("../images/background4.jpg");
+      height: 340px; }
+      section.page section.speaker.page#MichaelKoulianos .photo,
+      section.page section.info.page#MichaelKoulianos .photo {
+        float: right;
+        background-image: url("../images/MichaelKoulianos.png"); }
+      section.page section.speaker.page#MichaelKoulianos a.button,
+      section.page section.info.page#MichaelKoulianos a.button {
+        float: right; }
+      section.page section.speaker.page#MichaelKoulianos .content,
+      section.page section.info.page#MichaelKoulianos .content {
+        right: 37%;
+        left: inherit; }
+    section.page section.speaker.page#PhilipMantofa,
+    section.page section.info.page#PhilipMantofa {
+      background-image: url("../images/background2.jpg"); }
+    section.page section.speaker.page#BenFitzgerald,
+    section.page section.info.page#BenFitzgerald {
+      background-image: url("../images/background1.jpg"); }
+    section.page section.speaker.page#PeterWenz,
+    section.page section.info.page#PeterWenz {
+      background-image: url("../images/background4.jpg"); }
+    section.page section.speaker.page#MatthiasKuhn,
+    section.page section.info.page#MatthiasKuhn {
+      background-image: url("../images/background2.jpg"); }
+    section.page section.speaker.page#CarlosPayan,
+    section.page section.info.page#CarlosPayan {
+      background-image: url("../images/background1.jpg"); }
+    section.page section.speaker.page#Jean-MichelTour,
+    section.page section.info.page#Jean-MichelTour {
+      background-image: url("../images/background3.jpg"); }
+    section.page section.speaker.page#UrbanCamenzind,
+    section.page section.info.page#UrbanCamenzind {
+      background-image: url("../images/background1.jpg"); }
+    section.page section.speaker.page#NicolasButtet,
+    section.page section.info.page#NicolasButtet {
+      background-image: url("../images/background1.jpg"); }
+    section.page section.speaker.page#WernerLehmann,
+    section.page section.info.page#WernerLehmann {
+      background-image: url("../images/background1.jpg"); }
+    section.page section.speaker.page#Jean-LucTrachsel,
+    section.page section.info.page#Jean-LucTrachsel {
+      background-image: url("../images/background1.jpg"); }
+    section.page section.speaker.page#thanks,
+    section.page section.info.page#thanks {
+      background-image: url("../images/background3.jpg"); }
+    section.page section.speaker.page#accommodation,
+    section.page section.info.page#accommodation {
+      background-image: url("../images/background3.jpg"); }
+    section.page section.speaker.page#registration,
+    section.page section.info.page#registration {
+      background-image: url("../images/background3.jpg"); }
+    section.page section.speaker.page#intercesseurs,
+    section.page section.info.page#intercesseurs {
+      background-image: url("../images/background3.jpg"); }
+    section.page section.speaker.page#speakers,
+    section.page section.info.page#speakers {
+      background-image: url("../images/bg_light.png"); }
+      section.page section.speaker.page#speakers .content h1,
+      section.page section.info.page#speakers .content h1 {
+        color: #434343; }
+    section.page section.speaker.page#transport,
+    section.page section.info.page#transport {
+      background-image: url("../images/background3.jpg"); }
+    section.page section.speaker.page#schedule,
+    section.page section.info.page#schedule {
+      background-image: url("../images/background3.jpg"); }
+    section.page section.speaker.page#meal,
+    section.page section.info.page#meal {
+      background-image: url("../images/background3.jpg"); }
+    section.page section.speaker.page#partners,
+    section.page section.info.page#partners {
+      background-image: url("../images/background3.jpg"); }
+    section.page section.speaker.page#contact,
+    section.page section.info.page#contact {
+      background-image: url("../images/background3.jpg"); }
 
 @media only screen and (max-width: 900px) {
-  body section.page.info .content {
-    padding-left: 3%; }
   body section.page section.speakers .speaker.solo .content h1 {
     font-size: 1.8em;
     line-height: inherit;
@@ -800,7 +1332,9 @@ footer {
         width: 180px; }
       body section.page section.speaker.page#MichaelKoulianos .content {
         left: 20px;
-        right: 160px; } }
+        right: 160px; }
+    body footer div.register {
+      display: block; } }
 @media only screen and (min-width: 1200px) {
   body section.page section.header {
     height: 600px; }
@@ -857,12 +1391,20 @@ footer {
     body section.page section.getInfo form input[type="submit"] {
       line-height: 1.3em;
       padding: 6px 7px 0px 7px; }
+    body section.page section.speaker.page#HeidiBaker, body section.page section.speaker.page#PaulManwaring, body section.page section.speaker.page#ToddWhite, body section.page section.speaker.page#MichaelKoulianos {
+      height: 360px; }
+    body section.page section.speaker.page .photo {
+      margin-top: 60px; }
+    body section.page section.info.page {
+      height: 260px; }
     body section.page section.content a.button {
       line-height: 30px;
       padding: 7px 12px 4px; }
     body footer {
       padding-top: 100px; } }
 @media only screen and (max-width: 940px) {
+  body section.page.info .content {
+    padding-left: 3%; }
   body section.page section.speaker.page {
     padding-left: 3%;
     padding-right: 3%;

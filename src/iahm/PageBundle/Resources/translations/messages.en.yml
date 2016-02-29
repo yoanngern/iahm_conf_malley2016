@@ -1,4 +1,23 @@
+registration:
+    normal_price: Normal price
+    entire_conference: |
+        Entire
+        Conference
+    adults: Adults
+    16avs: -16 years old, AVS/AI
+    day_night: |
+        Day
+        and Evening
+    night: Evening
+    studentsUnemployed: Students and unemployed people can benefit of the -16 price.
+    support_price: Support price
+    buy_tickets: Buy tickets
+    until: Until 04.21
+    from: From 04.22
 presentation:
+    conf: >
+        <p>This is a favorable time for a new manifestation and a new revelation of the Presence and Glory of God! We see everywhere in Europe a deep desire to see the Kingdom of God being established in an innovative way! And this has been confirmed by a prophetic word we have received during a large gathering in Switzerland last summer: a healing river overflowing on the city of Lausanne and its surroundings.</p>
+           <p>And that is what we are going to live during this healing conference in 2016; experience the presence of this extraordinary God who transforms, sets free, teaches, saves and heals!</p>
     BenFitzgerald: >
         <p>Ben Fitzgerald is a Pastor at Bethel Church in Redding California. Originally from Melbourne, Australia,
             He met Jesus in an encountered that deeply changed him late in 2002 whilst he was dealing drugs. Since then

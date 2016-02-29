@@ -16,7 +16,10 @@ class ContactController extends Controller
         $request = $this->get('request');
 
         if ($request->getMethod() == 'POST') {
+            $name = $request->request->get('name');
             $email = $request->request->get('email');
+            $phone = $request->request->get('phone');
+            $txt = $request->request->get('message');
 
             $message = \Swift_Message::newInstance()
                 ->setSubject('Presence - Lausanne 2016')
@@ -27,7 +30,10 @@ class ContactController extends Controller
                         'iahmPageBundle:Mail:default.html.twig',
                         array(
                             'title' => 'Formulaire de contact',
+                            'name' => $name,
                             'email' => $email,
+                            'phone' => $phone,
+                            'message' => $txt
                         )
                     ),
                     'text/html'
@@ -42,8 +48,9 @@ class ContactController extends Controller
             );
         }
 
-        return $this->redirect(
-            $this->generateUrl('iahm_page_home')
-        );
+        return $this->render('iahmPageBundle:Page:contact.html.twig',
+            array(
+                'page' => 'contact',
+            ));
     }
 }

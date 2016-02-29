@@ -3,6 +3,8 @@ general:
         <span>May 5<sup>TH</sup> - 7<sup>TH</sup> 2016</span>
     place: Ice Rink // Malley // Lausanne (CH)
     more_info: More info
+    more_info_title: More informations
+    discover_speakers: Discover our speakers
     registration_opens: |
         Registration opens
         end of February 2016
@@ -10,9 +12,24 @@ general:
         Be the first
         to get informed:
     email: Email
+    name: Name
+    phone: Phone
+    message: Your message
     send: Send
     register: Register
     international_conf: International Healing Conference
     back_home: Back to the home page
     thanks: Thanks
-    thanks_informed: A confirmation email is on its way to your inbox. Click the link there to confirm your subscription!
+    thanks_informed: Thank you for taking the time to send us a message. We will reply as soon as possible.
+    access: Map and access
+    registrations: Registrations
+    speakers: Speakers
+    speakers_title: Speakers
+    transport: Transportation
+    schedule: Schedule
+    meal: Meal
+    accommodation: Accommodation
+    partners: Partners
+    contact: Contact
+    until: Until
+    from: From

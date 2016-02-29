@@ -15,7 +15,11 @@ iahm_page_mail_test:
     path:     /mail_test
     defaults: { _controller: iahmPageBundle:Default:mailTest }
 
-iahm_page_speaker:
+iahm_page_contact:
+    path:     /contact
+    defaults: { _controller: iahmPageBundle:Contact:contact }
+
+iahm_page_custom:
     path:     /{name}
     defaults: { _controller: iahmPageBundle:Default:speaker }
 

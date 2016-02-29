@@ -13,6 +13,15 @@ imports:
 #        result_cache_driver: apc
 #        query_cache_driver: apc
 
+jms_i18n_routing:
+    default_locale: en
+    locales: [fr, en]
+    strategy: custom
+    hosts:
+        fr: healing-ministries.fr
+        en: healing-ministries.org
+    redirect_to_host: true
+
 monolog:
     handlers:
         main:

@@ -1,5 +1,5 @@
 {% if app.environment == 'dev' %}
-    {% set path = '/app_dev.php/conference' %}
+    {% set path = '/app_dev.php' %}
     {% set src_url = '' %}
 {% else %}
     {% set path = '/conference' %}
@@ -16,13 +16,16 @@
           content="initial-scale=1, width=device-width, minimum-scale=1, user-scalable=no, maximum-scale=1, width=device-width, minimal-ui">
 
     {% block meta %}{% endblock %}
-    <link rel="apple-touch-icon" href="{{ src_url }}/apple-touch-icon.png"/>
-    <link rel="shortcut icon" href="{{ src_url }}/favicon.ico" type="image/x-icon">
-    <link rel="icon" type="image/png" href="{{ src_url }}/favicon.png"/>
+    <link rel="apple-touch-icon" href="{{ asset('apple-touch-icon.png') }}"/>
+    <link rel="shortcut icon" href="{{ asset('favicon.ico') }}" type="image/x-icon">
+    <link rel="icon" type="image/png" href="{{ asset('favicon.png') }}"/>
 
     {% block stylesheets %}
-        <link rel="stylesheet" href="{{ src_url }}/css/layout.css" type="text/css"/>
+        {#<link rel="stylesheet" href="{{ src_url }}/css/layout.css" type="text/css"/>#}
+        <link rel="stylesheet" href="{{ asset('css/layout.css') }}" type="text/css"/>
     {% endblock %}
+
+    <script type="text/javascript" src="{{ asset('js/main.min.js') }}"></script>
 
     <script type="text/javascript">
         var trackcmp_email = '';
@@ -103,11 +106,28 @@ window._fbq.push(['track', '6044386564692', {'value':'0.00','currency':'CHF'}]);
 </head>
 <body>
 <header>
+    <nav>
+        <ul class="nav">
+            <li class="logo"><a href="{{ path("iahm_page_home") }}"></a></li>
+            <li><a href="{{ path('iahm_page_custom', {'name': 'registration'}) }}">{{ 'general.registrations'|trans }}</a></li>
+            <li><a href="{{ path('iahm_page_custom', {'name': 'speakers'}) }}">{{ 'general.speakers'|trans }}</a></li>
+            <li><a href="{{ path('iahm_page_custom', {'name': 'transport'}) }}">{{ 'general.transport'|trans }}</a></li>
+            <li><a href="{{ path('iahm_page_custom', {'name': 'schedule'}) }}">{{ 'general.schedule'|trans }}</a></li>
+            <li><a href="{{ path('iahm_page_custom', {'name': 'meal'}) }}">{{ 'general.meal'|trans }}</a></li>
+            <li><a href="{{ path('iahm_page_custom', {'name': 'accommodation'}) }}">{{ 'general.accommodation'|trans }}</a></li>
+            <li><a href="{{ path('iahm_page_custom', {'name': 'partners'}) }}">{{ 'general.partners'|trans }}</a></li>
+            <li><a href="{{ path('iahm_page_custom', {'name': 'contact'}) }}">{{ 'general.contact'|trans }}</a></li>
+        </ul>
 
-    <ul>
-        <li><a href="http://laguerison.org/conference">Français</a></li>
-        <li><a class="current" href="http://healing-ministries.org/conference">English</a></li>
-    </ul>
+        <a href="#" id="burger"></a>
+
+        <ul class="language">
+            <li><a href="{{ path("iahm_page_home", {"_locale": "fr"}) }}">Français</a></li>
+            <li><a class="current" href="{{ path("iahm_page_home", {"_locale": "en"}) }}">English</a></li>
+        </ul>
+    </nav>
+
+
 
 </header>
 
@@ -118,6 +138,8 @@ window._fbq.push(['track', '6044386564692', {'value':'0.00','currency':'CHF'}]);
 
 
 <footer>
+
+
     <article>
 
         {% if app.request.locale == "fr" %}
@@ -139,6 +161,11 @@ window._fbq.push(['track', '6044386564692', {'value':'0.00','currency':'CHF'}]);
         </ul>
 
     </article>
+
+    <div class="register">
+        <a href="{{ path('iahm_page_custom', {'name': 'registration'}) }}">{{ 'general.register'|trans }}</a>
+    </div>
+
 </footer>
 </body>
 </html>

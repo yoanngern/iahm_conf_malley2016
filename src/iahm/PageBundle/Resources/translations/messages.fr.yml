@@ -1,4 +1,23 @@
+registration:
+    normal_price: Tarifs normaux
+    entire_conference: |
+        Conférence
+        complète
+    adults: Adultes
+    16avs: -16 ans, AVS/AI
+    day_night: |
+        Journée
+        et Soirée
+    night: Soirée
+    studentsUnemployed: Les étudiants et personnes au chômage peuvent bénéficier du tarif -16 ans.
+    support_price: Tarifs de soutien
+    buy_tickets: Acheter des billets
+    until: Jusqu’au 21.04
+    from: Depuis 22.04
 presentation:
+    conf: >
+        <p>C’est le temps favorable d’une nouvelle manifestation et d’une nouvelle révélation de la Présence et de la Gloire de Dieu ! Nous voyons partout en Europe un désir profond de voir le Royaume de Dieu s’établir d’une manière innovante! Cela nous a été confirmé par cette image prophétique reçue lors d’un grand rassemblement romand en été 2015 : un fleuve de guérison débordant sur la ville de Lausanne et ses environs.</p>
+           <p>C’est ce que nous voulons et allons vivre durant cette conférence de guérison 2016 … expérimenter la Présence de ce Dieu extraordinaire qui transforme, libère, enseigne, sauve et guérit!</p>
     BenFitzgerald: >
         <p>Ben Fitzgerald est un Pasteur à l’église de Bethel à Redding en Californie. Originaire de Melbourne, en Australie, lorsqu’il a rencontré Jésus cela l’a radicalement changé tandis qu’il faisait du trafic de drogue. Depuis lors, Ben a vécu de manière passionnée au sujet d’une chose, montrer au monde Jésus dans la vie quotidienne, et amener la bonne nouvelle du Royaume aux nations. Voyageant beaucoup, Ben aime aider les gens à vivre dans la pleine liberté et identité en Dieu. Il est le fondateur du réseau Empowered Evangelists et de Godfest ministries, et a un une profonde conviction que le futur de l’Europe sera transformé par des croyants radicaux, vivant libres et proclamant Jésus avec courage. Il aime aussi beaucoup rire et blaguer. You pouvez retrouver ses vidéos sur Youtube.</p>
 
@@ -16,14 +35,7 @@ presentation:
         <p>Son appel a surgi dans le Renouveau Charismatique ; il vit donc son ministère avec cette richesse-là. Il est sensible à la présence de l’Esprit de Dieu, il aime vivre de son feu et il travaille pour qu’il embrasse puissamment les cœurs !</p>
 
     MatthiasKuhn: >
-        <p>Leader of G-Movement and the Aussendungshaus (house of mission) Thun in Switzerland.</p>
-
-        <p>Kuno is pastor GPMC and a shoe shop assistant. Moreover he is a co-founder and co-leader of the
-            Aussendungshaus (house of mission) in Thun, where young people are taught and prepared to go
-            everywhere in Switzerland and abroad in order to found new Christian congregations. He is eager
-            that Heaven may open on this earth in every place and any domain of human community and in every
-            personal life. Kuno’s fresh, direct and uncompromising manner of living as Jesus and his
-            disciples did, causes us to learn more.</p>
+        <p>Matthias Kuhn et son épouse Susanne sont co-fondateurs d’un mouvement d’églises, « GPMC », en Suisse. Matthias Kuhn est responsable d’un centre à Thoune (CH) où les jeunes sont formés à l’implantation d’églises en Europe. Pasteur, c’est également un excellent communicateur de la puissance de Dieu qui transforme, libère et guérit encore aujourd’hui! Attendez-vous à ce que le miraculeux vous rejoigne lors de cette soirée!</p>
 
     MichaelKoulianos: >
         <p>Michael Koulianos est un évangéliste d'origine grecque orthodoxe fondateur du ministère Jesus Image. Il a commencé à prêcher à l’âge de douze ans, année où il a accepté Christ dans sa vie. Michael a été formé sur le terrain de grandes campagnes d’évangélisation avec des dizaines de milliers de participants. Michael a un désir c’est d’aimer Jésus et de le faire connaître à un maximum de personnes ! Avec son épouse Jessica, ils voyagent de part le monde afin d’annoncer la Bonne Nouvelle au travers de signes, miracles et prodiges.</p>

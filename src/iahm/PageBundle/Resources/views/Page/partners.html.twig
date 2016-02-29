@@ -1,0 +1,163 @@
+{% extends "::layout.html.twig" %}
+
+{% block body %}
+
+    {% spaceless %}
+
+        <section class="info page" id="{{ page }}">
+
+            <article>
+                <div class="content">
+                    <h1>{{ 'general.partners'|trans|raw }}</h1>
+                </div>
+            </article>
+        </section>
+
+        {% if app.request.locale == "fr" %}
+
+            <section class="content">
+                <article>
+
+                    <h2><span>Gospel Diffusion</span></h2>
+
+                    <p>Route du Flon 28<br/>
+                        1610 Oron-la-Ville<br/>
+                        Suisse</p>
+
+                    <p>+41 21 907 44 58</p>
+
+                    <p><a target="_blank" href="http://www.gospel-diffusion.com">www.gospel-diffusion.com</a></p>
+
+                    <h2><span>GOD TV Europe</span></h2>
+
+                    <p>Boîte postale 72 01 50<br/>
+                        22151 Hamburg<br/>
+                        Allemagne</p>
+
+                    <p>+49 40 80 6000 80</p>
+
+                    <p><a target="_blank" href="http://www.god.tv">www.god.tv</a></p>
+
+
+                    <h2><span>Vecteur Com SA</span></h2>
+                    <p>ZA Pont Farbel n°5<br/>
+                        1196 Gland<br/>
+                        Suisse</p>
+
+                    <p>+41 22 777 00 11</p>
+
+
+                    <p><a target="_blank" href="http://www.vecteurcom.com">www.vecteurcom.com</a></p>
+
+
+                    <h2><span>Up Light Studio</span></h2>
+
+                    <p><a target="_blank" href="http://up-light-studio.ch">up-light-studio.ch</a></p>
+
+                    {#
+                    <h3>Sécurité</h3>
+                    #}
+
+                    <h2><span>avl interprètes sàrl</span></h2>
+
+                    <p><a target="_blank" href="http://www.interprète-allemand-français-anglais.ch"><img width="258px"
+                                                                                                         height="90px"
+                                                                                                         src="/images/partner_avl.png"
+                                                                                                         alt="avl interprètes sàrl"></a>
+                    </p>
+
+                    <p>Route de Schiffenen 17<br/>
+                        1700 Fribourg<br/>
+                        Suisse</p>
+
+                    <p>+41 26 481 33 16</p>
+
+                    <p>Nos remerciements à Annette von Lerber d’<a target="_blank"
+                                                                   href="http://www.interprète-allemand-français-anglais.ch">avl
+                            interprètes sàrl</a> pour coordonner la traduction en direct anglais – français – allemand.
+                    </p>
+
+                    {#
+                    <h2><span>Partenaires financiers</span></h2>
+                    #}
+
+
+                </article>
+            </section>
+
+        {% else %}
+
+            <section class="content">
+                <article>
+
+                    <h2><span>Gospel Diffusion</span></h2>
+
+                    <p>Route du Flon 28<br/>
+                        1610 Oron-la-Ville<br/>
+                        Switzerland</p>
+
+                    <p>+41 21 907 44 58</p>
+
+                    <p><a target="_blank" href="http://www.gospel-diffusion.com">www.gospel-diffusion.com</a></p>
+
+                    <h2><span>GOD TV Europe</span></h2>
+
+                    <p>Postfach 72 01 50<br/>
+                        22151 Hamburg<br/>
+                        Germany</p>
+
+                    <p>+49 40 80 6000 80</p>
+
+                    <p><a target="_blank" href="http://www.god.tv">www.god.tv</a></p>
+
+
+                    <h2><span>Vecteur Com SA</span></h2>
+                    <p>ZA Pont Farbel n°5<br/>
+                        1196 Gland<br/>
+                        Switzerland</p>
+
+                    <p>+41 22 777 00 11</p>
+
+
+                    <p><a target="_blank" href="http://www.vecteurcom.com">www.vecteurcom.com</a></p>
+
+
+                    <h2><span>Up Light Studio</span></h2>
+
+                    <p><a target="_blank" href="http://up-light-studio.ch">up-light-studio.ch</a></p>
+
+                    {#
+                    <h3>Sécurité</h3>
+                    #}
+
+                    <h2><span>avl interprètes sàrl</span></h2>
+
+                    <p><a target="_blank" href="http://www.english-french.ch/en/"><img width="258px" height="90px"
+                                                                                       src="/images/partner_avl_en.png"
+                                                                                       alt="avl interpreter llc"></a>
+                    </p>
+
+                    <p>Route de Schiffenen 17<br/>
+                        1700 Fribourg<br/>
+                        Switzerland</p>
+
+                    <p>+41 26 481 33 16</p>
+
+
+                    <p>Our thanks to Annette von Lerber from <a target="_blank" href="http://www.english-french.ch/en/">avl
+                            interpreter llc</a> for the coordination of the live translation English – French – German.
+                    </p>
+
+                    {#
+                    <h2><span>Financial Partners </span></h2>
+                    #}
+
+                </article>
+            </section>
+        {% endif %}
+
+
+
+
+    {% endspaceless %}
+{% endblock %}
