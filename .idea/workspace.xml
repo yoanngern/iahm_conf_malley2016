@@ -3,8 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="c11bf8b1-ef02-471e-90b0-8e8d6c0ddc3e" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/iahm/PageBundle/Resources/views/Page/partners.html.twig" afterPath="$PROJECT_DIR$/src/iahm/PageBundle/Resources/views/Page/partners.html.twig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/iahm/PageBundle/Resources/views/Page/transport.html.twig" afterPath="$PROJECT_DIR$/src/iahm/PageBundle/Resources/views/Page/transport.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Resources/views/layout.html.twig" afterPath="$PROJECT_DIR$/app/Resources/views/layout.html.twig" />
     </list>
     <ignored path="iahm_conf_malley2016.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -26,21 +25,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="transport.html.twig" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/iahm/PageBundle/Resources/views/Page/transport.html.twig">
+      <file leaf-file-name="home.html.twig" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/iahm/PageBundle/Resources/views/home.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-13.125">
-              <caret line="33" column="59" selection-start-line="33" selection-start-column="59" selection-end-line="33" selection-end-column="98" />
+            <state vertical-scroll-proportion="12.041667">
+              <caret line="21" column="18" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="partners.html.twig" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/iahm/PageBundle/Resources/views/Page/partners.html.twig">
+      <file leaf-file-name="layout.html.twig" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/Resources/views/layout.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.67902994">
-              <caret line="145" column="0" selection-start-line="145" selection-start-column="0" selection-end-line="145" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.8131241">
+              <caret line="124" column="62" selection-start-line="124" selection-start-column="62" selection-end-line="124" selection-end-column="62" />
               <folding />
             </state>
           </provider>
@@ -91,7 +90,6 @@
         <option value="$PROJECT_DIR$/src/iahm/PageBundle/Resources/views/Page/contact.html.twig" />
         <option value="$PROJECT_DIR$/web/scss/_color.scss" />
         <option value="$PROJECT_DIR$/app/config/config.yml" />
-        <option value="$PROJECT_DIR$/app/Resources/views/layout.html.twig" />
         <option value="$PROJECT_DIR$/src/iahm/PageBundle/Resources/views/Page/speakers.html.twig" />
         <option value="$PROJECT_DIR$/src/iahm/PageBundle/Resources/views/Page/BenFitzgerald.html.twig" />
         <option value="$PROJECT_DIR$/src/iahm/PageBundle/Resources/views/Page/WernerLehmann.html.twig" />
@@ -117,6 +115,7 @@
         <option value="$PROJECT_DIR$/app/config/config_prod.yml" />
         <option value="$PROJECT_DIR$/src/iahm/PageBundle/Resources/views/Page/transport.html.twig" />
         <option value="$PROJECT_DIR$/src/iahm/PageBundle/Resources/views/Page/partners.html.twig" />
+        <option value="$PROJECT_DIR$/app/Resources/views/layout.html.twig" />
       </list>
     </option>
   </component>
@@ -699,7 +698,13 @@
       <option name="project" value="LOCAL" />
       <updated>1456770229531</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="change path for an image">
+      <created>1456770346795</created>
+      <option name="number" value="00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1456770346795</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1110,14 +1115,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/iahm/PageBundle/Resources/views/home.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.23346303">
-          <caret line="21" column="18" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/iahm/PageBundle/Resources/views/Page/ToddWhite.html.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.5991441">
@@ -1134,26 +1131,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Resources/views/layout.html.twig">
+    <entry file="file://$PROJECT_DIR$/src/iahm/PageBundle/Resources/views/Page/partners.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.021398002">
-          <caret line="31" column="34" selection-start-line="31" selection-start-column="34" selection-end-line="31" selection-end-column="34" />
+        <state vertical-scroll-proportion="0.74322397">
+          <caret line="145" column="0" selection-start-line="145" selection-start-column="0" selection-end-line="145" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/iahm/PageBundle/Resources/views/Page/transport.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-13.125">
+        <state vertical-scroll-proportion="0.44935805">
           <caret line="33" column="59" selection-start-line="33" selection-start-column="59" selection-end-line="33" selection-end-column="98" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/iahm/PageBundle/Resources/views/Page/partners.html.twig">
+    <entry file="file://$PROJECT_DIR$/src/iahm/PageBundle/Resources/views/home.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.67902994">
-          <caret line="145" column="0" selection-start-line="145" selection-start-column="0" selection-end-line="145" selection-end-column="0" />
+        <state vertical-scroll-proportion="12.041667">
+          <caret line="21" column="18" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Resources/views/layout.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.8131241">
+          <caret line="124" column="62" selection-start-line="124" selection-start-column="62" selection-end-line="124" selection-end-column="62" />
           <folding />
         </state>
       </provider>
