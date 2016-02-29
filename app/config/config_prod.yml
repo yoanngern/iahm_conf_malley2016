@@ -18,7 +18,7 @@ jms_i18n_routing:
     locales: [fr, en]
     strategy: custom
     hosts:
-        fr: laguerison.org
+        fr: healing-ministries.fr
         en: healing-ministries.org
     redirect_to_host: true
 
