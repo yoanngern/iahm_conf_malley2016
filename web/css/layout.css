@@ -825,8 +825,7 @@ section.page section.registration h1 {
       width: 100%;
       max-width: 960px;
       margin: 0 auto;
-      position: relative;
-      padding-bottom: 56.2%; }
+      position: relative; }
       section.page section.video article iframe {
         margin-top: 0px;
         margin-right: auto;
