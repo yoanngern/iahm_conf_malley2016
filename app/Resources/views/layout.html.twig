@@ -16,16 +16,22 @@
           content="initial-scale=1, width=device-width, minimum-scale=1, user-scalable=no, maximum-scale=1, width=device-width, minimal-ui">
 
     {% block meta %}{% endblock %}
-    <link rel="apple-touch-icon" href="{{ asset('apple-touch-icon.png') }}"/>
-    <link rel="shortcut icon" href="{{ asset('favicon.ico') }}" type="image/x-icon">
-    <link rel="icon" type="image/png" href="{{ asset('favicon.png') }}"/>
 
-    {% block stylesheets %}
-        {#<link rel="stylesheet" href="{{ src_url }}/css/layout.css" type="text/css"/>#}
+    {% if app.request.locale == "fr" %}
+        <link rel="apple-touch-icon" href="{{ asset('apple-touch-icon.png') }}"/>
+        <link rel="shortcut icon" href="{{ asset('favicon.ico') }}" type="image/x-icon">
+        <link rel="icon" type="image/png" href="{{ asset('favicon.png') }}"/>
+        <script type="text/javascript" src="{{ asset('js/main.min.js') }}"></script>
         <link rel="stylesheet" href="{{ asset('css/layout.css') }}" type="text/css"/>
-    {% endblock %}
+    {% else %}
+    <link rel="apple-touch-icon" href="http://healing-ministries.org/conference/apple-touch-icon.png"/>
+    <link rel="shortcut icon" href="http://healing-ministries.org/conference/favicon.ico" type="image/x-icon">
+    <link rel="icon" type="image/png" href="http://healing-ministries.org/conference/favicon.png"/>
+        <script type="text/javascript" src="http://healing-ministries.org/conference/js/main.min.js"></script>
+    <link rel="stylesheet" href="http://healing-ministries.org/conference/css/layout.css" type="text/css"/>
+    {% endif %}
 
-    <script type="text/javascript" src="{{ asset('js/main.min.js') }}"></script>
+
 
     <script type="text/javascript">
         var trackcmp_email = '';
