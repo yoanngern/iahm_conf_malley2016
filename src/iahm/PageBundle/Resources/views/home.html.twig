@@ -23,21 +23,38 @@
 
         <section class="video">
 
-            <article>
+            {% if app.request.locale == "fr" %}
+                <article>
 
-                <div id="fb-root"></div>
-                <script>(function (d, s, id) {
-                        var js, fjs = d.getElementsByTagName(s)[0];
-                        if (d.getElementById(id)) return;
-                        js = d.createElement(s);
-                        js.id = id;
-                        js.src = "//connect.facebook.net/fr_FR/sdk.js#xfbml=1&version=v2.3";
-                        fjs.parentNode.insertBefore(js, fjs);
-                    }(document, 'script', 'facebook-jssdk'));</script>
-                <div class="fb-video" data-allowfullscreen="1"
-                     data-href="/iahmConference/videos/p.800029676792996/800029676792996/?type=3"></div>
+                    <div id="fb-root"></div>
+                    <script>(function (d, s, id) {
+                            var js, fjs = d.getElementsByTagName(s)[0];
+                            if (d.getElementById(id)) return;
+                            js = d.createElement(s);
+                            js.id = id;
+                            js.src = "//connect.facebook.net/fr_FR/sdk.js#xfbml=1&version=v2.3";
+                            fjs.parentNode.insertBefore(js, fjs);
+                        }(document, 'script', 'facebook-jssdk'));</script>
+                    <div class="fb-video" data-allowfullscreen="1"
+                         data-href="/iahmConference/videos/p.800029676792996/800029676792996/?type=3"></div>
 
-            </article>
+                </article>
+            {% else %}
+                <article>
+
+                    <div id="fb-root"></div>
+                    <script>(function (d, s, id) {
+                            var js, fjs = d.getElementsByTagName(s)[0];
+                            if (d.getElementById(id)) return;
+                            js = d.createElement(s);
+                            js.id = id;
+                            js.src = "//connect.facebook.net/fr_FR/sdk.js#xfbml=1&version=v2.3";
+                            fjs.parentNode.insertBefore(js, fjs);
+                        }(document, 'script', 'facebook-jssdk'));</script>
+                    <div class="fb-video" data-allowfullscreen="1"
+                         data-href="/iahm.international/videos/vb.422383907852542/992493784174882/?type=3"></div>
+                </article>
+            {% endif %}
         </section>
 
         <section class="presentation_txt">
