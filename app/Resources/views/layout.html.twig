@@ -18,11 +18,11 @@
     {% block meta %}{% endblock %}
 
     {% if app.request.locale == "fr" %}
-        <link rel="apple-touch-icon" href="{{ asset('apple-touch-icon.png') }}"/>
-        <link rel="shortcut icon" href="{{ asset('favicon.ico') }}" type="image/x-icon">
-        <link rel="icon" type="image/png" href="{{ asset('favicon.png') }}"/>
-        <script type="text/javascript" src="{{ asset('js/main.min.js') }}"></script>
-        <link rel="stylesheet" href="{{ asset('css/layout.css') }}" type="text/css"/>
+        <link rel="apple-touch-icon" href="http://laguerison.org/conference/apple-touch-icon.png"/>
+        <link rel="shortcut icon" href="http://laguerison.org/conference/favicon.ico" type="image/x-icon">
+        <link rel="icon" type="image/png" href="http://laguerison.org/conference/favicon.png"/>
+        <script type="text/javascript" src="http://laguerison.org/conference/js/main.min.js"></script>
+        <link rel="stylesheet" href="http://laguerison.org/conference/css/layout.css" type="text/css"/>
     {% else %}
     <link rel="apple-touch-icon" href="http://healing-ministries.org/conference/apple-touch-icon.png"/>
     <link rel="shortcut icon" href="http://healing-ministries.org/conference/favicon.ico" type="image/x-icon">
@@ -32,13 +32,12 @@
     {% endif %}
 
 
-
     <script type="text/javascript">
         var trackcmp_email = '';
         var trackcmp = document.createElement("script");
         trackcmp.async = true;
         trackcmp.type = 'text/javascript';
-        trackcmp.src = '//trackcmp.net/visit?actid=65828192&e='+encodeURIComponent(trackcmp_email)+'&r='+encodeURIComponent(document.referrer)+'&u='+encodeURIComponent(window.location.href);
+        trackcmp.src = '//trackcmp.net/visit?actid=65828192&e=' + encodeURIComponent(trackcmp_email) + '&r=' + encodeURIComponent(document.referrer) + '&u=' + encodeURIComponent(window.location.href);
         var trackcmp_s = document.getElementsByTagName("script");
         if (trackcmp_s.length) {
             trackcmp_s[0].parentNode.appendChild(trackcmp);
@@ -49,21 +48,23 @@
     </script>
 
     <!-- Facebook Conversion Code for AIMG Conference - Inscriptions -->
-<script>(function() {
-  var _fbq = window._fbq || (window._fbq = []);
-  if (!_fbq.loaded) {
-    var fbds = document.createElement('script');
-    fbds.async = true;
-    fbds.src = '//connect.facebook.net/en_US/fbds.js';
-    var s = document.getElementsByTagName('script')[0];
-    s.parentNode.insertBefore(fbds, s);
-    _fbq.loaded = true;
-  }
-})();
-window._fbq = window._fbq || [];
-window._fbq.push(['track', '6044386564692', {'value':'0.00','currency':'CHF'}]);
-</script>
-<noscript><img height="1" width="1" alt="" style="display:none" src="https://www.facebook.com/tr?ev=6044386564692&amp;cd[value]=0.00&amp;cd[currency]=CHF&amp;noscript=1" /></noscript>
+    <script>(function () {
+            var _fbq = window._fbq || (window._fbq = []);
+            if (!_fbq.loaded) {
+                var fbds = document.createElement('script');
+                fbds.async = true;
+                fbds.src = '//connect.facebook.net/en_US/fbds.js';
+                var s = document.getElementsByTagName('script')[0];
+                s.parentNode.insertBefore(fbds, s);
+                _fbq.loaded = true;
+            }
+        })();
+        window._fbq = window._fbq || [];
+        window._fbq.push(['track', '6044386564692', {'value': '0.00', 'currency': 'CHF'}]);
+    </script>
+    <noscript><img height="1" width="1" alt="" style="display:none"
+                   src="https://www.facebook.com/tr?ev=6044386564692&amp;cd[value]=0.00&amp;cd[currency]=CHF&amp;noscript=1"/>
+    </noscript>
 
     {% if app.request.locale == "fr" %}
 
@@ -115,12 +116,16 @@ window._fbq.push(['track', '6044386564692', {'value':'0.00','currency':'CHF'}]);
     <nav>
         <ul class="nav">
             <li class="logo"><a href="{{ path("iahm_page_home") }}"></a></li>
-            <li><a href="{{ path('iahm_page_custom', {'name': 'registration'}) }}">{{ 'general.registrations'|trans }}</a></li>
+            <li>
+                <a href="{{ path('iahm_page_custom', {'name': 'registration'}) }}">{{ 'general.registrations'|trans }}</a>
+            </li>
             <li><a href="{{ path('iahm_page_custom', {'name': 'speakers'}) }}">{{ 'general.speakers'|trans }}</a></li>
             <li><a href="{{ path('iahm_page_custom', {'name': 'transport'}) }}">{{ 'general.transport'|trans }}</a></li>
             <li><a href="{{ path('iahm_page_custom', {'name': 'schedule'}) }}">{{ 'general.schedule'|trans }}</a></li>
             <li><a href="{{ path('iahm_page_custom', {'name': 'meal'}) }}">{{ 'general.meal'|trans }}</a></li>
-            <li><a href="{{ path('iahm_page_custom', {'name': 'accommodation'}) }}">{{ 'general.accommodation'|trans }}</a></li>
+            <li>
+                <a href="{{ path('iahm_page_custom', {'name': 'accommodation'}) }}">{{ 'general.accommodation'|trans }}</a>
+            </li>
             <li><a href="{{ path('iahm_page_custom', {'name': 'partners'}) }}">{{ 'general.partners'|trans }}</a></li>
             <li><a href="{{ path('iahm_page_custom', {'name': 'contact'}) }}">{{ 'general.contact'|trans }}</a></li>
         </ul>
@@ -132,7 +137,6 @@ window._fbq.push(['track', '6044386564692', {'value':'0.00','currency':'CHF'}]);
             <li><a class="current" href="{{ path("iahm_page_home", {"_locale": "en"}) }}">English</a></li>
         </ul>
     </nav>
-
 
 
 </header>
