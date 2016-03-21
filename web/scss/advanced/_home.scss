@@ -8,7 +8,7 @@ section.page {
             color: $white;
             line-height: 20px;
             padding: 5px 5px 2px 5px;
-            margin: 20px 20px 20px 0;
+            margin: 20px 0px 20px 0;
             text-decoration: none;
             font-size: 1.2em;
             display: inline-block;
@@ -38,6 +38,20 @@ section.page {
             text-align: center;
             text-transform: uppercase;
             font-size: 1.6em;
+        }
+
+        article.flag {
+            margin-top: 30px;
+
+            img {
+                margin-top: 30px;
+                margin-bottom: 10px;
+            }
+
+            p {
+                max-width: 450px;
+                margin: 0 auto;
+            }
         }
     }
 

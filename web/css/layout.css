@@ -621,7 +621,7 @@ section.page section.details {
     color: #FFFFFF;
     line-height: 20px;
     padding: 5px 5px 2px 5px;
-    margin: 20px 20px 20px 0;
+    margin: 20px 0px 20px 0;
     text-decoration: none;
     font-size: 1.2em;
     display: inline-block;
@@ -643,6 +643,14 @@ section.page section.details {
     text-align: center;
     text-transform: uppercase;
     font-size: 1.6em; }
+  section.page section.details article.flag {
+    margin-top: 30px; }
+    section.page section.details article.flag img {
+      margin-top: 30px;
+      margin-bottom: 10px; }
+    section.page section.details article.flag p {
+      max-width: 450px;
+      margin: 0 auto; }
 section.page section.register {
   background-image: url("../images/background3.jpg");
   background-size: cover;

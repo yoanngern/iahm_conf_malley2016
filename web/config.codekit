@@ -181,6 +181,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/flag_english.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2198,
+		"inputAbbreviatedPath": "\/images\/flag_english.png",
+		"outputAbbreviatedPath": "\/images\/flag_english.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/flag_german.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 930,
+		"inputAbbreviatedPath": "\/images\/flag_german.png",
+		"outputAbbreviatedPath": "\/images\/flag_german.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/footer.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
