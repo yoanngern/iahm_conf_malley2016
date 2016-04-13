@@ -5,6 +5,7 @@ registration:
         Conference
     adults: Adults
     16avs: -16 years old, AVS/AI
+    kids: Kids -10 years old
     day_night: |
         Day
         and Evening

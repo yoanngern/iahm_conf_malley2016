@@ -5,6 +5,7 @@ registration:
         complète
     adults: Adultes
     16avs: -16 ans, AVS/AI
+    kids: Enfants -10 ans
     day_night: |
         Journée
         et Soirée

@@ -182,6 +182,19 @@ section.page section.content {
                             font-size: 1.6em;
                         }
                     }
+                }
+
+                &.kids {
+                    background-color: $gray6;
+                    font-size: 0.8em;
+
+                    td {
+                        padding: 6px 0 3px;
+
+                        span {
+                            font-size: 1.6em;
+                        }
+                    }
 
                     td.actual {
                         border-bottom: 3px solid darken($green, 15);

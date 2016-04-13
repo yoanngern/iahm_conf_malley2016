@@ -323,7 +323,14 @@ section.page section.content {
         padding: 6px 0 3px; }
         section.page section.content table.price tbody tr.reduced td span {
           font-size: 1.6em; }
-      section.page section.content table.price tbody tr.reduced td.actual {
+    section.page section.content table.price tbody tr.kids {
+      background-color: #C5C5C5;
+      font-size: 0.8em; }
+      section.page section.content table.price tbody tr.kids td {
+        padding: 6px 0 3px; }
+        section.page section.content table.price tbody tr.kids td span {
+          font-size: 1.6em; }
+      section.page section.content table.price tbody tr.kids td.actual {
         border-bottom: 3px solid #568e19; }
     section.page section.content table.price tbody tr.space {
       background-color: #FFFFFF; }
