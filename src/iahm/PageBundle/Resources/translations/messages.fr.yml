@@ -12,7 +12,7 @@ registration:
     night: Soirée
     studentsUnemployed: Les étudiants et personnes au chômage peuvent bénéficier du tarif -16 ans.
     kids_desc: La conférence est gratuite pour tous les enfants jusqu'à 10 ans mais une inscription est nécessaire.
-    price_cost: \* Frais de gestion non compris.
+    price_cost: Frais de gestion non compris.
     support_price: Tarifs de soutien
     buy_tickets: Acheter des billets
     until: Jusqu’au 21.04
